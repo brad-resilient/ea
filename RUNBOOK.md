@@ -28,7 +28,7 @@ For each finding: `ea.py find <keyword>` first, then `add`, `update` (append the
 
 ## 3. Job-specific work
 
-### morning (weekdays 6:45)
+### morning (weekdays 4:56, ready for Brad by 5:00)
 1. Capture (above), covering overnight.
 2. Pick today's priorities (playbook rules).
 3. Today's schedule: every event today with a one-line prep note where useful. Note conflicts with Childcare or DNS.
