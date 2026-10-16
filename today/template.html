@@ -1,0 +1,111 @@
+<title>Brad's Today</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a founder's daily operating sheet. Masthead, then a wide "act" column (priorities, due) beside a narrow "context" column (schedule, drafts, waiting). */
+:root {
+  --bg: #f5f7f9;
+  --surface: #ffffff;
+  --fg: #142029;
+  --muted: #5a6874;
+  --line: #dde3e8;
+  --accent: #0e6a72;
+  --accent-soft: #e2f0f1;
+  --over: #b42318;
+  --over-soft: #fbe9e7;
+  --warn: #9a5a06;
+  --warn-soft: #fbf0dc;
+  --font-display: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Public Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e151b; --surface: #151f27; --fg: #e5ecf1; --muted: #93a2ae; --line: #25323c;
+    --accent: #56c3ca; --accent-soft: #15333a; --over: #f2766b; --over-soft: #3a1c1a;
+    --warn: #f0b05e; --warn-soft: #382a14; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e151b; --surface: #151f27; --fg: #e5ecf1; --muted: #93a2ae; --line: #25323c;
+  --accent: #56c3ca; --accent-soft: #15333a; --over: #f2766b; --over-soft: #3a1c1a;
+  --warn: #f0b05e; --warn-soft: #382a14; color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--fg); font-family: var(--font-body);
+  font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 1080px; margin: 0 auto; padding-block: 28px 48px; display: flex; flex-direction: column; gap: 24px; }
+a { color: var(--fg); text-decoration-color: var(--line); text-underline-offset: 3px; }
+a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+header.mast { display: flex; flex-direction: column; gap: 6px; border-bottom: 1px solid var(--line); padding-bottom: 20px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.eyebrow b { color: var(--accent); font-weight: 500; }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(28px, 5vw, 40px); line-height: 1.1; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+.headline { font-size: 17px; max-width: 65ch; margin: 4px 0 0; color: var(--fg); }
+
+.grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+.col { display: flex; flex-direction: column; gap: 28px; min-width: 0; }
+@media (max-width: 760px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+
+.block { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+h2 { font-family: var(--font-display); font-weight: 500; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0; display: flex; align-items: center; gap: 8px; }
+.count { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 0 7px; line-height: 18px; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+.empty { margin: 0; color: var(--muted); font-size: 14px; }
+.ref { font-family: var(--font-mono); font-size: 11px; color: var(--muted); margin-left: 8px; white-space: nowrap; }
+.meta { display: block; color: var(--muted); font-size: 13px; }
+
+/* Priorities: the one set-apart surface on the page */
+.prio-block ol.prio { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; counter-reset: p; }
+.prio li { counter-increment: p; display: grid; grid-template-columns: 36px minmax(0, 1fr); column-gap: 8px; padding: 14px 16px; border-top: 1px solid var(--line); }
+.prio li:first-child { border-top: 0; }
+.prio li::before { content: counter(p); grid-row: 1 / span 2; font-family: var(--font-display); font-weight: 700; font-size: 22px; line-height: 1.2; color: var(--accent); font-variant-numeric: tabular-nums; }
+.p-title { font-weight: 600; font-size: 16px; }
+.p-why { color: var(--muted); font-size: 14px; margin-top: 2px; }
+
+ul.due { display: flex; flex-direction: column; }
+.due-row { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); align-items: start; }
+.due-row:first-child { border-top: 0; }
+.chip { font-family: var(--font-mono); font-size: 12px; border-radius: 6px; padding: 2px 8px; text-align: center; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.chip.over { background: var(--over-soft); color: var(--over); }
+.chip.today { background: var(--warn-soft); color: var(--warn); }
+.chip.soon { background: var(--accent-soft); color: var(--accent); }
+.d-title { font-weight: 500; }
+.d-meta { color: var(--muted); font-size: 13px; }
+.unclear { color: var(--warn); }
+
+ul.sched li { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 12px; padding: 8px 0; border-top: 1px solid var(--line); }
+ul.sched li:first-child { border-top: 0; }
+.time { font-family: var(--font-mono); font-size: 13px; color: var(--accent); font-variant-numeric: tabular-nums; padding-top: 1px; }
+.s-title { font-weight: 500; }
+.s-detail { color: var(--muted); font-size: 13px; }
+
+ul.plain li { padding: 8px 0; border-top: 1px solid var(--line); }
+ul.plain li:first-child { border-top: 0; }
+.drafts .kind { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); margin-right: 8px; }
+ul.later li { display: grid; grid-template-columns: 86px minmax(0, 1fr); gap: 12px; padding: 6px 0; font-size: 14px; }
+.l-date { font-family: var(--font-mono); font-size: 12px; color: var(--muted); padding-top: 2px; font-variant-numeric: tabular-nums; }
+.tail { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px; border-top: 1px solid var(--line); padding-top: 20px; }
+.tail:empty { display: none; }
+footer { color: var(--muted); font-size: 12px; font-family: var(--font-mono); }
+</style>
+<div class="wrap">
+  <header class="mast">
+    <div class="eyebrow"><b>{{RUN}}</b> · updated {{STAMP}}</div>
+    <h1>{{DATE}}</h1>
+    <p class="headline">{{HEADLINE}}</p>
+  </header>
+  <div class="grid">
+    <div class="col">{{LEFT}}</div>
+    <div class="col">{{RIGHT}}</div>
+  </div>
+  <div class="tail">{{TAIL}}</div>
+  <footer>Refreshed by your EA on weekdays. To change something, tell the EA in Claude. IDs like c004 refer to the commitments ledger.</footer>
+</div>

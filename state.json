@@ -1,0 +1,9 @@
+{
+  "jobs": {
+    "setup": {
+      "last_started": "2026-10-16T15:37:04-04:00",
+      "last_completed": "2026-10-16T15:37:04-04:00",
+      "last_summary": "Seeded 38 items from Oct 2–16 email, Slack, calendar, Otter"
+    }
+  }
+}

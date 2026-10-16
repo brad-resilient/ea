@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-10-16T15:45:00-04:00",
+  "run": "First snapshot",
+  "date_label": "Friday, October 16",
+  "headline": "Two outside parties are waiting on you before next week moves: Kanou needs your sample and traceability requirements (8 days late), and Nilo needs background documents before Tuesday's kickoff.",
+  "priorities": [
+    {
+      "title": "Send Kanou the sample expectations and traceability requirements",
+      "why": "Promised by ~10/8 and chased on 10/12. Their costing for the glass window is blocked on it.",
+      "ref": "c001",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901"
+    },
+    {
+      "title": "Upload background documents to the Nilo SharePoint",
+      "why": "IFU, pitch deck, Q-sub correspondence, protocols, regulatory strategy and grants, ideally by Monday so Nilo can prep for Tuesday 2:30.",
+      "ref": "c004",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877698915464479309"
+    },
+    {
+      "title": "Check cash: Ramp auto-pay today and the HHS PMS clarification",
+      "why": "About $7.2–7.6k leaves checking today, and the PMS hold is the likely cause of this week's payroll shortfall.",
+      "ref": "c008",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1878913385544176779"
+    },
+    {
+      "title": "Finish the KIZ tax credit paperwork",
+      "why": "About $7k credit. Notarized affidavits, compliance form and grant proof are still outstanding since 10/5.",
+      "ref": "c006",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1873990356705731601"
+    },
+    {
+      "title": "Confirm David Montez is fully offboarded",
+      "why": "You said you'd remove him from company systems as of 10/15.",
+      "ref": "c017",
+      "link": "https://resilientlifescience.slack.com/archives/D05KRB343EX"
+    }
+  ],
+  "schedule": [
+    {
+      "time": "7:00 am",
+      "title": "Childcare",
+      "detail": "Until 9:30"
+    },
+    {
+      "time": "10:00 am",
+      "title": "Board of Directors Meeting",
+      "detail": "Minutes and action items to follow up (c024)"
+    },
+    {
+      "time": "12:00 pm",
+      "title": "DNS"
+    },
+    {
+      "time": "2:00 pm",
+      "title": "Arjun/Brad chat",
+      "detail": "You said you'd share Docket with Arjun next week (c020)"
+    }
+  ],
+  "due": [
+    {
+      "ref": "c001",
+      "title": "Send Kanou the sample expectations and traceability/monitoring requirements so they can finalize costing",
+      "due": "2026-10-08",
+      "status": "open",
+      "who": "Raymond Chew and Vicky (Kanou Precision)",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901"
+    },
+    {
+      "ref": "c017",
+      "title": "Confirm David Montez is offboarded from company systems as of 10/15 (Rippling, Carta, accounts)",
+      "due": "2026-10-15",
+      "status": "unclear",
+      "who": "David Montez",
+      "link": "https://resilientlifescience.slack.com/archives/D05KRB343EX"
+    },
+    {
+      "ref": "c008",
+      "title": "Ramp auto-payment today (about $7.2–7.6k from checking ending 1751): confirm the account is funded",
+      "due": "2026-10-16",
+      "status": "open",
+      "who": "Ramp",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1878913385544176779"
+    },
+    {
+      "ref": "c018",
+      "title": "David Montez to drop the company laptop at the new office (to replace paid VMs as an always-on Claude machine)",
+      "due": "2026-10-17",
+      "status": "open",
+      "who": "David Montez",
+      "link": "https://resilientlifescience.slack.com/archives/D05KRB343EX/p1792096057145749"
+    },
+    {
+      "ref": "c031",
+      "title": "DARPA MXO Spark Tank application due Oct 18 (only if relevant)",
+      "due": "2026-10-18",
+      "status": "open",
+      "who": "DARPAConnect",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879117093816621790"
+    },
+    {
+      "ref": "c004",
+      "title": "Upload device background documents to the Nilo SharePoint before kickoff (IFU, pitch deck, Q-sub/FDA correspondence, protocols, regulatory strategy, grant applications)",
+      "due": "2026-10-19",
+      "status": "open",
+      "who": "Nicole Iorfida (Nilo Medical)",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877698915464479309"
+    },
+    {
+      "ref": "c010",
+      "title": "Confirm the Sep 26–Oct 9 hourly payroll run was approved (check date moved to 10/19)",
+      "due": "2026-10-19",
+      "status": "unclear",
+      "who": "Rippling",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1878610574399713898"
+    },
+    {
+      "ref": "c036",
+      "title": "Tesla inspection Mon 10/19 9:00am (overlaps the childcare block until 9:30)",
+      "due": "2026-10-19",
+      "status": "open",
+      "who": "Personal",
+      "link": null
+    },
+    {
+      "ref": "c005",
+      "title": "Nilo Medical kickoff call, Tue 10/20 2:30pm (Teams, 30 min): confirm Charlie and Kevin accepted; prep agenda, goals, owners",
+      "due": "2026-10-20",
+      "status": "open",
+      "who": "Michael Nilo, Nick Nilo, Marianne Parrish, Jarrett Boyd (Nilo Medical)",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877698915464479309"
+    },
+    {
+      "ref": "c028",
+      "title": "Lunch with Ethan Moody, Thu 10/22 11am: confirm in person or virtual and RSVP",
+      "due": "2026-10-22",
+      "status": "unclear",
+      "who": "Ethan Moody",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879068778981991184"
+    },
+    {
+      "ref": "c020",
+      "title": "Share the Docket agent tool with Arjun Mathur (Dream) so his team can try it",
+      "due": "2026-10-23",
+      "status": "open",
+      "who": "Arjun Mathur (Dream)",
+      "link": "https://otter.ai/u/nheHd8Wqz48c0DDBmfNYZ5qtgoU"
+    },
+    {
+      "ref": "c024",
+      "title": "Board meeting (10/16) follow-ups: minutes and action items",
+      "due": "2026-10-23",
+      "status": "open",
+      "who": "Board; Charlie Proctor",
+      "link": null
+    }
+  ],
+  "waiting_on": [
+    {
+      "ref": "c013",
+      "title": "FDA feedback on Q-sub Q263249",
+      "who": "Kimberly Kontson (FDA)",
+      "since": "Oct 15",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879088714609455283"
+    },
+    {
+      "ref": "c018",
+      "title": "Company laptop back from David Montez",
+      "who": "David Montez",
+      "since": "Oct 15",
+      "link": "https://resilientlifescience.slack.com/archives/D05KRB343EX/p1792096057145749"
+    },
+    {
+      "ref": "c003",
+      "title": "Adhesive SDS for the ISO 10993 check",
+      "who": "Kanou Precision (Kevin leading)",
+      "since": "Oct 16",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901"
+    },
+    {
+      "ref": "c023",
+      "title": "Kevin to ask Harry (AO) about a Docket discovery chat",
+      "who": "Kevin Chou",
+      "since": "Oct 7",
+      "link": "https://resilientlifescience.slack.com/archives/D058GR1J1A6"
+    },
+    {
+      "ref": "c033",
+      "title": "Reply from Marylaura Thomas",
+      "who": "Sequitur Health",
+      "since": "Oct 8",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1878500093482597124"
+    }
+  ],
+  "drafts": [],
+  "later": [
+    {
+      "date": "2026-10-19",
+      "title": "Tesla inspection 9:00 (overlaps childcare); hourly payroll check date",
+      "ref": "c036"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Nilo Medical kickoff 2:30 on Teams; Charlie and Kevin haven't accepted yet",
+      "ref": "c005"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Lunch with Ethan Moody 11:00, format unconfirmed",
+      "ref": "c028"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Share Docket with Arjun (Dream)",
+      "ref": "c020"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Lexus drop-off 9:00; Innovation Works Scale Expo",
+      "ref": "c037"
+    },
+    {
+      "date": "2026-10-30",
+      "title": "RSVP for the RK Mellon SII celebration (event Nov 2)",
+      "ref": "c027"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "NIH study section meets Nov 9–10",
+      "ref": "c014"
+    }
+  ],
+  "notes": [
+    "This first snapshot was built from your last two weeks of email, Slack, calendar and Otter. The ledger has 38 open items.",
+    "Otter only had one meeting in that window (today's chat with Arjun), so commitments made in other meetings are probably missing. Recording more meetings in Otter will make capture much better."
+  ]
+}

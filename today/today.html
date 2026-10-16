@@ -1,0 +1,111 @@
+<title>Brad's Today</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a founder's daily operating sheet. Masthead, then a wide "act" column (priorities, due) beside a narrow "context" column (schedule, drafts, waiting). */
+:root {
+  --bg: #f5f7f9;
+  --surface: #ffffff;
+  --fg: #142029;
+  --muted: #5a6874;
+  --line: #dde3e8;
+  --accent: #0e6a72;
+  --accent-soft: #e2f0f1;
+  --over: #b42318;
+  --over-soft: #fbe9e7;
+  --warn: #9a5a06;
+  --warn-soft: #fbf0dc;
+  --font-display: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Public Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e151b; --surface: #151f27; --fg: #e5ecf1; --muted: #93a2ae; --line: #25323c;
+    --accent: #56c3ca; --accent-soft: #15333a; --over: #f2766b; --over-soft: #3a1c1a;
+    --warn: #f0b05e; --warn-soft: #382a14; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e151b; --surface: #151f27; --fg: #e5ecf1; --muted: #93a2ae; --line: #25323c;
+  --accent: #56c3ca; --accent-soft: #15333a; --over: #f2766b; --over-soft: #3a1c1a;
+  --warn: #f0b05e; --warn-soft: #382a14; color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--fg); font-family: var(--font-body);
+  font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 1080px; margin: 0 auto; padding-block: 28px 48px; display: flex; flex-direction: column; gap: 24px; }
+a { color: var(--fg); text-decoration-color: var(--line); text-underline-offset: 3px; }
+a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+header.mast { display: flex; flex-direction: column; gap: 6px; border-bottom: 1px solid var(--line); padding-bottom: 20px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.eyebrow b { color: var(--accent); font-weight: 500; }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(28px, 5vw, 40px); line-height: 1.1; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+.headline { font-size: 17px; max-width: 65ch; margin: 4px 0 0; color: var(--fg); }
+
+.grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+.col { display: flex; flex-direction: column; gap: 28px; min-width: 0; }
+@media (max-width: 760px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+
+.block { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+h2 { font-family: var(--font-display); font-weight: 500; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0; display: flex; align-items: center; gap: 8px; }
+.count { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 0 7px; line-height: 18px; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+.empty { margin: 0; color: var(--muted); font-size: 14px; }
+.ref { font-family: var(--font-mono); font-size: 11px; color: var(--muted); margin-left: 8px; white-space: nowrap; }
+.meta { display: block; color: var(--muted); font-size: 13px; }
+
+/* Priorities: the one set-apart surface on the page */
+.prio-block ol.prio { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; counter-reset: p; }
+.prio li { counter-increment: p; display: grid; grid-template-columns: 36px minmax(0, 1fr); column-gap: 8px; padding: 14px 16px; border-top: 1px solid var(--line); }
+.prio li:first-child { border-top: 0; }
+.prio li::before { content: counter(p); grid-row: 1 / span 2; font-family: var(--font-display); font-weight: 700; font-size: 22px; line-height: 1.2; color: var(--accent); font-variant-numeric: tabular-nums; }
+.p-title { font-weight: 600; font-size: 16px; }
+.p-why { color: var(--muted); font-size: 14px; margin-top: 2px; }
+
+ul.due { display: flex; flex-direction: column; }
+.due-row { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); align-items: start; }
+.due-row:first-child { border-top: 0; }
+.chip { font-family: var(--font-mono); font-size: 12px; border-radius: 6px; padding: 2px 8px; text-align: center; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.chip.over { background: var(--over-soft); color: var(--over); }
+.chip.today { background: var(--warn-soft); color: var(--warn); }
+.chip.soon { background: var(--accent-soft); color: var(--accent); }
+.d-title { font-weight: 500; }
+.d-meta { color: var(--muted); font-size: 13px; }
+.unclear { color: var(--warn); }
+
+ul.sched li { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 12px; padding: 8px 0; border-top: 1px solid var(--line); }
+ul.sched li:first-child { border-top: 0; }
+.time { font-family: var(--font-mono); font-size: 13px; color: var(--accent); font-variant-numeric: tabular-nums; padding-top: 1px; }
+.s-title { font-weight: 500; }
+.s-detail { color: var(--muted); font-size: 13px; }
+
+ul.plain li { padding: 8px 0; border-top: 1px solid var(--line); }
+ul.plain li:first-child { border-top: 0; }
+.drafts .kind { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); margin-right: 8px; }
+ul.later li { display: grid; grid-template-columns: 86px minmax(0, 1fr); gap: 12px; padding: 6px 0; font-size: 14px; }
+.l-date { font-family: var(--font-mono); font-size: 12px; color: var(--muted); padding-top: 2px; font-variant-numeric: tabular-nums; }
+.tail { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px; border-top: 1px solid var(--line); padding-top: 20px; }
+.tail:empty { display: none; }
+footer { color: var(--muted); font-size: 12px; font-family: var(--font-mono); }
+</style>
+<div class="wrap">
+  <header class="mast">
+    <div class="eyebrow"><b>First snapshot</b> · updated 3:45 pm</div>
+    <h1>Friday, October 16</h1>
+    <p class="headline">Two outside parties are waiting on you before next week moves: Kanou needs your sample and traceability requirements (8 days late), and Nilo needs background documents before Tuesday&#x27;s kickoff.</p>
+  </header>
+  <div class="grid">
+    <div class="col"><section class="block prio-block"><h2>Priorities</h2><ol class='prio'><li><div class='p-title'><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901">Send Kanou the sample expectations and traceability requirements</a><span class="ref">c001</span></div><div class='p-why'>Promised by ~10/8 and chased on 10/12. Their costing for the glass window is blocked on it.</div></li><li><div class='p-title'><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877698915464479309">Upload background documents to the Nilo SharePoint</a><span class="ref">c004</span></div><div class='p-why'>IFU, pitch deck, Q-sub correspondence, protocols, regulatory strategy and grants, ideally by Monday so Nilo can prep for Tuesday 2:30.</div></li><li><div class='p-title'><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1878913385544176779">Check cash: Ramp auto-pay today and the HHS PMS clarification</a><span class="ref">c008</span></div><div class='p-why'>About $7.2–7.6k leaves checking today, and the PMS hold is the likely cause of this week&#x27;s payroll shortfall.</div></li><li><div class='p-title'><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1873990356705731601">Finish the KIZ tax credit paperwork</a><span class="ref">c006</span></div><div class='p-why'>About $7k credit. Notarized affidavits, compliance form and grant proof are still outstanding since 10/5.</div></li><li><div class='p-title'><a href="https://resilientlifescience.slack.com/archives/D05KRB343EX">Confirm David Montez is fully offboarded</a><span class="ref">c017</span></div><div class='p-why'>You said you&#x27;d remove him from company systems as of 10/15.</div></li></ol></section><section class="block "><h2>Due and overdue<span class="count">12</span></h2><ul class='due'><li class='due-row'><span class='chip over'>8d overdue</span><div class='d-body'><div class='d-title'><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901">Send Kanou the sample expectations and traceability/monitoring requirements so they can finalize costing</a><span class="ref">c001</span></div><div class='d-meta'>Thu Oct 8 · Raymond Chew and Vicky (Kanou Precision)</div></div></li><li class='due-row'><span class='chip over'>1d overdue</span><div class='d-body'><div class='d-title'><a href="https://resilientlifescience.slack.com/archives/D05KRB343EX">Confirm David Montez is offboarded from company systems as of 10/15 (Rippling, Carta, accounts)</a><span class="ref">c017</span></div><div class='d-meta'>Thu Oct 15 · David Montez · <span class='unclear'>needs checking</span></div></div></li><li class='due-row'><span class='chip today'>today</span><div class='d-body'><div class='d-title'><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1878913385544176779">Ramp auto-payment today (about $7.2–7.6k from checking ending 1751): confirm the account is funded</a><span class="ref">c008</span></div><div class='d-meta'>Fri Oct 16 · Ramp</div></div></li><li class='due-row'><span class='chip today'>tomorrow</span><div class='d-body'><div class='d-title'><a href="https://resilientlifescience.slack.com/archives/D05KRB343EX/p1792096057145749">David Montez to drop the company laptop at the new office (to replace paid VMs as an always-on Claude machine)</a><span class="ref">c018</span></div><div class='d-meta'>Sat Oct 17 · David Montez</div></div></li><li class='due-row'><span class='chip soon'>in 2d</span><div class='d-body'><div class='d-title'><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879117093816621790">DARPA MXO Spark Tank application due Oct 18 (only if relevant)</a><span class="ref">c031</span></div><div class='d-meta'>Sun Oct 18 · DARPAConnect</div></div></li><li class='due-row'><span class='chip soon'>in 3d</span><div class='d-body'><div class='d-title'><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877698915464479309">Upload device background documents to the Nilo SharePoint before kickoff (IFU, pitch deck, Q-sub/FDA correspondence, protocols, regulatory strategy, grant applications)</a><span class="ref">c004</span></div><div class='d-meta'>Mon Oct 19 · Nicole Iorfida (Nilo Medical)</div></div></li><li class='due-row'><span class='chip soon'>in 3d</span><div class='d-body'><div class='d-title'><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1878610574399713898">Confirm the Sep 26–Oct 9 hourly payroll run was approved (check date moved to 10/19)</a><span class="ref">c010</span></div><div class='d-meta'>Mon Oct 19 · Rippling · <span class='unclear'>needs checking</span></div></div></li><li class='due-row'><span class='chip soon'>in 3d</span><div class='d-body'><div class='d-title'>Tesla inspection Mon 10/19 9:00am (overlaps the childcare block until 9:30)<span class="ref">c036</span></div><div class='d-meta'>Mon Oct 19 · Personal</div></div></li><li class='due-row'><span class='chip soon'>in 4d</span><div class='d-body'><div class='d-title'><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877698915464479309">Nilo Medical kickoff call, Tue 10/20 2:30pm (Teams, 30 min): confirm Charlie and Kevin accepted; prep agenda, goals, owners</a><span class="ref">c005</span></div><div class='d-meta'>Tue Oct 20 · Michael Nilo, Nick Nilo, Marianne Parrish, Jarrett Boyd (Nilo Medical)</div></div></li><li class='due-row'><span class='chip soon'>in 6d</span><div class='d-body'><div class='d-title'><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879068778981991184">Lunch with Ethan Moody, Thu 10/22 11am: confirm in person or virtual and RSVP</a><span class="ref">c028</span></div><div class='d-meta'>Thu Oct 22 · Ethan Moody · <span class='unclear'>needs checking</span></div></div></li><li class='due-row'><span class='chip soon'>in 7d</span><div class='d-body'><div class='d-title'><a href="https://otter.ai/u/nheHd8Wqz48c0DDBmfNYZ5qtgoU">Share the Docket agent tool with Arjun Mathur (Dream) so his team can try it</a><span class="ref">c020</span></div><div class='d-meta'>Fri Oct 23 · Arjun Mathur (Dream)</div></div></li><li class='due-row'><span class='chip soon'>in 7d</span><div class='d-body'><div class='d-title'>Board meeting (10/16) follow-ups: minutes and action items<span class="ref">c024</span></div><div class='d-meta'>Fri Oct 23 · Board; Charlie Proctor</div></div></li></ul></section></div>
+    <div class="col"><section class="block "><h2>Today&#x27;s schedule</h2><ul class='sched'><li><span class='time'>7:00 am</span><div class='s-body'><div class='s-title'>Childcare</div><div class='s-detail'>Until 9:30</div></div></li><li><span class='time'>10:00 am</span><div class='s-body'><div class='s-title'>Board of Directors Meeting</div><div class='s-detail'>Minutes and action items to follow up (c024)</div></div></li><li><span class='time'>12:00 pm</span><div class='s-body'><div class='s-title'>DNS</div></div></li><li><span class='time'>2:00 pm</span><div class='s-body'><div class='s-title'>Arjun/Brad chat</div><div class='s-detail'>You said you&#x27;d share Docket with Arjun next week (c020)</div></div></li></ul></section><section class="block "><h2>Drafts for your OK<span class="count">0</span></h2><p class="empty">No drafts waiting for you.</p></section><section class="block "><h2>Waiting on others<span class="count">5</span></h2><ul class='plain'><li><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879088714609455283">FDA feedback on Q-sub Q263249</a><span class="ref">c013</span><span class='meta'>Kimberly Kontson (FDA), since Oct 15</span></li><li><a href="https://resilientlifescience.slack.com/archives/D05KRB343EX/p1792096057145749">Company laptop back from David Montez</a><span class="ref">c018</span><span class='meta'>David Montez, since Oct 15</span></li><li><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901">Adhesive SDS for the ISO 10993 check</a><span class="ref">c003</span><span class='meta'>Kanou Precision (Kevin leading), since Oct 16</span></li><li><a href="https://resilientlifescience.slack.com/archives/D058GR1J1A6">Kevin to ask Harry (AO) about a Docket discovery chat</a><span class="ref">c023</span><span class='meta'>Kevin Chou, since Oct 7</span></li><li><a href="https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1878500093482597124">Reply from Marylaura Thomas</a><span class="ref">c033</span><span class='meta'>Sequitur Health, since Oct 8</span></li></ul></section><section class="block "><h2>Coming up</h2><ul class='later'><li><span class='l-date'>Mon Oct 19</span><span>Tesla inspection 9:00 (overlaps childcare); hourly payroll check date<span class="ref">c036</span></span></li><li><span class='l-date'>Tue Oct 20</span><span>Nilo Medical kickoff 2:30 on Teams; Charlie and Kevin haven&#x27;t accepted yet<span class="ref">c005</span></span></li><li><span class='l-date'>Thu Oct 22</span><span>Lunch with Ethan Moody 11:00, format unconfirmed<span class="ref">c028</span></span></li><li><span class='l-date'>Fri Oct 23</span><span>Share Docket with Arjun (Dream)<span class="ref">c020</span></span></li><li><span class='l-date'>Tue Oct 27</span><span>Lexus drop-off 9:00; Innovation Works Scale Expo<span class="ref">c037</span></span></li><li><span class='l-date'>Fri Oct 30</span><span>RSVP for the RK Mellon SII celebration (event Nov 2)<span class="ref">c027</span></span></li><li><span class='l-date'>Tue Nov 10</span><span>NIH study section meets Nov 9–10<span class="ref">c014</span></span></li></ul></section></div>
+  </div>
+  <div class="tail"><section class="block "><h2>Notes</h2><ul class='plain notes'><li>This first snapshot was built from your last two weeks of email, Slack, calendar and Otter. The ledger has 38 open items.</li><li>Otter only had one meeting in that window (today&#x27;s chat with Arjun), so commitments made in other meetings are probably missing. Recording more meetings in Otter will make capture much better.</li></ul></section></div>
+  <footer>Refreshed by your EA on weekdays. To change something, tell the EA in Claude. IDs like c004 refer to the commitments ledger.</footer>
+</div>
