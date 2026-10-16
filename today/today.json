@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T19:40:39+00:00",
+  "generated_at": "2026-10-16T16:05:00-04:00",
   "run": "Weekly review",
   "date_label": "Week ending Friday, October 16",
-  "headline": "A heavy operations week: payroll recovered from the federal-hold NSF, David Montez left, the Nilo SOW was signed and the FDA assigned a Q-sub reviewer. Two outside parties are still waiting on you going into next week: Kanou (requirements, 8 days late) and Nilo (background documents before Tuesday's kickoff).",
+  "headline": "A heavy operations week: payroll recovered from the federal-hold NSF, David Montez is offboarded, the Nilo SOW was signed and the FDA assigned a Q-sub reviewer. Going into next week, Nilo is the one outside party waiting on you: background documents before Tuesday's kickoff.",
   "priorities": [
     {
       "title": "Upload device background docs to the Nilo SharePoint by Mon 10/19",
@@ -14,17 +14,6 @@
       "title": "Prep the Nilo kickoff (Tue 10/20 2:30pm, 30 min, Teams) and get Charlie and Kevin to accept",
       "why": "Both still show no response on the invite; a 3:00 block follows, so the call can't run over.",
       "ref": "c005"
-    },
-    {
-      "title": "Send Kanou the sample expectations and traceability/monitoring requirements",
-      "why": "Overdue since 10/8, chased 10/12; their costing is blocked. Also decide on the $650 samples (c002). Hold Mon 1:30.",
-      "ref": "c001",
-      "link": "https://resilientlifescience.slack.com/archives/D058GR1J1A6"
-    },
-    {
-      "title": "Finish David Montez's offboarding in Rippling, Carta and remaining accounts",
-      "why": "He left 10/15. Google Workspace data moved to Charlie 10/16; the rest is unconfirmed.",
-      "ref": "c017"
     },
     {
       "title": "Send Rachelle the KIZ tax-credit documents",
@@ -62,44 +51,12 @@
   ],
   "due": [
     {
-      "ref": "c001",
-      "title": "Send Kanou the sample expectations and traceability/monitoring requirements so they can finalize costing",
-      "due": "2026-10-08",
-      "status": "open",
-      "who": "Raymond Chew and Vicky (Kanou Precision)",
-      "link": "https://resilientlifescience.slack.com/archives/D058GR1J1A6"
-    },
-    {
-      "ref": "c017",
-      "title": "Confirm David Montez is offboarded from company systems as of 10/15 (Rippling, Carta, accounts)",
-      "due": "2026-10-15",
-      "status": "unclear",
-      "who": "David Montez",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879176566680074063"
-    },
-    {
-      "ref": "c008",
-      "title": "Ramp auto-payment today (about $7.2\u20137.6k from checking ending 1751): confirm the account is funded",
-      "due": "2026-10-16",
-      "status": "open",
-      "who": "Ramp",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1878913385544176779"
-    },
-    {
       "ref": "c018",
       "title": "David Montez to drop the company laptop at the new office (to replace paid VMs as an always-on Claude machine)",
       "due": "2026-10-17",
       "status": "open",
       "who": "David Montez",
       "link": "https://resilientlifescience.slack.com/archives/D05KRB343EX/p1792096057145749"
-    },
-    {
-      "ref": "c031",
-      "title": "DARPA MXO Spark Tank application due Oct 18 (only if relevant)",
-      "due": "2026-10-18",
-      "status": "open",
-      "who": "DARPAConnect",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879117093816621790"
     },
     {
       "ref": "c004",
@@ -153,7 +110,7 @@
   "waiting_on": [
     {
       "ref": "c003",
-      "title": "Kanou to send the liquid adhesive SDS for the ISO 10993 biocompatibility check",
+      "title": "Kevin getting biocompatibility data from Kanou before we proceed (Kanou requirements and samples wait on this)",
       "who": "Raymond Chew (Kanou Precision); Kevin leading",
       "since": "2026-10-16",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901"
@@ -167,7 +124,7 @@
     },
     {
       "ref": "c018",
-      "title": "David Montez to drop the company laptop at the new office (to replace paid VMs as an always-on Claude machine)",
+      "title": "Company laptop back from David Montez (still on Slack)",
       "who": "David Montez",
       "since": "2026-10-15",
       "link": "https://resilientlifescience.slack.com/archives/D05KRB343EX/p1792096057145749"
@@ -184,22 +141,17 @@
     {
       "kind": "hold",
       "title": "EA hold: Upload background docs to Nilo SharePoint before kickoff",
-      "note": "Mon 10/19 10:30\u201311:30",
+      "note": "Mon 10/19 10:30–11:30",
       "link": "https://www.google.com/calendar/event?eid=YTlzajFmbzU3Z2UydHQ3ZWE2a3BnZnZhc2sgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
       "kind": "hold",
       "title": "EA hold: Send Kanou sample expectations + traceability requirements",
-      "note": "Mon 10/19 1:30\u20132:15",
+      "note": "Mon 10/19 1:30–2:15",
       "link": "https://www.google.com/calendar/event?eid=NjhkOGg0OHFlMmJ1MmR2aWNwcWx0OXUxcW8gYnJhZEByZXNpbGllbnQuYmlv"
     }
   ],
   "later": [
-    {
-      "date": "2026-10-18",
-      "title": "DARPA MXO Spark Tank application due (only if relevant)",
-      "ref": "c031"
-    },
     {
       "date": "2026-10-19",
       "title": "Tesla inspection 9:00",
@@ -226,11 +178,6 @@
       "ref": "c024"
     },
     {
-      "date": "2026-10-27",
-      "title": "Innovation Works Scale Expo; Lexus drop-off 9:00 (overlaps childcare)",
-      "ref": "c030"
-    },
-    {
       "date": "2026-10-30",
       "title": "Verizon gift card application",
       "ref": "c038"
@@ -238,7 +185,11 @@
   ],
   "done_today": [
     {
-      "title": "Hourly payroll (Sep 26\u2013Oct 9) funded and processing after the NSF",
+      "title": "David Montez offboarded",
+      "ref": "c017"
+    },
+    {
+      "title": "Hourly payroll (Sep 26–Oct 9) funded and processing after the NSF",
       "ref": "c010"
     },
     {
@@ -257,6 +208,8 @@
     }
   ],
   "notes": [
+    "Updated 4:05 pm with your corrections: David offboarded, Ramp fine, Kanou on hold pending Kevin's biocomp data, DARPA, Scale Expo and Cigar Night dropped. Email-only invites no longer go on your list.",
+    "The Monday 1:30 hold for the Kanou requirements is no longer needed; delete it or tell the EA to.",
     "Decide: HHS PMS payment justification (c007, since 10/9). Payroll funded 10/14, which suggests the hold cleared. Was the clarification answered in PMS? If yes, I'll close it.",
     "Decide: office mold / lease with landlord Dave (c016, since 10/12). Settled by the move to the new office, or still open?",
     "Decide: UnitedHealthcare invoice (c011, since 10/12). Paid? I can't see UHC eServices.",
@@ -264,7 +217,6 @@
     "Decide: Rook QS (c025). Jacob has followed up twice; a short decline now that Nilo is engaged? Say the word and I'll draft it.",
     "Dates to set: Pytho.ai Docket share (c021), suggest by 10/23 alongside Arjun; OpenRegulatory follow-up with Sebastian (c026), suggest week of 10/26 or drop.",
     "Reframed Marylaura Thomas (c033) from waiting-on to a follow-up: she offered to read the COPD grant draft; send it when ready.",
-    "Ramp autopay today (~$7.6k statement from checking \u00b71751, c008): couldn't confirm funding from here.",
     "Formwork: no open tasks or reviews assigned to you. Slack showed no new messages since yesterday.",
     "No drafts this week: every reply owed needs a decision or content only you have."
   ]

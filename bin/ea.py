@@ -114,6 +114,8 @@ def fmt(it):
         if date.fromisoformat(it["due"]) < today():
             flag = " OVERDUE"
     who = it.get("counterparty") or ""
+    if it.get("blocked_by"):
+        who = (who + " " if who else "") + f"(blocked by {it['blocked_by']})"
     return (f"{it.get('id','?'):5} {it.get('status','?'):8} {it.get('priority','-'):6} "
             f"{due:10}{flag:8} [{it.get('type')}] {it.get('title')}"
             + (f"  — {who}" if who else ""))
@@ -182,8 +184,10 @@ def main(argv):
     elif cmd == "due":
         fl, _ = parse_flags(args, {"days": 1})
         horizon = today() + timedelta(days=int(fl.get("days", 7)))
+        open_ids = {i["id"] for i in items if i.get("status") in ("open", "unclear")}
         sel = [i for i in items if i.get("status") in ("open", "unclear") and i.get("due")
-               and date.fromisoformat(i["due"]) <= horizon]
+               and date.fromisoformat(i["due"]) <= horizon
+               and i.get("blocked_by") not in open_ids]
         sel.sort(key=sort_key)
         for i in sel:
             print(fmt(i))
