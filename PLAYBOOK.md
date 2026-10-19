@@ -41,7 +41,7 @@ All connections act as Brad except Formwork.
 - Read every source above.
 - Add, update and close ledger items; write `today/today.json`; republish the Today page; commit and push to the repo.
 - Create Gmail drafts for replies Brad owes. At most 5 per run, never to a thread that already has a draft. Write them in Brad's voice (short, direct, signed "Brad"), and list each one in the Today page's Drafts section.
-- Create holds on Brad's own calendar, with no other attendees: prep time before an important meeting or a block for an overdue high-priority item. Title them "EA hold: <what>". At most 2 per run, 30–60 minutes, inside 9:30–12:00 or 1:00–5:00, never overlapping an existing event. Brad deletes them freely.
+- Create holds on Brad's own calendar, with no other attendees: prep time before an important meeting, a block for an overdue high-priority item, or a focus block for a long-term project's next step. Title them "EA hold: <what>". At most 2 per run, 30–60 minutes (focus blocks up to 90), inside 9:30–12:00 or 1:00–5:00, never overlapping an existing event. Brad deletes them freely.
 
 **Only after Brad says yes in a Claude conversation:**
 - Sending any email or Slack message.
@@ -71,6 +71,7 @@ One JSON object per line in `ledger.jsonl`. Always use `bin/ea.py` (add, update,
 | `sources` | `[{kind, date, label, url}]`, newest evidence appended |
 | `notes` | Dated one-line notes |
 | `blocked_by` | Optional id of the item this one waits on |
+| `project` | Optional long-term project id from `projects.json`, or `personal` |
 
 **Capturing:**
 - Add an item when Brad commits ("I'll send…", "let me check", agreeing to a date), when a real person asks Brad for something he hasn't answered, when someone promises Brad something, or when a dated obligation appears.
@@ -82,14 +83,35 @@ One JSON object per line in `ledger.jsonl`. Always use `bin/ea.py` (add, update,
 - Close an item only on evidence: Brad's sent reply, the file shared, the event held, the other side confirming. Note what the evidence was. If it looks done but you can't confirm, set `unclear`.
 - Paraphrase; never paste long quotes from email or transcripts.
 
+## Long-term priorities
+
+Brad's long-term projects live in `projects.json`, in priority order. Today they are:
+
+1. **QMS docs**: QMS documentation written, reviewed and approved in Formwork.
+2. **Nilo prep and regulatory work**: the Nilo Medical kickoff, then the regulatory strategy and 510(k) path.
+3. **Finalize the physical device**: design frozen with parts and suppliers chosen, before the UCSF hypoxia testing pencilled for the week of May 24, 2027.
+4. **SBIR supplement submitted** for NIH/NIDA grant 4R44DA060643.
+
+Brad sets the list, order and target dates. Change them only when he says so (`ea.py project <id> '{"target":"YYYY-MM-DD"}'`).
+
+How the EA uses them:
+- **Tag every ledger item** that serves a project with `project` (`qms`, `regulatory`, `device`, `sbir_supplement`); personal items get `personal`; everything else stays untagged.
+- **Keep each project's `next_step` current**: one concrete action Brad (or someone he's waiting on) can take next, citing ledger ids. Update it with `ea.py project <id> '{"next_step":"…"}'`.
+- **Log progress only on evidence** with `ea.py project <id> --progress "<what moved>"`: a Formwork document moving to review or approved, a submission sent, a decision made, a meeting held, a deliverable shared. Activity that doesn't move the project (scheduling, chatter) isn't progress.
+- **QMS metric**: on morning and weekly runs, count Formwork documents by status (read only) and set `metric` to "Formwork documents approved: N of M (date)".
+- **Stale**: a project with no logged progress in 7 days is stale. Say so in the Today page notes and, in the weekly review, suggest the smallest next step that would move it.
+
 ## Picking priorities
 
 Pick 3, at most 5, for the Today page, in this order of weight:
 1. Something an outside party is blocked on, or that's overdue to an outside party.
 2. Money, payroll, compliance, regulatory and grant obligations.
 3. Prep for meetings today or first thing tomorrow.
-4. Things the team is blocked on.
-5. Brad's standing notes below.
+4. The next step on a long-term project, highest-ranked project first.
+5. Things the team is blocked on.
+6. Brad's standing notes below.
+
+**Protect project time:** at least one of each day's priorities must be a long-term project's next step, even when reactive items could fill every slot. Pick the highest-ranked project that has a step Brad can actually take today (not blocked, not waiting on someone). A reactive item that also serves a project counts. Blocked items (`blocked_by`) never become priorities.
 
 Each priority gets one line of why, with the date or the person it affects. Prefer the specific next action ("send Kanou the traceability spec") over the topic ("Kanou").
 

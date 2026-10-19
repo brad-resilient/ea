@@ -94,6 +94,17 @@ ul.later li { display: grid; grid-template-columns: 86px minmax(0, 1fr); gap: 12
 .l-date { font-family: var(--font-mono); font-size: 12px; color: var(--muted); padding-top: 2px; font-variant-numeric: tabular-nums; }
 .tail { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px; border-top: 1px solid var(--line); padding-top: 20px; }
 .tail:empty { display: none; }
+.projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.pj { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.pj-head { display: flex; align-items: baseline; gap: 8px; }
+.pj-n { font-family: var(--font-display); font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; }
+.pj-name { font-family: var(--font-display); font-weight: 700; font-size: 15px; }
+.pj-next { font-size: 14px; }
+.pj-metric { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
+.pj-meta { font-size: 12px; color: var(--muted); }
+.pj.stale .pj-moved { color: var(--warn); }
+.pj.fresh .pj-moved { color: var(--accent); }
+.pj-over { color: var(--over); }
 footer { color: var(--muted); font-size: 12px; font-family: var(--font-mono); }
 </style>
 <div class="wrap">
@@ -102,6 +113,7 @@ footer { color: var(--muted); font-size: 12px; font-family: var(--font-mono); }
     <h1>{{DATE}}</h1>
     <p class="headline">{{HEADLINE}}</p>
   </header>
+  {{PROJECTS}}
   <div class="grid">
     <div class="col">{{LEFT}}</div>
     <div class="col">{{RIGHT}}</div>

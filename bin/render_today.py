@@ -16,11 +16,14 @@ today.json fields (all lists may be empty):
   later         [{date, title, ref?}]                     next ~14 days worth knowing
   done_today    [{title, ref?}]
   notes         [str]
+
+The Projects strip is built from projects.json and the ledger (bin/ea.py), not today.json.
 """
 import html
 import json
 import os
 import sys
+import importlib.util
 from datetime import date, datetime
 from zoneinfo import ZoneInfo
 
@@ -54,6 +57,44 @@ def fmt_due(d, today):
     if delta == 1:
         return label, "tomorrow"
     return label, f"in {delta}d"
+
+
+def load_projects():
+    spec = importlib.util.spec_from_file_location("ea", os.path.join(ROOT, "bin", "ea.py"))
+    ea = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(ea)
+    return ea.project_summary(ea.load())
+
+
+def projects_html(today):
+    try:
+        ps = load_projects()
+    except Exception as e:  # never let the strip break the page
+        return f'<p class="empty">Projects unavailable ({E(str(e))}).</p>'
+    if not ps:
+        return ""
+    cards = []
+    for p in ps:
+        if p["days_since_progress"] is None:
+            moved, cls = "no progress logged yet", "stale"
+        elif p["days_since_progress"] == 0:
+            moved, cls = "moved today", "fresh"
+        else:
+            d = p["days_since_progress"]
+            moved, cls = f"last moved {d}d ago", ("stale" if p["stale"] else "fresh")
+        tgt = "no target date"
+        if p.get("target"):
+            lbl, rel = fmt_due(p["target"], today)
+            tgt = f"target {lbl}" + (f" ({rel})" if rel else "")
+        extra = f"<div class='pj-metric'>{E(p['metric'])}</div>" if p.get("metric") else ""
+        cards.append(
+            f"<li class='pj {cls}'><div class='pj-head'><span class='pj-n'>{p['order']}</span>"
+            f"<span class='pj-name'>{E(p['name'])}</span></div>"
+            f"<div class='pj-next'>{E(p.get('next_step') or 'Next step not set')}</div>{extra}"
+            f"<div class='pj-meta'><span class='pj-moved'>{E(moved)}</span> · {E(tgt)} · {p['open']} open"
+            + (f" · <span class='pj-over'>{p['overdue']} overdue</span>" if p['overdue'] else "")
+            + "</div></li>")
+    return "<ul class='projects'>" + "".join(cards) + "</ul>"
 
 
 def section(title, body, count=None, cls=""):
@@ -136,12 +177,16 @@ def render(d):
     if notes_html:
         tail += section("Notes", notes_html)
 
+    proj = projects_html(today)
+    proj_html = section("Long-term priorities", proj, cls="proj-block") if proj else ""
+
     with open(os.path.join(ROOT, "today", "template.html"), encoding="utf-8") as f:
         tpl = f.read()
     return (tpl.replace("{{RUN}}", E(d.get("run", "Update")))
                .replace("{{STAMP}}", E(stamp))
                .replace("{{DATE}}", E(date_label))
                .replace("{{HEADLINE}}", E(d.get("headline", "")))
+               .replace("{{PROJECTS}}", proj_html)
                .replace("{{LEFT}}", left)
                .replace("{{RIGHT}}", right)
                .replace("{{TAIL}}", tail))

@@ -7,7 +7,7 @@ Ledger (ledger.jsonl): one JSON object per line, schema in PLAYBOOK.md.
 State (state.json): last runs per job, used for skip decisions and capture watermarks.
 
 Commands
-  list   [--status open,unclear] [--type T] [--due-by YYYY-MM-DD] [--json]
+  list   [--status open,unclear] [--type T] [--project P] [--due-by YYYY-MM-DD] [--json]
   due    [--days 7]                 overdue + due within N days (open/unclear only)
   show   ID
   find   TEXT
@@ -16,6 +16,10 @@ Commands
   close  ID [--status done|dropped] [--note TEXT]
   note   ID TEXT                    append a dated note
   validate
+  projects [--json]                 long-term projects: next step, open items, days since progress
+  project ID 'JSON' [--progress TEXT]
+                                    update a project's fields (next_step, target, metric, status);
+                                    --progress logs dated progress and resets the stale clock
   begin  JOB [--force]              prints RUN since=<iso> or SKIP <reason>
   finish JOB [--summary TEXT]
   state                             print state.json
@@ -29,6 +33,9 @@ from zoneinfo import ZoneInfo
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(ROOT, "ledger.jsonl")
 STATE = os.path.join(ROOT, "state.json")
+PROJECTS = os.path.join(ROOT, "projects.json")
+EXTRA_TAGS = {"personal"}
+STALE_DAYS = 7
 TZ = ZoneInfo("America/New_York")
 
 TYPES = {"commitment", "waiting_on", "request", "deadline", "followup", "event"}
@@ -87,7 +94,43 @@ def check(it):
             errs.append("due must be YYYY-MM-DD or null")
     if "sources" in it and not isinstance(it["sources"], list):
         errs.append("sources must be a list")
+    if it.get("project"):
+        ok = {p["id"] for p in load_projects()} | EXTRA_TAGS
+        if it["project"] not in ok:
+            errs.append(f"project must be one of {sorted(ok)}")
     return errs
+
+
+def load_projects():
+    if not os.path.exists(PROJECTS):
+        return []
+    with open(PROJECTS, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_projects(ps):
+    with open(PROJECTS, "w", encoding="utf-8") as f:
+        json.dump(ps, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+
+def project_summary(items):
+    out = []
+    for p in sorted(load_projects(), key=lambda x: x.get("order", 99)):
+        if p.get("status") != "active":
+            continue
+        mine = [i for i in items if i.get("project") == p["id"] and i.get("status") in ("open", "unclear")]
+        overdue = [i for i in mine if i.get("due") and date.fromisoformat(i["due"]) < today()]
+        lp = p.get("last_progress")
+        days = (today() - date.fromisoformat(lp)).days if lp else None
+        out.append({
+            "id": p["id"], "order": p.get("order"), "name": p["name"], "goal": p.get("goal"),
+            "target": p.get("target"), "next_step": p.get("next_step"), "metric": p.get("metric"),
+            "open": len(mine), "overdue": len(overdue), "last_progress": lp,
+            "days_since_progress": days, "stale": days is None or days >= STALE_DAYS,
+            "refs": [i["id"] for i in mine],
+        })
+    return out
 
 
 def next_id(items):
@@ -117,7 +160,7 @@ def fmt(it):
     if it.get("blocked_by"):
         who = (who + " " if who else "") + f"(blocked by {it['blocked_by']})"
     return (f"{it.get('id','?'):5} {it.get('status','?'):8} {it.get('priority','-'):6} "
-            f"{due:10}{flag:8} [{it.get('type')}] {it.get('title')}"
+            f"{due:10}{flag:8} [{it.get('type')}{'/' + it['project'] if it.get('project') else ''}] {it.get('title')}"
             + (f"  — {who}" if who else ""))
 
 
@@ -166,11 +209,14 @@ def main(argv):
     items = load()
 
     if cmd == "list":
-        fl, _ = parse_flags(args, {"status": 1, "type": 1, "due-by": 1, "json": 0})
+        fl, _ = parse_flags(args, {"status": 1, "type": 1, "project": 1, "due-by": 1, "json": 0})
         sts = set((fl.get("status") or "open,unclear").split(","))
         sel = [i for i in items if i.get("status") in sts or "all" in sts]
         if fl.get("type"):
             sel = [i for i in sel if i.get("type") == fl["type"]]
+        if fl.get("project"):
+            want = fl["project"]
+            sel = [i for i in sel if (i.get("project") or "none") == want]
         if fl.get("due-by"):
             sel = [i for i in sel if i.get("due") and i["due"] <= fl["due-by"]]
         sel.sort(key=sort_key)
@@ -273,6 +319,39 @@ def main(argv):
         print("ok" if not bad else f"{bad} invalid items")
         if bad:
             sys.exit(1)
+
+    elif cmd == "projects":
+        fl, _ = parse_flags(args, {"json": 0})
+        summ = project_summary(items)
+        if fl.get("json"):
+            print(json.dumps(summ, indent=2, ensure_ascii=False))
+        else:
+            for s in summ:
+                age = "never" if s["days_since_progress"] is None else f"{s['days_since_progress']}d ago"
+                flag = "  STALE" if s["stale"] else ""
+                print(f"{s['order']}. {s['name']} [{s['id']}]  target {s['target'] or 'not set'}  "
+                      f"open {s['open']} (overdue {s['overdue']})  last progress {age}{flag}")
+                print(f"   next: {s['next_step']}")
+                if s.get("metric"):
+                    print(f"   metric: {s['metric']}")
+
+    elif cmd == "project":
+        fl, rest = parse_flags(args, {"progress": 1})
+        ps = load_projects()
+        p = next((x for x in ps if x["id"] == rest[0]), None)
+        if not p:
+            sys.exit(f"no project {rest[0]}")
+        patch = json.loads(rest[1]) if len(rest) > 1 else {}
+        for k in ("id", "log", "last_progress"):
+            patch.pop(k, None)
+        if patch.get("target"):
+            date.fromisoformat(patch["target"])
+        p.update(patch)
+        if fl.get("progress"):
+            p["last_progress"] = today().isoformat()
+            p.setdefault("log", []).append(f"{today().isoformat()}: {fl['progress']}")
+        save_projects(ps)
+        print(f"updated project {p['id']}")
 
     elif cmd == "begin":
         fl, rest = parse_flags(args, {"force": 0})

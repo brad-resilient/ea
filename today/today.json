@@ -12,12 +12,12 @@
     },
     {
       "title": "Get Charlie and Kevin to accept the Nilo kickoff invite and sketch the agenda",
-      "why": "Both still show no response as of this morning. Prep hold Tue 1:30\u20132:15; the call can't run over (3:00 block, Kid Duty 4:15).",
+      "why": "Both still show no response as of this morning. Prep hold Tue 1:30–2:15; the call can't run over (3:00 block, Kid Duty 4:15).",
       "ref": "c005"
     },
     {
       "title": "Send Rachelle the KIZ tax-credit documents",
-      "why": "About $7k credit; she followed up 10/5 with no reply. Hold today 2:30\u20133:30.",
+      "why": "About $7k credit; she followed up 10/5 with no reply. Hold today 2:30–3:30.",
       "ref": "c006",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1873990356705731601"
     }
@@ -67,7 +67,7 @@
     },
     {
       "ref": "c036",
-      "title": "Tesla inspection 9:00\u201310:15 (Zoom)",
+      "title": "Tesla inspection 9:00–10:15 (Zoom)",
       "due": "2026-10-19",
       "status": "open",
       "who": "Personal",
@@ -133,13 +133,13 @@
     {
       "kind": "hold",
       "title": "EA hold: KIZ tax-credit documents for Rachelle",
-      "note": "Mon 10/19 2:30\u20133:30",
+      "note": "Mon 10/19 2:30–3:30",
       "link": "https://www.google.com/calendar/event?eid=dmlzaWg4aHA0Mmk2MW5mMTVwaDYzY2RiaGMgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
       "kind": "hold",
       "title": "EA hold: Prep Nilo kickoff (agenda, goals, owners)",
-      "note": "Tue 10/20 1:30\u20132:15",
+      "note": "Tue 10/20 1:30–2:15",
       "link": "https://www.google.com/calendar/event?eid=dDZjNmlqN2o1M2pqZWVhamNldDU5azA3NWsgYnJhZEByZXNpbGllbnQuYmlv"
     }
   ],
@@ -162,7 +162,8 @@
   ],
   "done_today": [],
   "notes": [
-    "Your new Kid Duty blocks (Tue/Thu/Fri 4:15\u20139pm, Wed 7\u201311:15am) are on the calendar as invites from your personal account; I didn't respond to them, but I'll treat those times as unavailable for holds.",
+    "Long-term priorities added at 11:50: the strip above tracks your four projects. None has a target date yet; tell the EA the dates and it will warn when a project falls behind.",
+    "Your new Kid Duty blocks (Tue/Thu/Fri 4:15–9pm, Wed 7–11:15am) are on the calendar as invites from your personal account; I didn't respond to them, but I'll treat those times as unavailable for holds.",
     "Still open from Friday: HHS PMS clarification (c007), mold/lease with Dave (c016), UHC invoice (c011), Rook QS decline (c025). Tell me which are settled and I'll close them, or say the word and I'll draft the Rook decline.",
     "No drafts this morning: nothing new needed a reply that didn't need your call.",
     "Formwork: no open tasks or reviews for you. Slack: nothing new to or from you since Friday. Otter: only Friday's Arjun chat (already tracked as c020)."

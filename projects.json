@@ -1,0 +1,56 @@
+[
+  {
+    "id": "qms",
+    "order": 1,
+    "name": "QMS docs",
+    "goal": "QMS documentation written, reviewed and approved in Formwork, ready for ISO 13485 and FDA",
+    "target": null,
+    "status": "active",
+    "next_step": "Keep drafting SOPs in the QMS docs session; then route them for review and approval in Formwork",
+    "metric": "Formwork documents approved: 1 of 53 (2026-10-19)",
+    "progress_signals": "Formwork documents moving from draft to in-review or approved; new or edited SOPs; Brad mentioning QMS work in Slack or meetings",
+    "last_progress": null,
+    "log": []
+  },
+  {
+    "id": "regulatory",
+    "order": 2,
+    "name": "Nilo prep and regulatory work",
+    "goal": "A strong kickoff with Nilo Medical, then the regulatory strategy and 510(k) path moving with clear owners and dates",
+    "target": null,
+    "status": "active",
+    "next_step": "Upload the background documents to Nilo's SharePoint before the Tue 10/20 2:30 kickoff (c004, c005)",
+    "metric": null,
+    "progress_signals": "Emails and meetings with Nilo Medical, FDA correspondence on Q263249, documents shared with Nilo",
+    "last_progress": null,
+    "log": []
+  },
+  {
+    "id": "device",
+    "order": 3,
+    "name": "Finalize the physical device",
+    "goal": "Device design frozen with parts and suppliers chosen, in time for the UCSF hypoxia testing pencilled for the week of May 24, 2027",
+    "target": null,
+    "status": "active",
+    "next_step": "Kevin is getting Kanou's biocompatibility data (c003); decide on the Xometry top-case quote (c019)",
+    "metric": null,
+    "progress_signals": "Kevin's Slack updates, supplier quotes and samples (Kanou, Xometry), design files, Brad's purchasing decisions",
+    "last_progress": "2026-10-19",
+    "log": [
+      "2026-10-19: Brad proposed the week of May 24, 2027 for UCSF hypoxia testing"
+    ]
+  },
+  {
+    "id": "sbir_supplement",
+    "order": 4,
+    "name": "SBIR supplement submitted",
+    "goal": "Supplement application submitted to NIH/NIDA for grant 4R44DA060643",
+    "target": null,
+    "status": "active",
+    "next_step": "Confirm the submission deadline and what's left to write",
+    "metric": null,
+    "progress_signals": "Drafts in Drive, emails with NIH (Boris Sabirzhanov), Pitt/UPMC collaborators or grant consultants, a submission confirmation",
+    "last_progress": null,
+    "log": []
+  }
+]

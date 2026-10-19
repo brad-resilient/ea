@@ -9,7 +9,7 @@ Steps for each scheduled run. Read `PLAYBOOK.md` first; its rules apply to every
    - `SKIP …` → end the run with one line: "<job> already ran today." Nothing else.
    - `RUN since=<iso>` → keep `since` as the capture watermark.
 3. Read `PLAYBOOK.md` and this file in full. They may have changed since the last run.
-4. Run `python3 bin/ea.py list` to load the current open items.
+4. Run `python3 bin/ea.py list` to load the current open items, and `python3 bin/ea.py projects` for the long-term priorities.
 
 ## 2. Capture (morning, midday, wrap, weekly)
 
@@ -24,16 +24,18 @@ Look only at activity after `since` (minus 15 minutes of overlap). Convert to Un
 4. **Calendar**: events from now through the next 3 business days, for prep and conflicts; new invites needing a response.
 5. **Formwork** (morning and weekly only): open tasks assigned to Brad and reviews waiting on him. Read only.
 
-For each finding: `ea.py find <keyword>` first, then `add`, `update` (append the source), `note`, or `close` per the playbook's capture rules. Run `ea.py validate` at the end of capture.
+For each finding: `ea.py find <keyword>` first, then `add`, `update` (append the source), `note`, or `close` per the playbook's capture rules. Tag anything that serves a long-term project with `project`. If a finding is real progress on a project, log it with `ea.py project <id> --progress "…"`. Run `ea.py validate` at the end of capture.
+
+**Projects (every job, after capture):** for each project in `ea.py projects`, make sure `next_step` still reflects reality (update it if the step was done or something changed). On morning and weekly runs, refresh the QMS metric from Formwork document statuses. The Today page's project strip is drawn from `projects.json` and the ledger automatically.
 
 ## 3. Job-specific work
 
 ### morning (weekdays 4:56, ready for Brad by 5:00)
 1. Capture (above), covering overnight.
-2. Pick today's priorities (playbook rules).
+2. Pick today's priorities (playbook rules), including at least one long-term project step.
 3. Today's schedule: every event today with a one-line prep note where useful. Note conflicts with Childcare or DNS.
 4. Drafts: up to 5 Gmail drafts for replies Brad owes where the content is clear from the thread (acknowledgements, scheduling, sending something that exists). Don't draft anything that needs a decision only Brad can make; list it as a priority instead.
-5. Holds: up to 2 prep or focus holds today or tomorrow, per the playbook.
+5. Holds: up to 2 prep or focus holds today or tomorrow, per the playbook. If today has a free window of 60 minutes or more and no project block exists yet this week, prefer one focus block for the top project's next step.
 6. Build `today/today.json` with `run: "Morning brief"` (fields in `bin/render_today.py`). `due` = open/unclear items overdue or due within 7 days (`ea.py due --days 7`). `waiting_on` = open `waiting_on` items. `later` = notable items 8–14 days out.
 
 ### midday (weekdays 12:52)
@@ -52,7 +54,8 @@ For each finding: `ea.py find <keyword>` first, then `add`, `update` (append the
    - `unclear` items older than 5 days: check sources again; close, keep, or ask Brad in the notes.
    - `waiting_on` items older than 7 days: draft a polite nudge (counts toward the 5-draft limit) or list it.
    - Commitments with no due date older than 10 days: suggest a date or dropping it, in notes.
-3. Today page as a weekly review: `run: "Weekly review"`; headline = the week in one or two sentences; `done_today` = what closed this week; `priorities` = next week's top 3–5; `later` = next week's dated items; notes = decisions Brad should make about stale items.
+3. Project review: for each project, what moved this week (from its `log`), its next step for next week, and whether it's stale or at risk against its target date. Projects without a target date: ask Brad for one in the notes, once a week, not more.
+4. Today page as a weekly review: `run: "Weekly review"`; headline = the week in one or two sentences, including which projects moved and which didn't; `done_today` = what closed this week; `priorities` = next week's top 3–5, with at least two being project steps; `later` = next week's dated items; notes = one line per project (moved / stale, next step) plus decisions Brad should make about stale items.
 
 ## 4. Finish (every job)
 
@@ -66,6 +69,7 @@ For each finding: `ea.py find <keyword>` first, then `add`, `update` (append the
 6. Final message for Brad (this is what his phone notification shows), in this shape:
    - One line: the headline.
    - The priorities, one line each.
+   - Any long-term project that went stale today, one line.
    - Drafts and holds created, one line each.
    - Anything that needs his decision or looked suspicious.
    - The Today page link.
