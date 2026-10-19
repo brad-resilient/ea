@@ -14,6 +14,11 @@
       "last_started": "2026-10-19T04:57:28-04:00",
       "last_completed": "2026-10-19T05:00:19-04:00",
       "last_summary": "Morning brief: 0 added, 0 closed, 3 updated (c003 Kanou adhesive, c005, c036); 2 holds (KIZ Mon 2:30, Nilo prep Tue 1:30)"
+    },
+    "midday": {
+      "last_started": "2026-10-19T12:53:22-04:00",
+      "last_completed": "2026-10-19T12:55:12-04:00",
+      "last_summary": "Midday: 1 added (c042 NIH Phase II milestones), 0 closed, 4 updated (c009, c005, c004, device progress); no drafts or holds"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T05:02:00-04:00",
-  "run": "Morning brief",
+  "generated_at": "2026-10-19T13:00:00-04:00",
+  "run": "Midday update",
   "date_label": "Monday, October 19",
-  "headline": "Quiet weekend. Today's must-do is the Nilo SharePoint upload before tomorrow's 2:30 kickoff; Kanou's proposed adhesive may fail biocompatibility, so the glass work stays parked.",
+  "headline": "Morning plan stands: Nilo SharePoint upload is still the must-do before tomorrow's 2:30 kickoff (no sign it's done yet). New since 5am: Rippling's QuickBooks sync failed again, and you took on the NIH Phase II milestones from this morning's planning with Charlie.",
   "priorities": [
     {
       "title": "Upload the device background docs to the Nilo SharePoint today",
@@ -12,33 +12,17 @@
     },
     {
       "title": "Get Charlie and Kevin to accept the Nilo kickoff invite and sketch the agenda",
-      "why": "Both still show no response as of this morning. Prep hold Tue 1:30–2:15; the call can't run over (3:00 block, Kid Duty 4:15).",
+      "why": "Both still show no response as of this morning. Prep hold Tue 1:30\u20132:15; the call can't run over (3:00 block, Kid Duty 4:15).",
       "ref": "c005"
     },
     {
       "title": "Send Rachelle the KIZ tax-credit documents",
-      "why": "About $7k credit; she followed up 10/5 with no reply. Hold today 2:30–3:30.",
+      "why": "About $7k credit; she followed up 10/5 with no reply. Hold today 2:30\u20133:30.",
       "ref": "c006",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1873990356705731601"
     }
   ],
   "schedule": [
-    {
-      "time": "7:00",
-      "title": "Childcare / Kid duty",
-      "detail": "Until 9:30."
-    },
-    {
-      "time": "9:00",
-      "title": "Tesla inspection (Zoom)",
-      "detail": "Until 10:15; overlaps the end of childcare."
-    },
-    {
-      "time": "10:30",
-      "title": "EA hold: Nilo SharePoint upload",
-      "detail": "60 min, delete freely.",
-      "link": "https://www.google.com/calendar/event?eid=YTlzajFmbzU3Z2UydHQ3ZWE2a3BnZnZhc2sgYnJhZEByZXNpbGllbnQuYmlv"
-    },
     {
       "time": "12:00",
       "title": "DNS",
@@ -47,13 +31,18 @@
     {
       "time": "1:30",
       "title": "EA hold: Kanou requirements",
-      "detail": "No longer needed (Kanou is blocked on biocomp data); delete it."
+      "detail": "Still on the calendar; not needed while Kanou waits on biocomp data. Delete it."
     },
     {
       "time": "2:30",
       "title": "EA hold: KIZ tax-credit documents",
-      "detail": "60 min, delete freely.",
+      "detail": "Now 2:30\u20133:15 (you shortened it), delete freely.",
       "link": "https://www.google.com/calendar/event?eid=dmlzaWg4aHA0Mmk2MW5mMTVwaDYzY2RiaGMgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "time": "3:15",
+      "title": "Call with AlphaSite",
+      "detail": "Added this morning, 15 min."
     }
   ],
   "due": [
@@ -64,14 +53,6 @@
       "status": "open",
       "who": "Nicole Iorfida (Nilo Medical)",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877698915464479309"
-    },
-    {
-      "ref": "c036",
-      "title": "Tesla inspection 9:00–10:15 (Zoom)",
-      "due": "2026-10-19",
-      "status": "open",
-      "who": "Personal",
-      "link": null
     },
     {
       "ref": "c005",
@@ -133,13 +114,13 @@
     {
       "kind": "hold",
       "title": "EA hold: KIZ tax-credit documents for Rachelle",
-      "note": "Mon 10/19 2:30–3:30",
+      "note": "Mon 10/19 2:30\u20133:30",
       "link": "https://www.google.com/calendar/event?eid=dmlzaWg4aHA0Mmk2MW5mMTVwaDYzY2RiaGMgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
       "kind": "hold",
       "title": "EA hold: Prep Nilo kickoff (agenda, goals, owners)",
-      "note": "Tue 10/20 1:30–2:15",
+      "note": "Tue 10/20 1:30\u20132:15",
       "link": "https://www.google.com/calendar/event?eid=dDZjNmlqN2o1M2pqZWVhamNldDU5azA3NWsgYnJhZEByZXNpbGllbnQuYmlv"
     }
   ],
@@ -160,12 +141,23 @@
       "ref": "c038"
     }
   ],
-  "done_today": [],
+  "done_today": [
+    {
+      "ref": "c036",
+      "title": "Tesla inspection (Zoom, 9:00)"
+    },
+    {
+      "ref": "c041",
+      "title": "Proposed the week of May 24, 2027 to UCSF for hypoxia testing"
+    }
+  ],
   "notes": [
-    "Long-term priorities added at 11:50: the strip above tracks your four projects. None has a target date yet; tell the EA the dates and it will warn when a project falls behind.",
-    "Your new Kid Duty blocks (Tue/Thu/Fri 4:15–9pm, Wed 7–11:15am) are on the calendar as invites from your personal account; I didn't respond to them, but I'll treat those times as unavailable for holds.",
-    "Still open from Friday: HHS PMS clarification (c007), mold/lease with Dave (c016), UHC invoice (c011), Rook QS decline (c025). Tell me which are settled and I'll close them, or say the word and I'll draft the Rook decline.",
-    "No drafts this morning: nothing new needed a reply that didn't need your call.",
-    "Formwork: no open tasks or reviews for you. Slack: nothing new to or from you since Friday. Otter: only Friday's Arjun chat (already tracked as c020)."
+    "Rippling to QuickBooks pay run sync failed again at noon (c009). The fix is reconnecting QuickBooks in Rippling; Donnelly-Boland are copied.",
+    "New from Monday planning (Otter): finalize the NIH Phase II milestones and post them in the wiki (c042). Charlie is on power and battery testing; the app is on hold. Bring the IRB and monitoring-claims questions to Nilo tomorrow.",
+    "Charlie and Kevin still haven't responded to the Nilo kickoff invite.",
+    "Kevin submitted his 10/12\u201310/18 timesheet for approval in Clockify.",
+    "Possible phishing: a 'Project Conditional Waiver' email from an unknown French address (P.Foveau@franceneir.fr) about a signature job you're not part of. Don't open its links.",
+    "Still open from Friday: HHS PMS clarification (c007), mold/lease with Dave (c016), UHC invoice (c011), Rook QS decline (c025).",
+    "Midday sources: Gmail, Calendar, Otter checked. Slack: nothing new to or from you."
   ]
 }
