@@ -169,7 +169,8 @@ def render(d):
     notes_html = ("<ul class='plain notes'>" + "".join(f"<li>{E(n)}</li>" for n in notes) + "</ul>") if notes else ""
 
     left = section("Priorities", pr_html, cls="prio-block") + section("Due and overdue", du_html, len(du))
-    right = section("Today's schedule", sc_html) + section("Drafts for your OK", dr_html, len(dr)) \
+    sched_label = "Tomorrow's schedule" if d.get("run") == "End of day" else "Today's schedule"
+    right = section(sched_label, sc_html) + section("Drafts for your OK", dr_html, len(dr)) \
         + section("Waiting on others", wo_html, len(wo)) + section("Coming up", la_html)
     tail = ""
     if dt_html:
