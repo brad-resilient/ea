@@ -1,66 +1,65 @@
 {
-  "generated_at": "2026-10-16T16:05:00-04:00",
-  "run": "Weekly review",
-  "date_label": "Week ending Friday, October 16",
-  "headline": "A heavy operations week: payroll recovered from the federal-hold NSF, David Montez is offboarded, the Nilo SOW was signed and the FDA assigned a Q-sub reviewer. Going into next week, Nilo is the one outside party waiting on you: background documents before Tuesday's kickoff.",
+  "generated_at": "2026-10-19T05:02:00-04:00",
+  "run": "Morning brief",
+  "date_label": "Monday, October 19",
+  "headline": "Quiet weekend. Today's must-do is the Nilo SharePoint upload before tomorrow's 2:30 kickoff; Kanou's proposed adhesive may fail biocompatibility, so the glass work stays parked.",
   "priorities": [
     {
-      "title": "Upload device background docs to the Nilo SharePoint by Mon 10/19",
-      "why": "Nicole asked for them before the Tue 10/20 2:30pm kickoff. Hold on your calendar Mon 10:30.",
+      "title": "Upload the device background docs to the Nilo SharePoint today",
+      "why": "Nicole asked for them before the Tue 10/20 2:30pm kickoff (IFU, pitch deck, Q-sub/FDA correspondence, protocols, reg strategy, grant apps). Hold at 10:30.",
       "ref": "c004",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877698915464479309"
     },
     {
-      "title": "Prep the Nilo kickoff (Tue 10/20 2:30pm, 30 min, Teams) and get Charlie and Kevin to accept",
-      "why": "Both still show no response on the invite; a 3:00 block follows, so the call can't run over.",
+      "title": "Get Charlie and Kevin to accept the Nilo kickoff invite and sketch the agenda",
+      "why": "Both still show no response as of this morning. Prep hold Tue 1:30\u20132:15; the call can't run over (3:00 block, Kid Duty 4:15).",
       "ref": "c005"
     },
     {
       "title": "Send Rachelle the KIZ tax-credit documents",
-      "why": "About $7k credit; she followed up 10/5 with no reply. Also reconnect Rippling to QuickBooks (c009), which Rippling says disconnected on their side.",
+      "why": "About $7k credit; she followed up 10/5 with no reply. Hold today 2:30\u20133:30.",
       "ref": "c006",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1873990356705731601"
     }
   ],
   "schedule": [
     {
-      "time": "Mon 9:00",
-      "title": "Tesla inspection",
-      "detail": "Overlaps childcare until 9:30."
+      "time": "7:00",
+      "title": "Childcare / Kid duty",
+      "detail": "Until 9:30."
     },
     {
-      "time": "Mon 10:30",
+      "time": "9:00",
+      "title": "Tesla inspection (Zoom)",
+      "detail": "Until 10:15; overlaps the end of childcare."
+    },
+    {
+      "time": "10:30",
       "title": "EA hold: Nilo SharePoint upload",
-      "detail": "60 min, delete freely."
+      "detail": "60 min, delete freely.",
+      "link": "https://www.google.com/calendar/event?eid=YTlzajFmbzU3Z2UydHQ3ZWE2a3BnZnZhc2sgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
-      "time": "Mon 1:30",
+      "time": "12:00",
+      "title": "DNS",
+      "detail": "Protected."
+    },
+    {
+      "time": "1:30",
       "title": "EA hold: Kanou requirements",
-      "detail": "45 min, delete freely."
+      "detail": "No longer needed (Kanou is blocked on biocomp data); delete it."
     },
     {
-      "time": "Tue 2:30",
-      "title": "Nilo Medical kickoff (Teams)",
-      "detail": "Michael and Nick Nilo, Marianne Parrish, Jarrett Boyd; Charlie and Kevin invited."
-    },
-    {
-      "time": "Thu 11:00",
-      "title": "Lunch with Ethan Moody",
-      "detail": "Accepted; invite has a Meet link."
+      "time": "2:30",
+      "title": "EA hold: KIZ tax-credit documents",
+      "detail": "60 min, delete freely.",
+      "link": "https://www.google.com/calendar/event?eid=dmlzaWg4aHA0Mmk2MW5mMTVwaDYzY2RiaGMgYnJhZEByZXNpbGllbnQuYmlv"
     }
   ],
   "due": [
     {
-      "ref": "c018",
-      "title": "David Montez to drop the company laptop at the new office (to replace paid VMs as an always-on Claude machine)",
-      "due": "2026-10-17",
-      "status": "open",
-      "who": "David Montez",
-      "link": "https://resilientlifescience.slack.com/archives/D05KRB343EX/p1792096057145749"
-    },
-    {
       "ref": "c004",
-      "title": "Upload device background documents to the Nilo SharePoint before kickoff (IFU, pitch deck, Q-sub/FDA correspondence, protocols, regulatory strategy, grant applications)",
+      "title": "Upload device background documents to the Nilo SharePoint before kickoff",
       "due": "2026-10-19",
       "status": "open",
       "who": "Nicole Iorfida (Nilo Medical)",
@@ -68,7 +67,7 @@
     },
     {
       "ref": "c036",
-      "title": "Tesla inspection Mon 10/19 9:00am (overlaps the childcare block until 9:30)",
+      "title": "Tesla inspection 9:00\u201310:15 (Zoom)",
       "due": "2026-10-19",
       "status": "open",
       "who": "Personal",
@@ -76,23 +75,23 @@
     },
     {
       "ref": "c005",
-      "title": "Nilo Medical kickoff call, Tue 10/20 2:30pm (Teams, 30 min): confirm Charlie and Kevin accepted; prep agenda, goals, owners",
+      "title": "Nilo Medical kickoff, Tue 2:30pm (Teams, 30 min)",
       "due": "2026-10-20",
       "status": "open",
-      "who": "Michael Nilo, Nick Nilo, Marianne Parrish, Jarrett Boyd (Nilo Medical)",
+      "who": "Michael Nilo and team (Nilo Medical)",
       "link": null
     },
     {
       "ref": "c028",
-      "title": "Lunch with Ethan Moody, Thu 10/22 11am (accepted; invite has a Meet link)",
+      "title": "Lunch with Ethan Moody, Thu 11am",
       "due": "2026-10-22",
       "status": "open",
       "who": "Ethan Moody",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879068778981991184"
+      "link": null
     },
     {
       "ref": "c020",
-      "title": "Share the Docket agent tool with Arjun Mathur (Dream) so his team can try it",
+      "title": "Share the Docket agent tool with Arjun Mathur (Dream)",
       "due": "2026-10-23",
       "status": "open",
       "who": "Arjun Mathur (Dream)",
@@ -110,72 +109,50 @@
   "waiting_on": [
     {
       "ref": "c003",
-      "title": "Kevin getting biocompatibility data from Kanou before we proceed (Kanou requirements and samples wait on this)",
-      "who": "Raymond Chew (Kanou Precision); Kevin leading",
+      "title": "Biocompatible adhesive from Kanou: Raymond says the proposed one may not pass and is sourcing other models (Kevin leading)",
+      "who": "Raymond Chew (Kanou); Kevin Chou",
       "since": "2026-10-16",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901"
     },
     {
       "ref": "c013",
-      "title": "FDA feedback on Q-sub Q263249 (lead reviewer Kimberly Kontson, OSEL/DBP)",
+      "title": "FDA feedback on Q-sub Q263249",
       "who": "Kimberly Kontson (FDA CDRH)",
       "since": "2026-10-15",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879088714609455283"
     },
     {
       "ref": "c018",
-      "title": "Company laptop back from David Montez (still on Slack)",
+      "title": "Company laptop back from David Montez",
       "who": "David Montez",
       "since": "2026-10-15",
       "link": "https://resilientlifescience.slack.com/archives/D05KRB343EX/p1792096057145749"
-    },
-    {
-      "ref": "c023",
-      "title": "Kevin to ask Harry (AO) about their agentic coding workflow and a discovery chat for Docket",
-      "who": "Kevin Chou",
-      "since": "2026-10-07",
-      "link": "https://resilientlifescience.slack.com/archives/D058GR1J1A6"
     }
   ],
   "drafts": [
     {
       "kind": "hold",
-      "title": "EA hold: Upload background docs to Nilo SharePoint before kickoff",
-      "note": "Mon 10/19 10:30–11:30",
-      "link": "https://www.google.com/calendar/event?eid=YTlzajFmbzU3Z2UydHQ3ZWE2a3BnZnZhc2sgYnJhZEByZXNpbGllbnQuYmlv"
+      "title": "EA hold: KIZ tax-credit documents for Rachelle",
+      "note": "Mon 10/19 2:30\u20133:30",
+      "link": "https://www.google.com/calendar/event?eid=dmlzaWg4aHA0Mmk2MW5mMTVwaDYzY2RiaGMgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
       "kind": "hold",
-      "title": "EA hold: Send Kanou sample expectations + traceability requirements",
-      "note": "Mon 10/19 1:30–2:15",
-      "link": "https://www.google.com/calendar/event?eid=NjhkOGg0OHFlMmJ1MmR2aWNwcWx0OXUxcW8gYnJhZEByZXNpbGllbnQuYmlv"
+      "title": "EA hold: Prep Nilo kickoff (agenda, goals, owners)",
+      "note": "Tue 10/20 1:30\u20132:15",
+      "link": "https://www.google.com/calendar/event?eid=dDZjNmlqN2o1M2pqZWVhamNldDU5azA3NWsgYnJhZEByZXNpbGllbnQuYmlv"
     }
   ],
   "later": [
     {
-      "date": "2026-10-19",
-      "title": "Tesla inspection 9:00",
-      "ref": "c036"
+      "date": "2026-10-27",
+      "title": "Drop off the Lexus 9:00, pick up 4:00",
+      "ref": "c037"
     },
     {
-      "date": "2026-10-20",
-      "title": "Nilo Medical kickoff 2:30pm",
-      "ref": "c005"
-    },
-    {
-      "date": "2026-10-22",
-      "title": "Lunch with Ethan Moody 11am",
-      "ref": "c028"
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Share Docket with Arjun Mathur (said 'next week')",
-      "ref": "c020"
-    },
-    {
-      "date": "2026-10-23",
-      "title": "Board meeting follow-ups: minutes and action items",
-      "ref": "c024"
+      "date": "2026-10-30",
+      "title": "Decide on RK Mellon SII exhibit space (event Nov 2)",
+      "ref": "c027"
     },
     {
       "date": "2026-10-30",
@@ -183,41 +160,11 @@
       "ref": "c038"
     }
   ],
-  "done_today": [
-    {
-      "title": "David Montez offboarded",
-      "ref": "c017"
-    },
-    {
-      "title": "Hourly payroll (Sep 26–Oct 9) funded and processing after the NSF",
-      "ref": "c010"
-    },
-    {
-      "title": "RSVP'd to the RK Mellon SII celebration (Nov 2); only the exhibit-space call remains",
-      "ref": "c027"
-    },
-    {
-      "title": "Accepted Ethan Moody lunch (Thu 10/22)",
-      "ref": "c028"
-    },
-    {
-      "title": "Pitt subaward agreement (PEA) countersigned and returned 10/7"
-    },
-    {
-      "title": "Nilo Medical SOW/MSA signed 10/14"
-    }
-  ],
+  "done_today": [],
   "notes": [
-    "Updated 4:05 pm with your corrections: David offboarded, Ramp fine, Kanou on hold pending Kevin's biocomp data, DARPA, Scale Expo and Cigar Night dropped. Email-only invites no longer go on your list.",
-    "The Monday 1:30 hold for the Kanou requirements is no longer needed; delete it or tell the EA to.",
-    "Decide: HHS PMS payment justification (c007, since 10/9). Payroll funded 10/14, which suggests the hold cleared. Was the clarification answered in PMS? If yes, I'll close it.",
-    "Decide: office mold / lease with landlord Dave (c016, since 10/12). Settled by the move to the new office, or still open?",
-    "Decide: UnitedHealthcare invoice (c011, since 10/12). Paid? I can't see UHC eServices.",
-    "Decide: Charlie grant-drafting questions (c034, 10 days) and Kevin asking AO's Harry about Docket (c023, 9 days). Confirm or drop.",
-    "Decide: Rook QS (c025). Jacob has followed up twice; a short decline now that Nilo is engaged? Say the word and I'll draft it.",
-    "Dates to set: Pytho.ai Docket share (c021), suggest by 10/23 alongside Arjun; OpenRegulatory follow-up with Sebastian (c026), suggest week of 10/26 or drop.",
-    "Reframed Marylaura Thomas (c033) from waiting-on to a follow-up: she offered to read the COPD grant draft; send it when ready.",
-    "Formwork: no open tasks or reviews assigned to you. Slack showed no new messages since yesterday.",
-    "No drafts this week: every reply owed needs a decision or content only you have."
+    "Your new Kid Duty blocks (Tue/Thu/Fri 4:15\u20139pm, Wed 7\u201311:15am) are on the calendar as invites from your personal account; I didn't respond to them, but I'll treat those times as unavailable for holds.",
+    "Still open from Friday: HHS PMS clarification (c007), mold/lease with Dave (c016), UHC invoice (c011), Rook QS decline (c025). Tell me which are settled and I'll close them, or say the word and I'll draft the Rook decline.",
+    "No drafts this morning: nothing new needed a reply that didn't need your call.",
+    "Formwork: no open tasks or reviews for you. Slack: nothing new to or from you since Friday. Otter: only Friday's Arjun chat (already tracked as c020)."
   ]
 }
