@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-19T17:25:00-04:00",
-  "run": "End of day",
-  "date_label": "Monday, October 19",
-  "headline": "Slipped today: the Nilo SharePoint upload (no sign it happened) and the KIZ documents for Rachelle. First thing tomorrow: upload the background docs at 9:30, before the 2:30 Nilo kickoff.",
+  "generated_at": "2026-10-20T04:58:00-04:00",
+  "run": "Morning brief",
+  "date_label": "Tuesday, October 20",
+  "headline": "Nilo kickoff day: upload the background docs at 9:30 (overdue to Nicole), prep at 1:30, kickoff at 2:30. Quiet night, nothing new in.",
   "priorities": [
     {
       "title": "Upload the device background docs to the Nilo SharePoint, 9:30",
-      "why": "Overdue to Nicole (asked for before kickoff): IFU, pitch deck, Q-sub/FDA correspondence, protocols, reg strategy, grant apps. Hold 9:30\u201310:30.",
+      "why": "Overdue to Nicole (Nilo) since 10/19; she asked for them before today's kickoff. IFU, pitch deck, Q-sub/FDA correspondence, protocols, reg strategy, grant apps. Regulatory project step.",
       "ref": "c004",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877698915464479309"
     },
     {
-      "title": "Prep the Nilo kickoff: agenda, goals, owners, and the IRB / monitoring-claims questions",
-      "why": "Kickoff Tue 2:30 (30 min, hard stop for the 3:00 block). Charlie and Kevin still haven't accepted; ping them in the morning. Prep hold 1:30\u20132:15.",
+      "title": "Prep the 2:30 Nilo kickoff and get Charlie and Kevin to accept",
+      "why": "Kickoff 2:30 (30 min, 3:00 block after). Charlie and Kevin still haven't responded. Bring agenda, goals, owners, IRB and monitoring-claims questions from Monday planning.",
       "ref": "c005"
     },
     {
       "title": "Send Rachelle the KIZ tax-credit documents",
-      "why": "About $7k credit; her 10/5 follow-up is still unanswered. Slipped again today.",
+      "why": "About $7k credit; her 10/5 follow-up is still unanswered and it has slipped two days running.",
       "ref": "c006",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1873990356705731601"
     }
@@ -31,7 +31,7 @@
     {
       "time": "9:30",
       "title": "EA hold: Upload background docs to Nilo SharePoint",
-      "detail": "New tonight, delete freely.",
+      "detail": "Until 10:30. Delete freely.",
       "link": "https://www.google.com/calendar/event?eid=b2d1MWtkdnU0YTdhNjhoYjdkbTcxdW1kZ28gYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
@@ -42,7 +42,7 @@
     {
       "time": "1:30",
       "title": "EA hold: Prep Nilo kickoff",
-      "detail": "Agenda, goals, owners; bring IRB and monitoring-claims questions from Monday planning.",
+      "detail": "Until 2:15. Agenda, goals, owners; IRB and monitoring-claims questions.",
       "link": "https://www.google.com/calendar/event?eid=dDZjNmlqN2o1M2pqZWVhamNldDU5azA3NWsgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
@@ -58,7 +58,7 @@
     {
       "time": "4:15",
       "title": "Kid Duty",
-      "detail": ""
+      "detail": "Until 9:00pm."
     }
   ],
   "due": [
@@ -129,6 +129,12 @@
   "drafts": [
     {
       "kind": "hold",
+      "title": "EA hold: QMS focus block (route one drafted SOP for review)",
+      "note": "New: Wed 10/21 1:00\u20132:30",
+      "link": "https://www.google.com/calendar/event?eid=cGV1b200a3JhNjVxdGEzamllMWEwMnFpYWsgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "kind": "hold",
       "title": "EA hold: Upload background docs to Nilo SharePoint",
       "note": "Tue 10/20 9:30\u201310:30",
       "link": "https://www.google.com/calendar/event?eid=b2d1MWtkdnU0YTdhNjhoYjdkbTcxdW1kZ28gYnJhZEByZXNpbGllbnQuYmlv"
@@ -136,7 +142,7 @@
     {
       "kind": "hold",
       "title": "EA hold: Prep Nilo kickoff (agenda, goals, owners)",
-      "note": "Tue 10/20 1:30\u20132:15 (from this morning)",
+      "note": "Tue 10/20 1:30\u20132:15",
       "link": "https://www.google.com/calendar/event?eid=dDZjNmlqN2o1M2pqZWVhamNldDU5azA3NWsgYnJhZEByZXNpbGllbnQuYmlv"
     }
   ],
@@ -157,22 +163,14 @@
       "ref": "c038"
     }
   ],
-  "done_today": [
-    {
-      "ref": "c036",
-      "title": "Tesla inspection (Zoom, 9:00)"
-    },
-    {
-      "ref": "c041",
-      "title": "Proposed the week of May 24, 2027 to UCSF for hypoxia testing"
-    }
-  ],
+  "done_today": [],
   "notes": [
-    "Slipped: Nilo SharePoint upload (c004) and KIZ documents (c006). No sent mail after midday.",
-    "New from Slack: Kevin wants lb weights (or calibrated weights) for the durometer jig, 2 days to a week (c043).",
-    "Stale projects (no logged progress): QMS docs and the SBIR supplement. Smallest next steps: route one drafted SOP for review in Formwork; confirm the supplement deadline.",
-    "Google Workspace flagged p.foveau@franceneir.fr as user-reported phishing, the same sender as the 'Project Conditional Waiver' email. Don't open its links.",
-    "Still open: HHS PMS clarification (c007), mold/lease with Dave (c016), UHC invoice (c011), Rook QS decline (c025), Rippling-QuickBooks sync (c009).",
-    "Wrap sources: Gmail, Slack, Otter, Calendar checked. No new Otter meetings since midday."
+    "Quiet overnight: no new email from people, no sent mail, no new Slack beyond Kevin's weights reply (c043), no new Otter meetings.",
+    "Stale projects (no logged progress): QMS docs, Nilo/regulatory and the SBIR supplement. Today's upload and kickoff move Nilo; QMS hold is set for Wed 1:00; SBIR next step is to confirm the supplement deadline.",
+    "Formwork: 1 of 53 documents approved, none under review; no tasks or reviews assigned to Brad.",
+    "Kevin's 10/12\u201310/18 Clockify timesheet is waiting for your approval.",
+    "Phishing: p.foveau@franceneir.fr was flagged by Google Workspace (same sender as the 'Project Conditional Waiver' email). Don't open its links.",
+    "No drafts this morning: open replies (Rook QS, KIZ, HHS PMS, landlord) need your decision or documents first.",
+    "Still open: HHS PMS clarification (c007), mold/lease with Dave (c016), UHC invoice (c011), Rippling-QuickBooks sync (c009)."
   ]
 }

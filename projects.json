@@ -6,8 +6,8 @@
     "goal": "QMS documentation written, reviewed and approved in Formwork, ready for ISO 13485 and FDA",
     "target": null,
     "status": "active",
-    "next_step": "Keep drafting SOPs in the QMS docs session; then route them for review and approval in Formwork",
-    "metric": "Formwork documents approved: 1 of 53 (2026-10-19)",
+    "next_step": "Finish one drafted SOP and send it for review in Formwork (focus hold Wed 10/21 1:00-2:30)",
+    "metric": "Formwork documents approved: 1 of 53 (2026-10-20)",
     "progress_signals": "Formwork documents moving from draft to in-review or approved; new or edited SOPs; Brad mentioning QMS work in Slack or meetings",
     "last_progress": null,
     "log": []
