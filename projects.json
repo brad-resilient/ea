@@ -19,12 +19,13 @@
     "goal": "A strong kickoff with Nilo Medical, then the regulatory strategy and 510(k) path moving with clear owners and dates",
     "target": null,
     "status": "active",
-    "next_step": "Hold the Nilo kickoff Tue 10/20 2:30 and capture owners and next steps (c005)",
+    "next_step": "Consolidate and send Nilo the product document by Thu 10/22 (c045; hold Wed 2:30-4:00), then accept Marianne's strategy-meeting invite (c047)",
     "metric": null,
     "progress_signals": "Emails and meetings with Nilo Medical, FDA correspondence on Q263249, documents shared with Nilo",
     "last_progress": "2026-10-20",
     "log": [
-      "2026-10-20: Device background documents uploaded to Nilo's SharePoint before the kickoff (c004)"
+      "2026-10-20: Device background documents uploaded to Nilo's SharePoint before the kickoff (c004)",
+      "2026-10-20: Nilo kickoff held 10/20: scope agreed (Brad sends product doc by Thu; Nilo drafts regulatory strategy; next meeting Oct 28/29)"
     ]
   },
   {
