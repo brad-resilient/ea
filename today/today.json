@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-20T04:58:00-04:00",
-  "run": "Morning brief",
+  "generated_at": "2026-10-20T12:58:00-04:00",
+  "run": "Midday update",
   "date_label": "Tuesday, October 20",
-  "headline": "Nilo kickoff day: upload the background docs at 9:30 (overdue to Nicole), prep at 1:30, kickoff at 2:30. Quiet night, nothing new in.",
+  "headline": "Nilo kickoff at 2:30 (prep hold 1:30). Since the morning: you fixed the Rippling-QuickBooks sync and told Rachelle you're starting the KIZ docs; Kanou sent adhesive SDS for Kevin.",
   "priorities": [
     {
       "title": "Upload the device background docs to the Nilo SharePoint, 9:30",
-      "why": "Overdue to Nicole (Nilo) since 10/19; she asked for them before today's kickoff. IFU, pitch deck, Q-sub/FDA correspondence, protocols, reg strategy, grant apps. Regulatory project step.",
+      "why": "Overdue to Nicole (Nilo) since 10/19; no sign yet that it's done. Do it before the 2:30 kickoff if it isn't already. Regulatory project step.",
       "ref": "c004",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877698915464479309"
     },
@@ -16,24 +16,13 @@
       "ref": "c005"
     },
     {
-      "title": "Send Rachelle the KIZ tax-credit documents",
-      "why": "About $7k credit; her 10/5 follow-up is still unanswered and it has slipped two days running.",
+      "title": "Finish and send Rachelle the KIZ tax-credit documents",
+      "why": "You told her this morning you're starting today. About $7k credit. Affidavits need a notary (Alloy 26, or UPS/FedEx per Kevin).",
       "ref": "c006",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1873990356705731601"
     }
   ],
   "schedule": [
-    {
-      "time": "7:00",
-      "title": "Childcare",
-      "detail": "Until 9:30."
-    },
-    {
-      "time": "9:30",
-      "title": "EA hold: Upload background docs to Nilo SharePoint",
-      "detail": "Until 10:30. Delete freely.",
-      "link": "https://www.google.com/calendar/event?eid=b2d1MWtkdnU0YTdhNjhoYjdkbTcxdW1kZ28gYnJhZEByZXNpbGllbnQuYmlv"
-    },
     {
       "time": "12:00",
       "title": "DNS",
@@ -79,6 +68,14 @@
       "link": null
     },
     {
+      "ref": "c043",
+      "title": "Bring the lb weights to the office for Kevin's durometer jig",
+      "due": "2026-10-21",
+      "status": "open",
+      "who": "Kevin Chou",
+      "link": null
+    },
+    {
       "ref": "c028",
       "title": "Lunch with Ethan Moody, Thu 11am",
       "due": "2026-10-22",
@@ -106,10 +103,17 @@
   "waiting_on": [
     {
       "ref": "c003",
-      "title": "Biocompatible adhesive from Kanou: Raymond says the proposed one may not pass and is sourcing other models (Kevin leading)",
+      "title": "Kanou adhesive biocompatibility: Raymond sent SDS for LT 2268 and LT 3757 today; Kevin to review for ISO 10993",
       "who": "Raymond Chew (Kanou); Kevin Chou",
       "since": "2026-10-16",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901"
+    },
+    {
+      "ref": "c044",
+      "title": "WhaleTeq quote for an HRS200 PPG heart-rate simulator (rental?)",
+      "who": "WhaleTeq",
+      "since": "2026-10-20",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879565894121126328"
     },
     {
       "ref": "c013",
@@ -163,14 +167,21 @@
       "ref": "c038"
     }
   ],
-  "done_today": [],
+  "done_today": [
+    {
+      "ref": "c009",
+      "title": "Rippling pay run (Sep 26-Oct 9) synced to QuickBooks Online",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879581037511902503"
+    }
+  ],
   "notes": [
-    "Quiet overnight: no new email from people, no sent mail, no new Slack beyond Kevin's weights reply (c043), no new Otter meetings.",
-    "Stale projects (no logged progress): QMS docs, Nilo/regulatory and the SBIR supplement. Today's upload and kickoff move Nilo; QMS hold is set for Wed 1:00; SBIR next step is to confirm the supplement deadline.",
-    "Formwork: 1 of 53 documents approved, none under review; no tasks or reviews assigned to Brad.",
-    "Kevin's 10/12\u201310/18 Clockify timesheet is waiting for your approval.",
-    "Phishing: p.foveau@franceneir.fr was flagged by Google Workspace (same sender as the 'Project Conditional Waiver' email). Don't open its links.",
-    "No drafts this morning: open replies (Rook QS, KIZ, HHS PMS, landlord) need your decision or documents first.",
-    "Still open: HHS PMS clarification (c007), mold/lease with Dave (c016), UHC invoice (c011), Rippling-QuickBooks sync (c009)."
+    "Since the morning: KIZ reply sent to Rachelle (c006); QuickBooks sync fixed (c009 closed); WhaleTeq quote requested (c044); Kanou adhesive SDS arrived (c003); weights promised to Kevin for Wed (c043).",
+    "No Otter meetings yet today; nothing new from Nilo by email.",
+    "Stale projects: QMS docs (focus hold Wed 1:00) and the SBIR supplement (next: confirm the deadline). Nilo moves with today's kickoff; device moved (Kanou SDS).",
+    "Google flagged a new sign-in to your account on a Mac at 11:21am. Ignore if that was you.",
+    "No new drafts or holds at midday: nothing new needed a reply Brad hasn't already sent.",
+    "Kevin's 10/12\u201310/18 Clockify timesheet is still waiting for your approval (from morning).",
+    "Still open: HHS PMS clarification (c007), mold/lease with Dave (c016), UHC invoice (c011).",
+    "Phishing (from morning): p.foveau@franceneir.fr was flagged by Google Workspace. Don't open its links."
   ]
 }

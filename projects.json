@@ -32,13 +32,14 @@
     "goal": "Device design frozen with parts and suppliers chosen, in time for the UCSF hypoxia testing pencilled for the week of May 24, 2027",
     "target": null,
     "status": "active",
-    "next_step": "Kevin is getting Kanou's biocompatibility data (c003); decide on the Xometry top-case quote (c019)",
+    "next_step": "Kevin reviews the Kanou adhesive SDS (LT 2268 / LT 3757) for ISO 10993 (c003); decide on the Xometry top-case quote (c019)",
     "metric": null,
     "progress_signals": "Kevin's Slack updates, supplier quotes and samples (Kanou, Xometry), design files, Brad's purchasing decisions",
-    "last_progress": "2026-10-19",
+    "last_progress": "2026-10-20",
     "log": [
       "2026-10-19: Brad proposed the week of May 24, 2027 for UCSF hypoxia testing",
-      "2026-10-19: Mon planning: Charlie prioritizing power-consumption and battery-life testing (components arriving today); app and algorithm work deprioritized; UCSF testing date proposed for week of May 24, 2027"
+      "2026-10-19: Mon planning: Charlie prioritizing power-consumption and battery-life testing (components arriving today); app and algorithm work deprioritized; UCSF testing date proposed for week of May 24, 2027",
+      "2026-10-20: Kanou sent SDS for two candidate adhesives (LT 2268, LT 3757) for the biocompatibility review (c003)"
     ]
   },
   {
