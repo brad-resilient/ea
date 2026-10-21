@@ -1,45 +1,62 @@
 {
-  "generated_at": "2026-10-21T12:58:00-04:00",
-  "run": "Midday update",
+  "generated_at": "2026-10-21T17:26:00-04:00",
+  "run": "End of day",
   "date_label": "Wednesday, October 21",
-  "headline": "Morning plan holds: QMS block now, Nilo product doc 2:30-4:00 (due Thu). New: two Rippling payroll runs need approval by Mon 10/26 5:30pm.",
+  "headline": "The Nilo product doc didn't go out today (due tomorrow) and nothing else closed. First thing Thu: fold in Charlie and Kevin's user-needs feedback and upload the doc in the 9:30 hold.",
   "priorities": [
     {
-      "title": "Consolidate and send Nilo the product document",
-      "why": "Marianne confirmed last night they expect it by Thu 10/22. Start from the FDA Ready Challenge Q-sub; add changes since the pre-sub, signals/alarms (must-have vs nice-to-have), data transfer and cybersecurity, summary up front. Hold 2:30-4:00, backup Thu 9:30-10:30.",
+      "title": "Finish and upload the product doc to Nilo SharePoint",
+      "why": "Due Thu 10/22 to Marianne and Michael. Add the team's user-needs points from #core-team (who/how to notify, rest-only vitals, long wear, caregiver wear history, data offload for studies). Hold 9:30-10:30.",
       "ref": "c045",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879606141662270150"
     },
     {
       "title": "Finish and send Rachelle the KIZ tax-credit documents",
-      "why": "About $7k credit; still open from yesterday. Affidavits need a notary (Alloy 26, or UPS/FedEx).",
+      "why": "About $7k credit, carried over two days. Affidavits need a notary. Hold 2:30-3:30.",
       "ref": "c006",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1873990356705731601"
     },
     {
       "title": "QMS: finish one drafted SOP and route it for review in Formwork",
-      "why": "Top project, no progress logged yet (still 1 of 53 approved). Focus hold 1:00-2:30.",
+      "why": "Top project, still no logged progress (1 of 53 approved). Focus hold 1:00-2:30.",
       "ref": "qms",
-      "link": "https://www.google.com/calendar/event?eid=cGV1b200a3JhNjVxdGEzamllMWEwMnFpYWsgYnJhZEByZXNpbGllbnQuYmlv"
+      "link": "https://www.google.com/calendar/event?eid=NWFoZ3BodHU5YjY4MTYyYWQ0Nm1jOGd0NmsgYnJhZEByZXNpbGllbnQuYmlv"
     }
   ],
   "schedule": [
     {
-      "time": "—",
-      "title": "Bring the lb weights for Kevin",
-      "detail": "Due today: 2.5 lb plates and 3 lb dumbbells for the durometer jig, or buy calibrated weights (c043)."
+      "time": "9:30",
+      "title": "EA hold: Finish and send Nilo product doc",
+      "detail": "Until 10:30. Upload to Nilo SharePoint.",
+      "link": "https://www.google.com/calendar/event?eid=ZnNvMjMzZ2sxanJzcWxhYWdobHI4YzJzaWMgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "time": "11:00",
+      "title": "Lunch with Ethan Moody",
+      "detail": "Until 12:00; invite has a Meet link (c028).",
+      "link": "https://www.google.com/calendar/event?eid=NGhwZWR2NWgzZGVlMWY5cDRuMjQ3dmljZTMgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "time": "12:00",
+      "title": "DNS",
+      "detail": "Protected."
     },
     {
       "time": "1:00",
       "title": "EA hold: QMS focus block",
-      "detail": "Until 2:30. Route one drafted SOP for review.",
-      "link": "https://www.google.com/calendar/event?eid=cGV1b200a3JhNjVxdGEzamllMWEwMnFpYWsgYnJhZEByZXNpbGllbnQuYmlv"
+      "detail": "Until 2:30. Route one SOP for review.",
+      "link": "https://www.google.com/calendar/event?eid=NWFoZ3BodHU5YjY4MTYyYWQ0Nm1jOGd0NmsgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
       "time": "2:30",
-      "title": "EA hold: Product doc for Nilo",
-      "detail": "Until 4:00. Upload to Nilo SharePoint when done.",
-      "link": "https://www.google.com/calendar/event?eid=ZDZhcmZzZ3BlZDBpaWhydGM0YjdkZzczdTAgYnJhZEByZXNpbGllbnQuYmlv"
+      "title": "EA hold: KIZ tax-credit documents",
+      "detail": "Until 3:30.",
+      "link": "https://www.google.com/calendar/event?eid=ZGJzdTBxNzVnM2w1azhobTk3YmV2c3MyNWsgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "time": "4:15",
+      "title": "Kid Duty",
+      "detail": "Until 9:00pm."
     }
   ],
   "due": [
@@ -171,21 +188,21 @@
   "drafts": [
     {
       "kind": "hold",
+      "title": "EA hold: QMS focus block (route one SOP for review)",
+      "note": "New: Thu 10/22 1:00-2:30",
+      "link": "https://www.google.com/calendar/event?eid=NWFoZ3BodHU5YjY4MTYyYWQ0Nm1jOGd0NmsgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "kind": "hold",
+      "title": "EA hold: Finish KIZ tax-credit documents (c006)",
+      "note": "New: Thu 10/22 2:30-3:30",
+      "link": "https://www.google.com/calendar/event?eid=ZGJzdTBxNzVnM2w1azhobTk3YmV2c3MyNWsgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "kind": "hold",
       "title": "EA hold: Finish and send Nilo product doc (c045)",
-      "note": "New: Thu 10/22 9:30-10:30 (backup before the deadline)",
+      "note": "Thu 10/22 9:30-10:30 (from this morning)",
       "link": "https://www.google.com/calendar/event?eid=ZnNvMjMzZ2sxanJzcWxhYWdobHI4YzJzaWMgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "kind": "hold",
-      "title": "EA hold: Consolidate product doc for Nilo (c045)",
-      "note": "Wed 10/21 2:30-4:00 (from yesterday)",
-      "link": "https://www.google.com/calendar/event?eid=ZDZhcmZzZ3BlZDBpaWhydGM0YjdkZzczdTAgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "kind": "hold",
-      "title": "EA hold: QMS focus block",
-      "note": "Wed 10/21 1:00-2:30 (from Monday)",
-      "link": "https://www.google.com/calendar/event?eid=cGV1b200a3JhNjVxdGEzamllMWEwMnFpYWsgYnJhZEByZXNpbGllbnQuYmlv"
     }
   ],
   "later": [
@@ -202,12 +219,11 @@
   ],
   "done_today": [],
   "notes": [
-    "New since morning: Rippling wants both payroll runs (hourly Oct 10-23, semi-monthly Oct 16-31) approved by Mon 10/26 5:30pm (c050). Amounts not in the email.",
-    "You registered for Scale Expo Tue 10/27 9-3 (c030, reopened). It's not on your calendar and overlaps the Lexus drop-off at 9:00 (c037) and childcare.",
-    "WhaleTeq (c044): Jasmine says HRS200 works with your LED sequence; Charlie sent pulse timing and asked whether 560nm green is detected. Still no price or rental answer.",
+    "Slipped today: Nilo product doc (c045, due Thu), KIZ documents (c006), the QMS SOP, and the lb weights for Kevin (c043, was due today). No evidence any of them finished.",
+    "Team feedback on user needs is in #core-team (Kevin: who and how to notify; Charlie: rest-only vitals, long wear, caregiver wear history, data offload).",
+    "Rippling payroll runs need approval by Mon 10/26 5:30pm (c050).",
     "Your call: Nilo's strategy meeting Wed 10/28 1:30pm (c047) is still unanswered.",
-    "Stale projects: QMS docs (focus block running now) and the SBIR supplement (next: confirm the deadline).",
-    "Slack and Otter: nothing new since morning. Skipped a cold prior-authorization sales email.",
-    "Still open: KIZ documents (c006), HHS PMS clarification (c007), mold/lease with Dave (c016), UHC invoice (c011), Kevin's 10/12-10/18 Clockify timesheet approval."
+    "Stale projects: QMS docs and the SBIR supplement (next: confirm the deadline).",
+    "Otter: no meetings since midday. Skipped automated mail (GitHub budget at 75% of $20, Amazon order, a bid invite, Scale Expo rename)."
   ]
 }
