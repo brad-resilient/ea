@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-20T17:26:00-04:00",
-  "run": "End of day",
-  "date_label": "Tuesday, October 20",
-  "headline": "Nilo kickoff done; you owe them the product doc by Thu. Slipped: KIZ docs still unfinished, weights for Kevin. First thing Wed: product doc for Nilo (hold 2:30).",
+  "generated_at": "2026-10-21T05:02:00-04:00",
+  "run": "Morning brief",
+  "date_label": "Wednesday, October 21",
+  "headline": "Nilo expects the product doc by Thu; today's 2:30 hold is the main shot (backup Thu 9:30). Quiet night: Nilo set the strategy meeting for Wed 10/28 1:30pm.",
   "priorities": [
     {
       "title": "Consolidate and send Nilo the product document",
-      "why": "You promised it on the kickoff for Wed or Thu (10/22). Start from the FDA Ready Challenge Q-sub; add what changed since the pre-sub, signals/alarms as must-have vs nice-to-have, data transfer and cybersecurity, a summary up front. Hold Wed 2:30-4:00.",
+      "why": "Marianne confirmed last night they expect it by Thu 10/22. Start from the FDA Ready Challenge Q-sub; add changes since the pre-sub, signals/alarms (must-have vs nice-to-have), data transfer and cybersecurity, summary up front. Hold 2:30-4:00, backup Thu 9:30-10:30.",
       "ref": "c045",
-      "link": "https://otter.ai/u/f9HsUGp-71r-bm3dj9SknW7_rHY"
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879606141662270150"
     },
     {
       "title": "Finish and send Rachelle the KIZ tax-credit documents",
-      "why": "About $7k credit; you told her Tuesday you'd started. Affidavits need a notary (Alloy 26, or UPS/FedEx).",
+      "why": "About $7k credit; still open from yesterday. Affidavits need a notary (Alloy 26, or UPS/FedEx).",
       "ref": "c006",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1873990356705731601"
     },
     {
       "title": "QMS: finish one drafted SOP and route it for review in Formwork",
-      "why": "Top project, no logged progress yet (1 of 53 approved). Focus hold Wed 1:00-2:30.",
+      "why": "Top project, no progress logged yet (still 1 of 53 approved). Focus hold 1:00-2:30.",
       "ref": "qms",
       "link": "https://www.google.com/calendar/event?eid=cGV1b200a3JhNjVxdGEzamllMWEwMnFpYWsgYnJhZEByZXNpbGllbnQuYmlv"
     }
@@ -32,7 +32,7 @@
     {
       "time": "—",
       "title": "Bring the lb weights for Kevin",
-      "detail": "You told him Wednesday (c043)."
+      "detail": "Due today: 2.5 lb plates and 3 lb dumbbells for the durometer jig, or buy calibrated weights (c043)."
     },
     {
       "time": "12:00",
@@ -53,142 +53,40 @@
     }
   ],
   "due": [
-    {
-      "ref": "c043",
-      "title": "Bring the lb weights to the office for Kevin's durometer jig",
-      "due": "2026-10-21",
-      "status": "open",
-      "who": "Kevin Chou",
-      "link": null
-    },
-    {
-      "ref": "c045",
-      "title": "Product document to Nilo (promised Wed/Thu)",
-      "due": "2026-10-22",
-      "status": "open",
-      "who": "Nilo Medical",
-      "link": "https://otter.ai/u/f9HsUGp-71r-bm3dj9SknW7_rHY"
-    },
-    {
-      "ref": "c028",
-      "title": "Lunch with Ethan Moody, Thu 11am",
-      "due": "2026-10-22",
-      "status": "open",
-      "who": "Ethan Moody",
-      "link": null
-    },
-    {
-      "ref": "c020",
-      "title": "Share the Docket agent tool with Arjun Mathur (Dream)",
-      "due": "2026-10-23",
-      "status": "open",
-      "who": "Arjun Mathur (Dream)",
-      "link": "https://otter.ai/u/nheHd8Wqz48c0DDBmfNYZ5qtgoU"
-    },
-    {
-      "ref": "c024",
-      "title": "Board meeting (10/16) follow-ups: minutes and action items",
-      "due": "2026-10-23",
-      "status": "open",
-      "who": "Board; Charlie Proctor",
-      "link": null
-    },
-    {
-      "ref": "c037",
-      "title": "Drop off the Lexus Tue 10/27 9:00, pick up 4:00",
-      "due": "2026-10-27",
-      "status": "open",
-      "who": "Personal",
-      "link": null
-    }
+    {"ref": "c043", "title": "Bring the lb weights to the office for Kevin's durometer jig", "due": "2026-10-21", "status": "open", "who": "Kevin Chou", "link": null},
+    {"ref": "c045", "title": "Product document to Nilo", "due": "2026-10-22", "status": "open", "who": "Nilo Medical", "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879606141662270150"},
+    {"ref": "c028", "title": "Lunch with Ethan Moody, Thu 11am", "due": "2026-10-22", "status": "open", "who": "Ethan Moody", "link": null},
+    {"ref": "c020", "title": "Share the Docket agent tool with Arjun Mathur (Dream)", "due": "2026-10-23", "status": "open", "who": "Arjun Mathur (Dream)", "link": "https://otter.ai/u/nheHd8Wqz48c0DDBmfNYZ5qtgoU"},
+    {"ref": "c024", "title": "Board meeting (10/16) follow-ups: minutes and action items", "due": "2026-10-23", "status": "open", "who": "Board; Charlie Proctor", "link": null},
+    {"ref": "c049", "title": "Download signed K Chou stock award agreement from DocuSign (deleted 10/27 8pm ET)", "due": "2026-10-27", "status": "open", "who": "BIR via DocuSign", "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879628502364042526"},
+    {"ref": "c037", "title": "Drop off the Lexus Tue 10/27 9:00, pick up 4:00", "due": "2026-10-27", "status": "open", "who": "Personal", "link": null},
+    {"ref": "c047", "title": "Accept Nilo strategy meeting, Wed 10/28 1:30pm", "due": "2026-10-28", "status": "open", "who": "Marianne Parrish (Nilo)", "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879605258359591872"}
   ],
   "waiting_on": [
-    {
-      "ref": "c046",
-      "title": "Nilo regulatory strategy (ideal claims, faster Rx path, phase-two items)",
-      "who": "Michael Nilo (Nilo Medical)",
-      "since": "2026-10-20",
-      "link": "https://otter.ai/u/f9HsUGp-71r-bm3dj9SknW7_rHY"
-    },
-    {
-      "ref": "c003",
-      "title": "Kanou adhesive SDS (LT 2268 / LT 3757): Kevin to review for ISO 10993",
-      "who": "Raymond Chew (Kanou); Kevin Chou",
-      "since": "2026-10-16",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901"
-    },
-    {
-      "ref": "c044",
-      "title": "WhaleTeq quote for an HRS200 PPG simulator (rental?)",
-      "who": "WhaleTeq",
-      "since": "2026-10-20",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879565894121126328"
-    },
-    {
-      "ref": "c013",
-      "title": "FDA feedback on Q-sub Q263249",
-      "who": "Kimberly Kontson (FDA CDRH)",
-      "since": "2026-10-15",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879088714609455283"
-    },
-    {
-      "ref": "c018",
-      "title": "Company laptop back from David Montez",
-      "who": "David Montez",
-      "since": "2026-10-15",
-      "link": "https://resilientlifescience.slack.com/archives/D05KRB343EX/p1792096057145749"
-    }
+    {"ref": "c048", "title": "Traceability recommendation for the ISO 13485 glass supplier", "who": "Michael Nilo (Nilo Medical)", "since": "2026-10-20", "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-a:r-2246557866742502205"},
+    {"ref": "c046", "title": "Nilo regulatory strategy (ideal claims, faster Rx path, phase-two items)", "who": "Michael Nilo (Nilo Medical)", "since": "2026-10-20", "link": "https://otter.ai/u/f9HsUGp-71r-bm3dj9SknW7_rHY"},
+    {"ref": "c003", "title": "Kanou adhesive: Kevin reviewing whether to switch to liquid adhesive (LT 2268 / LT 3757)", "who": "Kevin Chou; Raymond Chew (Kanou)", "since": "2026-10-16", "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901"},
+    {"ref": "c044", "title": "WhaleTeq quote for an HRS200 PPG simulator (rental?)", "who": "WhaleTeq", "since": "2026-10-20", "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879565894121126328"},
+    {"ref": "c013", "title": "FDA feedback on Q-sub Q263249", "who": "Kimberly Kontson (FDA CDRH)", "since": "2026-10-15", "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879088714609455283"},
+    {"ref": "c018", "title": "Company laptop back from David Montez", "who": "David Montez", "since": "2026-10-15", "link": "https://resilientlifescience.slack.com/archives/D05KRB343EX/p1792096057145749"}
   ],
   "drafts": [
-    {
-      "kind": "hold",
-      "title": "EA hold: Consolidate product doc for Nilo (c045)",
-      "note": "New: Wed 10/21 2:30-4:00",
-      "link": "https://www.google.com/calendar/event?eid=ZDZhcmZzZ3BlZDBpaWhydGM0YjdkZzczdTAgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "kind": "hold",
-      "title": "EA hold: QMS focus block (route one drafted SOP for review)",
-      "note": "Wed 10/21 1:00-2:30 (from morning)",
-      "link": "https://www.google.com/calendar/event?eid=cGV1b200a3JhNjVxdGEzamllMWEwMnFpYWsgYnJhZEByZXNpbGllbnQuYmlv"
-    }
+    {"kind": "hold", "title": "EA hold: Finish and send Nilo product doc (c045)", "note": "New: Thu 10/22 9:30-10:30 (backup before the deadline)", "link": "https://www.google.com/calendar/event?eid=ZnNvMjMzZ2sxanJzcWxhYWdobHI4YzJzaWMgYnJhZEByZXNpbGllbnQuYmlv"},
+    {"kind": "hold", "title": "EA hold: Consolidate product doc for Nilo (c045)", "note": "Wed 10/21 2:30-4:00 (from yesterday)", "link": "https://www.google.com/calendar/event?eid=ZDZhcmZzZ3BlZDBpaWhydGM0YjdkZzczdTAgYnJhZEByZXNpbGllbnQuYmlv"},
+    {"kind": "hold", "title": "EA hold: QMS focus block", "note": "Wed 10/21 1:00-2:30 (from Monday)", "link": "https://www.google.com/calendar/event?eid=cGV1b200a3JhNjVxdGEzamllMWEwMnFpYWsgYnJhZEByZXNpbGllbnQuYmlv"}
   ],
   "later": [
-    {
-      "date": "2026-10-30",
-      "title": "Decide on RK Mellon SII exhibit space (event Nov 2)",
-      "ref": "c027"
-    },
-    {
-      "date": "2026-10-30",
-      "title": "Verizon gift card application",
-      "ref": "c038"
-    }
+    {"date": "2026-10-30", "title": "Decide on RK Mellon SII exhibit space (event Nov 2)", "ref": "c027"},
+    {"date": "2026-10-30", "title": "Verizon gift card application", "ref": "c038"}
   ],
-  "done_today": [
-    {
-      "ref": "c004",
-      "title": "Background docs uploaded to Nilo's SharePoint",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877698915464479309"
-    },
-    {
-      "ref": "c009",
-      "title": "Rippling pay run (Sep 26-Oct 9) synced to QuickBooks Online",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879581037511902503"
-    },
-    {
-      "ref": "c005",
-      "title": "Nilo kickoff held; Charlie and Kevin joined; scope and next steps agreed",
-      "link": "https://otter.ai/u/f9HsUGp-71r-bm3dj9SknW7_rHY"
-    }
-  ],
+  "done_today": [],
   "notes": [
-    "Kickoff outcomes (Otter): you send the product doc by Thu (c045); Michael drafts the regulatory strategy (c046); Marianne proposes the next meeting, Oct 28 or 29.",
-    "Marianne sent a Teams invite \"Resilient/NiloMed Product Reg Strategy\" at 5:20pm; it isn't on your calendar yet and the email doesn't show the date. Accept it when you can (c047).",
-    "Stale projects: QMS docs (focus hold Wed 1:00) and the SBIR supplement (next: confirm the deadline). Nilo moved (kickoff held).",
-    "Kevin is handling the 3M adhesive thread (Jordan checking Loctite options); no action for you.",
+    "Your call: Nilo's strategy meeting is Wed 10/28 1:30pm EDT (you're free). Accept the Teams invite or tell Marianne another time (c047). I didn't draft a reply since that's an RSVP.",
+    "New: you asked Michael Nilo for supplier traceability guidance (c048); it feeds the Kanou requirements (c001).",
+    "DocuSign says BIR's copy of Kevin's signed 2026 stock award agreement is deleted 10/27 8pm ET. Download it from your DocuSign account if you don't already have it saved (c049).",
+    "Stale projects: QMS docs (focus hold today 1:00) and the SBIR supplement (next: confirm the deadline).",
+    "Formwork: no reviews waiting and no tasks assigned to you. Slack: nothing new overnight.",
     "Still open: HHS PMS clarification (c007), mold/lease with Dave (c016), UHC invoice (c011), Kevin's 10/12-10/18 Clockify timesheet approval.",
-    "Phishing (from morning): p.foveau@franceneir.fr was flagged by Google Workspace. Don't open its links.",
     "No drafts this run: nothing new needed a reply you could send without deciding something."
   ]
 }
