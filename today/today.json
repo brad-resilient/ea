@@ -1,62 +1,60 @@
 {
-  "generated_at": "2026-10-22T05:00:00-04:00",
-  "run": "Morning brief",
+  "generated_at": "2026-10-22T12:58:00-04:00",
+  "run": "Midday update",
   "date_label": "Thursday, October 22",
-  "headline": "The Nilo product doc is due today; finish and upload it in the 9:30 hold. Quiet night otherwise: Kanou can start the glass at no price change, Michael Nilo sent an intro, and Kevin flagged a possibly fake Ramp card text.",
+  "headline": "Nilo product doc is still the one thing due today; Kevin is turning around device images for it. Your dentist trip took the 1:00 QMS block, so it moves to Friday 1:00-2:30. WhaleTeq quoted $4,300 for the simulator (no rental).",
   "priorities": [
     {
       "title": "Finish and upload the product doc to Nilo SharePoint",
-      "why": "Due today to Marianne and Michael (Nilo project). Fold in the team's user-needs points from #core-team. Hold 9:30-10:30.",
+      "why": "Due today to Marianne and Michael (Nilo project). Kevin sent exploded-view renders at 12:41 and is splitting case and patch images; drop them in and upload to Nilo SharePoint.",
       "ref": "c045",
       "link": "https://resilientlifescience.slack.com/archives/C0C4JSCBEQZ/p1792611031972609"
     },
     {
       "title": "QMS: finish one drafted SOP and route it for review in Formwork",
-      "why": "Top project, no logged progress yet (1 of 53 approved, no reviews waiting). Focus hold 1:00-2:30.",
+      "why": "Top project, no logged progress (1 of 53 approved). Today's 1:00 hold collides with the dentist; new focus hold Fri 1:00-2:30.",
       "ref": "qms",
-      "link": "https://www.google.com/calendar/event?eid=NWFoZ3BodHU5YjY4MTYyYWQ0Nm1jOGd0NmsgYnJhZEByZXNpbGllbnQuYmlv"
+      "link": "https://www.google.com/calendar/event?eid=ZDFwOG8wYjM0bWdtM3Y1MGhmNG9obnVuOTQgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
       "title": "Finish and send Rachelle the KIZ tax-credit documents",
-      "why": "About $7k credit, slipped three days. Affidavits need a notary. Hold 2:30-3:30.",
+      "why": "About $7k credit, slipped three days. Affidavits need a notary. You moved the hold to 3:15-4:15.",
       "ref": "c006",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1873990356705731601"
     },
     {
-      "title": "Check Kevin's Ramp card warning directly in Ramp",
-      "why": "Kevin got a text last night (last 4 digits match); could be phishing. Check in Ramp itself, not through the text.",
+      "title": "Decide whether to deactivate or replace Kevin's Ramp card",
+      "why": "The warning was real: someone used his card number (Hulu). Ramp confirmed your $12.83 dispute at 9:58am; Kevin suggests deactivating the card. Do it in Ramp directly.",
       "ref": "c052",
-      "link": null
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879758639017864493"
     }
   ],
   "schedule": [
     {
-      "time": "9:30",
-      "title": "EA hold: Finish and send Nilo product doc",
-      "detail": "Until 10:30. Upload to Nilo SharePoint.",
-      "link": "https://www.google.com/calendar/event?eid=ZnNvMjMzZ2sxanJzcWxhYWdobHI4YzJzaWMgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "time": "11:00",
-      "title": "Lunch with Ethan Moody",
-      "detail": "Until 12:00; invite has a Meet link (c028).",
-      "link": "https://www.google.com/calendar/event?eid=NGhwZWR2NWgzZGVlMWY5cDRuMjQ3dmljZTMgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
       "time": "12:00",
-      "title": "DNS",
-      "detail": "Protected."
+      "title": "design + quality doc",
+      "detail": "Until 1:00 (your block, in DNS time)."
     },
     {
       "time": "1:00",
       "title": "EA hold: QMS focus block",
-      "detail": "Until 2:30. Route one SOP for review.",
+      "detail": "Overlaps the dentist trip; moved to Fri 1:00-2:30. Delete this one freely.",
       "link": "https://www.google.com/calendar/event?eid=NWFoZ3BodHU5YjY4MTYyYWQ0Nm1jOGd0NmsgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
-      "time": "2:30",
+      "time": "1:15",
+      "title": "Leave for dentist",
+      "detail": "Dentist 2:00-2:45."
+    },
+    {
+      "time": "2:45",
+      "title": "WFH",
+      "detail": "Until 4:45."
+    },
+    {
+      "time": "3:15",
       "title": "EA hold: KIZ tax-credit documents",
-      "detail": "Until 3:30.",
+      "detail": "Until 4:15.",
       "link": "https://www.google.com/calendar/event?eid=ZGJzdTBxNzVnM2w1azhobTk3YmV2c3MyNWsgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
@@ -81,14 +79,6 @@
       "status": "open",
       "who": "Michael Nilo, Nick Nilo, Marianne Parrish (Nilo Medical)",
       "link": "https://resilientlifescience.slack.com/archives/C0C4JSCBEQZ/p1792611031972609"
-    },
-    {
-      "ref": "c028",
-      "title": "Lunch with Ethan Moody, Thu 10/22 11am (accepted; invite has a Meet link)",
-      "due": "2026-10-22",
-      "status": "open",
-      "who": "Ethan Moody",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879068778981991184"
     },
     {
       "ref": "c020",
@@ -170,13 +160,6 @@
       "link": "https://resilientlifescience.slack.com/archives/D05KRB343EX/p1792096057145749"
     },
     {
-      "ref": "c044",
-      "title": "WhaleTeq quote for one HRS200 PPG heart-rate simulator (asked if rental is available), for bench pulse-rate accuracy testing",
-      "who": "Jasmine Chen (WhaleTeq)",
-      "since": "2026-10-20",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879565894121126328"
-    },
-    {
       "ref": "c046",
       "title": "Nilo regulatory strategy: ideal go-to-market and claims, a faster limited-claims Rx path, and what to defer to phase two",
       "who": "Michael Nilo (Nilo Medical)",
@@ -204,6 +187,12 @@
       "title": "EA hold: Board follow-ups + share Docket with Arjun, Fri 10/23 9:30-10:30",
       "link": "https://www.google.com/calendar/event?eid=MDNjZmNtOWdtOGlvcXI2c3FzNnBvMWtjbzggYnJhZEByZXNpbGllbnQuYmlv",
       "note": "c024, c020 both due Fri"
+    },
+    {
+      "kind": "hold",
+      "title": "EA hold: QMS focus block, Fri 10/23 1:00-2:30",
+      "link": "https://www.google.com/calendar/event?eid=ZDFwOG8wYjM0bWdtM3Y1MGhmNG9obnVuOTQgYnJhZEByZXNpbGllbnQuYmlv",
+      "note": "replaces today's block lost to the dentist"
     }
   ],
   "later": [
@@ -227,13 +216,23 @@
       "title": "Pay Alloy (calendar reminder)"
     }
   ],
-  "done_today": [],
+  "done_today": [
+    {
+      "ref": "c044",
+      "title": "WhaleTeq quote in: HRS200 $4,300, no rental; Charlie told them we're reviewing (decision is c053)"
+    },
+    {
+      "ref": "c028",
+      "title": "Lunch with Ethan Moody (Otter wasn't admitted, so no notes)"
+    }
+  ],
   "notes": [
+    "WhaleTeq (c053): HRS200 is $4,300, no rental; 560nm green should be detectable. Decide with Charlie whether to buy.",
     "Kanou (c002/c003): Raymond says no price impact and they can kick off the glass first, so the $650 sample order could go ahead before the adhesive is settled. Your call.",
-    "Ramp (c052): Kevin's text warning may be phishing. The EA never touches Ramp; check in the Ramp app directly.",
+    "Ramp (c052): not phishing; Kevin's card number was used. Dispute is filed. The EA never touches Ramp.",
     "Nilo 10/28 1:30pm strategy meeting (c047) still needs your accept.",
     "Weights for Kevin's durometer jig (c043) are a day overdue.",
     "Stale projects: QMS docs (no progress logged; 1 of 53 approved) and SBIR supplement (no progress logged; next step: confirm the deadline and what's left to write).",
-    "Sources: no sent mail, no Otter meetings and no Formwork reviews overnight; no Formwork tasks assigned to you."
+    "Sources since 5am: no sent mail, no Otter meetings; Slack activity was your DM with Kevin."
   ]
 }
