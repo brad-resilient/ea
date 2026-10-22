@@ -1,26 +1,32 @@
 {
-  "generated_at": "2026-10-21T17:26:00-04:00",
-  "run": "End of day",
-  "date_label": "Wednesday, October 21",
-  "headline": "The Nilo product doc didn't go out today (due tomorrow) and nothing else closed. First thing Thu: fold in Charlie and Kevin's user-needs feedback and upload the doc in the 9:30 hold.",
+  "generated_at": "2026-10-22T05:00:00-04:00",
+  "run": "Morning brief",
+  "date_label": "Thursday, October 22",
+  "headline": "The Nilo product doc is due today; finish and upload it in the 9:30 hold. Quiet night otherwise: Kanou can start the glass at no price change, Michael Nilo sent an intro, and Kevin flagged a possibly fake Ramp card text.",
   "priorities": [
     {
       "title": "Finish and upload the product doc to Nilo SharePoint",
-      "why": "Due Thu 10/22 to Marianne and Michael. Add the team's user-needs points from #core-team (who/how to notify, rest-only vitals, long wear, caregiver wear history, data offload for studies). Hold 9:30-10:30.",
+      "why": "Due today to Marianne and Michael (Nilo project). Fold in the team's user-needs points from #core-team. Hold 9:30-10:30.",
       "ref": "c045",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879606141662270150"
+      "link": "https://resilientlifescience.slack.com/archives/C0C4JSCBEQZ/p1792611031972609"
+    },
+    {
+      "title": "QMS: finish one drafted SOP and route it for review in Formwork",
+      "why": "Top project, no logged progress yet (1 of 53 approved, no reviews waiting). Focus hold 1:00-2:30.",
+      "ref": "qms",
+      "link": "https://www.google.com/calendar/event?eid=NWFoZ3BodHU5YjY4MTYyYWQ0Nm1jOGd0NmsgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
       "title": "Finish and send Rachelle the KIZ tax-credit documents",
-      "why": "About $7k credit, carried over two days. Affidavits need a notary. Hold 2:30-3:30.",
+      "why": "About $7k credit, slipped three days. Affidavits need a notary. Hold 2:30-3:30.",
       "ref": "c006",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1873990356705731601"
     },
     {
-      "title": "QMS: finish one drafted SOP and route it for review in Formwork",
-      "why": "Top project, still no logged progress (1 of 53 approved). Focus hold 1:00-2:30.",
-      "ref": "qms",
-      "link": "https://www.google.com/calendar/event?eid=NWFoZ3BodHU5YjY4MTYyYWQ0Nm1jOGd0NmsgYnJhZEByZXNpbGllbnQuYmlv"
+      "title": "Check Kevin's Ramp card warning directly in Ramp",
+      "why": "Kevin got a text last night (last 4 digits match); could be phishing. Check in Ramp itself, not through the text.",
+      "ref": "c052",
+      "link": null
     }
   ],
   "schedule": [
@@ -62,7 +68,7 @@
   "due": [
     {
       "ref": "c043",
-      "title": "Bring the lb weights to the office for Kevin's durometer jig",
+      "title": "Bring lb weights (2.5 lb plates, 3 lb dumbbells) to the office for Kevin's durometer measurement jig, or buy calibrated weights instead",
       "due": "2026-10-21",
       "status": "open",
       "who": "Kevin Chou",
@@ -70,23 +76,23 @@
     },
     {
       "ref": "c045",
-      "title": "Product document to Nilo",
+      "title": "Send Nilo the consolidated product document: FDA Ready Challenge Q-sub plus added detail, changes since the pre-sub, signals/alarms (must-have vs nice-to-have), data acquisition, data transfer and cybersecurity, with a summary up front",
       "due": "2026-10-22",
       "status": "open",
-      "who": "Nilo Medical",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879606141662270150"
+      "who": "Michael Nilo, Nick Nilo, Marianne Parrish (Nilo Medical)",
+      "link": "https://resilientlifescience.slack.com/archives/C0C4JSCBEQZ/p1792611031972609"
     },
     {
       "ref": "c028",
-      "title": "Lunch with Ethan Moody, Thu 11am",
+      "title": "Lunch with Ethan Moody, Thu 10/22 11am (accepted; invite has a Meet link)",
       "due": "2026-10-22",
       "status": "open",
       "who": "Ethan Moody",
-      "link": null
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879068778981991184"
     },
     {
       "ref": "c020",
-      "title": "Share the Docket agent tool with Arjun Mathur (Dream)",
+      "title": "Share the Docket agent tool with Arjun Mathur (Dream) so his team can try it",
       "due": "2026-10-23",
       "status": "open",
       "who": "Arjun Mathur (Dream)",
@@ -102,7 +108,7 @@
     },
     {
       "ref": "c050",
-      "title": "Approve two Rippling payroll runs (hourly + semi-monthly) by 5:30pm",
+      "title": "Approve two Rippling payroll runs (hourly Oct 10-23; semi-monthly Oct 16-31) by Mon 10/26 5:30pm ET",
       "due": "2026-10-26",
       "status": "open",
       "who": "Rippling",
@@ -110,120 +116,124 @@
     },
     {
       "ref": "c049",
-      "title": "Download signed K Chou stock award agreement from DocuSign (deleted 10/27 8pm ET)",
+      "title": "Download the signed K Chou 2026 Stock Award Agreement from DocuSign before it is deleted (10/28 00:00 UTC = Tue 10/27 8pm ET)",
       "due": "2026-10-27",
       "status": "open",
-      "who": "BIR via DocuSign",
+      "who": "Buchanan Ingersoll & Rooney (Adam Wicks) via DocuSign",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879628502364042526"
     },
     {
+      "ref": "c030",
+      "title": "Innovation Works Scale Expo Tue 10/27 9am-3pm, Rockwell Park (Brad registered; conflicts with Lexus drop-off and childcare)",
+      "due": "2026-10-27",
+      "status": "open",
+      "who": "Tony Garcia (Innovation Works)",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879678280560380718"
+    },
+    {
       "ref": "c037",
-      "title": "Drop off the Lexus Tue 10/27 9:00, pick up 4:00",
+      "title": "Drop off the Lexus Tue 10/27 9:00am, pick up 4:00pm (overlaps childcare; may be without a car)",
       "due": "2026-10-27",
       "status": "open",
       "who": "Personal",
       "link": null
     },
     {
-      "ref": "c030",
-      "title": "Scale Expo 9am-3pm, Rockwell Park (you registered)",
-      "due": "2026-10-27",
-      "status": "open",
-      "who": "Innovation Works",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879678280560380718"
-    },
-    {
       "ref": "c047",
-      "title": "Accept Nilo strategy meeting, Wed 10/28 1:30pm",
+      "title": "Nilo product/regulatory strategy meeting Wed 10/28 1:30pm EDT (Teams invite from Marianne): accept or ask for a new time",
       "due": "2026-10-28",
       "status": "open",
-      "who": "Marianne Parrish (Nilo)",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879605258359591872"
+      "who": "Marianne Parrish (Nilo Medical)",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879606141662270150"
     }
   ],
   "waiting_on": [
     {
-      "ref": "c048",
-      "title": "Traceability recommendation for the ISO 13485 glass supplier",
-      "who": "Michael Nilo (Nilo Medical)",
-      "since": "2026-10-20",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-a:r-2246557866742502205"
-    },
-    {
-      "ref": "c046",
-      "title": "Nilo regulatory strategy (ideal claims, faster Rx path, phase-two items)",
-      "who": "Michael Nilo (Nilo Medical)",
-      "since": "2026-10-20",
-      "link": "https://otter.ai/u/f9HsUGp-71r-bm3dj9SknW7_rHY"
-    },
-    {
       "ref": "c003",
-      "title": "Kanou adhesive: Kevin reviewing whether to switch to liquid adhesive (LT 2268 / LT 3757)",
-      "who": "Kevin Chou; Raymond Chew (Kanou)",
+      "title": "Kevin is getting biocompatibility data from Kanou (adhesive SDS, ISO 10993) before we proceed",
+      "who": "Kevin Chou; Raymond Chew (Kanou Precision)",
       "since": "2026-10-16",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901"
     },
     {
+      "ref": "c013",
+      "title": "FDA feedback on Q-sub Q263249 (lead reviewer Kimberly Kontson, OSEL/DBP)",
+      "who": "Kimberly Kontson (FDA CDRH)",
+      "since": "2026-10-16",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879088714609455283"
+    },
+    {
+      "ref": "c018",
+      "title": "Get the company laptop back from David Montez (he is still on Slack)",
+      "who": "David Montez",
+      "since": "2026-10-16",
+      "link": "https://resilientlifescience.slack.com/archives/D05KRB343EX/p1792096057145749"
+    },
+    {
       "ref": "c044",
-      "title": "WhaleTeq HRS200 quote: Jasmine replied, Charlie answered her questions; price still pending",
+      "title": "WhaleTeq quote for one HRS200 PPG heart-rate simulator (asked if rental is available), for bench pulse-rate accuracy testing",
       "who": "Jasmine Chen (WhaleTeq)",
       "since": "2026-10-20",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879565894121126328"
     },
     {
-      "ref": "c013",
-      "title": "FDA feedback on Q-sub Q263249",
-      "who": "Kimberly Kontson (FDA CDRH)",
-      "since": "2026-10-15",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879088714609455283"
+      "ref": "c046",
+      "title": "Nilo regulatory strategy: ideal go-to-market and claims, a faster limited-claims Rx path, and what to defer to phase two",
+      "who": "Michael Nilo (Nilo Medical)",
+      "since": "2026-10-20",
+      "link": "https://otter.ai/u/f9HsUGp-71r-bm3dj9SknW7_rHY"
     },
     {
-      "ref": "c018",
-      "title": "Company laptop back from David Montez",
-      "who": "David Montez",
-      "since": "2026-10-15",
-      "link": "https://resilientlifescience.slack.com/archives/D05KRB343EX/p1792096057145749"
+      "ref": "c048",
+      "title": "Michael Nilo: recommendation on what traceability/monitoring to ask of an ISO 13485 supplier for the skin-contact glass lens (or who on his team to ask)",
+      "who": "Michael Nilo (Nilo Medical)",
+      "since": "2026-10-21",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-a:r-2246557866742502205"
     }
   ],
   "drafts": [
     {
-      "kind": "hold",
-      "title": "EA hold: QMS focus block (route one SOP for review)",
-      "note": "New: Thu 10/22 1:00-2:30",
-      "link": "https://www.google.com/calendar/event?eid=NWFoZ3BodHU5YjY4MTYyYWQ0Nm1jOGd0NmsgYnJhZEByZXNpbGllbnQuYmlv"
+      "kind": "email",
+      "title": "Re: Intro: reply to Michael Nilo and Bugra Ozutemiz offering a 30-min call next week",
+      "to": "Bugra Ozutemiz (cc Michael Nilo)",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1879711039359488255%2Bmsg-a:r2660459922464195232",
+      "note": "c051"
     },
     {
       "kind": "hold",
-      "title": "EA hold: Finish KIZ tax-credit documents (c006)",
-      "note": "New: Thu 10/22 2:30-3:30",
-      "link": "https://www.google.com/calendar/event?eid=ZGJzdTBxNzVnM2w1azhobTk3YmV2c3MyNWsgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "kind": "hold",
-      "title": "EA hold: Finish and send Nilo product doc (c045)",
-      "note": "Thu 10/22 9:30-10:30 (from this morning)",
-      "link": "https://www.google.com/calendar/event?eid=ZnNvMjMzZ2sxanJzcWxhYWdobHI4YzJzaWMgYnJhZEByZXNpbGllbnQuYmlv"
+      "title": "EA hold: Board follow-ups + share Docket with Arjun, Fri 10/23 9:30-10:30",
+      "link": "https://www.google.com/calendar/event?eid=MDNjZmNtOWdtOGlvcXI2c3FzNnBvMWtjbzggYnJhZEByZXNpbGllbnQuYmlv",
+      "note": "c024, c020 both due Fri"
     }
   ],
   "later": [
     {
       "date": "2026-10-30",
-      "title": "Decide on RK Mellon SII exhibit space (event Nov 2)",
+      "title": "Decide on exhibit space at the RK Mellon SII celebration (Nov 2)",
       "ref": "c027"
     },
     {
       "date": "2026-10-30",
-      "title": "Verizon gift card application",
+      "title": "Apply for the Verizon gift card",
       "ref": "c038"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "RK Mellon SII Pitch Competition celebration, 5:30pm, Strip District",
+      "ref": "c027"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Pay Alloy (calendar reminder)"
     }
   ],
   "done_today": [],
   "notes": [
-    "Slipped today: Nilo product doc (c045, due Thu), KIZ documents (c006), the QMS SOP, and the lb weights for Kevin (c043, was due today). No evidence any of them finished.",
-    "Team feedback on user needs is in #core-team (Kevin: who and how to notify; Charlie: rest-only vitals, long wear, caregiver wear history, data offload).",
-    "Rippling payroll runs need approval by Mon 10/26 5:30pm (c050).",
-    "Your call: Nilo's strategy meeting Wed 10/28 1:30pm (c047) is still unanswered.",
-    "Stale projects: QMS docs and the SBIR supplement (next: confirm the deadline).",
-    "Otter: no meetings since midday. Skipped automated mail (GitHub budget at 75% of $20, Amazon order, a bid invite, Scale Expo rename)."
+    "Kanou (c002/c003): Raymond says no price impact and they can kick off the glass first, so the $650 sample order could go ahead before the adhesive is settled. Your call.",
+    "Ramp (c052): Kevin's text warning may be phishing. The EA never touches Ramp; check in the Ramp app directly.",
+    "Nilo 10/28 1:30pm strategy meeting (c047) still needs your accept.",
+    "Weights for Kevin's durometer jig (c043) are a day overdue.",
+    "Stale projects: QMS docs (no progress logged; 1 of 53 approved) and SBIR supplement (no progress logged; next step: confirm the deadline and what's left to write).",
+    "Sources: no sent mail, no Otter meetings and no Formwork reviews overnight; no Formwork tasks assigned to you."
   ]
 }
