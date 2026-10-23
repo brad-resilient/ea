@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-23T05:00:00-04:00",
-  "run": "Morning brief",
+  "generated_at": "2026-10-23T12:55:00-04:00",
+  "run": "Midday update",
   "date_label": "Friday, October 23",
-  "headline": "The Nilo product doc went out last night (device description + design control draft to Nick, Marianne and Michael), so today is clear for the QMS block, payroll approval and the two items due today: board follow-ups and Docket for Arjun.",
+  "headline": "Busy morning: you accepted the Nilo 10/28 meeting, told Boris we'll apply for the supplement in early November, replied to Bugra, and booked the KIZ site visit for Mon 11am. Still due today: board follow-ups and Docket for Arjun.",
   "priorities": [
     {
       "title": "Board follow-ups (minutes, action items) and share Docket with Arjun",
-      "why": "Both due today, Fri 10/23 (Charlie; Arjun Mathur at Dream). Hold 9:30-10:30.",
+      "why": "Both due today, Fri 10/23 (Charlie; Arjun Mathur at Dream). No sign of either yet.",
       "ref": "c024",
       "link": "https://www.google.com/calendar/event?eid=MDNjZmNtOWdtOGlvcXI2c3FzNnBvMWtjbzggYnJhZEByZXNpbGllbnQuYmlv"
     },
@@ -24,30 +24,12 @@
     },
     {
       "title": "Finish the KIZ tax credit documents for Rachelle",
-      "why": "About $7k credit; affidavits need a notary. The 10:30 hold now has room since the Nilo doc is sent.",
+      "why": "About $7k credit; KIZ deadline is Dec 1. Maria Villotti's site visit Mon 10/26 11am produces the coordinator letter; affidavits need a notary.",
       "ref": "c006",
       "link": "https://www.google.com/calendar/event?eid=b3FrbjhkZXRhNnM2ZHUwa2NhMGF2cWJnNjQgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "title": "Accept Marianne's Teams invite for Wed 10/28 1:30pm",
-      "why": "Nilo strategy meeting; your calendar is free then but it isn't on it yet.",
-      "ref": "c047",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879605258359591872"
     }
   ],
   "schedule": [
-    {
-      "time": "9:30",
-      "title": "EA hold: Board follow-ups + Docket for Arjun",
-      "detail": "Until 10:30. c024, c020.",
-      "link": "https://www.google.com/calendar/event?eid=MDNjZmNtOWdtOGlvcXI2c3FzNnBvMWtjbzggYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "title": "EA hold: Nilo product doc upload + KIZ docs",
-      "time": "10:30",
-      "detail": "Until 11:30. Nilo doc is done (sent last night); use it for KIZ.",
-      "link": "https://www.google.com/calendar/event?eid=b3FrbjhkZXRhNnM2ZHUwa2NhMGF2cWJnNjQgYnJhZEByZXNpbGllbnQuYmlv"
-    },
     {
       "time": "12:00",
       "title": "DNS",
@@ -105,6 +87,14 @@
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879658188265560061"
     },
     {
+      "ref": "c055",
+      "title": "KIZ coordinator site visit Mon 10/26 11:00am at 4719 Hatfield St (for the coordinator letter)",
+      "due": "2026-10-26",
+      "status": "open",
+      "who": "Maria Villotti (Riverside Center for Innovation, KIZ coordinator)",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879851606440527769"
+    },
+    {
       "ref": "c049",
       "title": "Download the signed K Chou 2026 Stock Award Agreement from DocuSign before it is deleted (10/28 00:00 UTC = Tue 10/27 8pm ET)",
       "due": "2026-10-27",
@@ -127,14 +117,6 @@
       "status": "open",
       "who": "Personal",
       "link": null
-    },
-    {
-      "ref": "c047",
-      "title": "Nilo product/regulatory strategy meeting Wed 10/28 1:30pm EDT (Teams invite from Marianne): accept or ask for a new time",
-      "due": "2026-10-28",
-      "status": "open",
-      "who": "Marianne Parrish (Nilo Medical)",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879606141662270150"
     },
     {
       "ref": "c027",
@@ -193,16 +175,15 @@
   "drafts": [
     {
       "kind": "hold",
+      "title": "EA hold: KIZ coordinator site visit (Maria Villotti), Mon 10/26 11:00-12:00",
+      "link": "https://www.google.com/calendar/event?eid=ZXRsYnAwNm12YWVzN3U4czdxNTlhZW5rdTQgYnJhZEByZXNpbGllbnQuYmlv",
+      "note": "c055; new this run, blocks the time since she sent no invite"
+    },
+    {
+      "kind": "hold",
       "title": "EA hold: Rippling payroll + K Chou DocuSign, Fri 10/23 2:30-3:00",
       "link": "https://www.google.com/calendar/event?eid=cDVlbTdrN2IwMGg3dWsyZ2ppdnFsaGpudXMgYnJhZEByZXNpbGllbnQuYmlv",
       "note": "c050, c049"
-    },
-    {
-      "kind": "email",
-      "title": "Re: Intro: reply to Michael Nilo and Bugra Ozutemiz offering a 30-min call next week (from Thursday)",
-      "to": "Bugra Ozutemiz (cc Michael Nilo)",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1879711039359488255%2Bmsg-a:r2660459922464195232",
-      "note": "c051"
     }
   ],
   "later": [
@@ -224,13 +205,28 @@
     {
       "title": "Device description + design control draft sent to Nilo (Thu 10:47pm)",
       "ref": "c045"
+    },
+    {
+      "title": "Accepted the Nilo product/reg strategy meeting, Wed 10/28 1:30pm (Kevin confirmed too)",
+      "ref": "c047"
+    },
+    {
+      "title": "Told Boris we intend to apply for the PA-26-001 supplement in early November (under $100k direct)",
+      "ref": "c012"
+    },
+    {
+      "title": "Replied to Bugra and Michael offering a call next week (EA draft sent)",
+      "ref": "c051"
+    },
+    {
+      "title": "KIZ coordinator site visit booked for Mon 10/26 11am",
+      "ref": "c055"
     }
   ],
   "notes": [
-    "Thursday's EA draft thanking Nick Nilo is now redundant: you replied to him yourself at 10:47pm. Discard it.",
-    "New: c054, supplier agreement for Kanou from your template (you told Nick you'd start it). Nick also offered a template, pending Mike on scope.",
-    "Stale projects: QMS docs (no progress logged yet) and SBIR supplement (no progress logged; next step is to confirm the deadline and what's left to write).",
-    "No new drafts this run: nothing owed had clear enough content. The Nilo invite is an RSVP, so it's left for you.",
-    "Formwork: no tasks or reviews waiting on you. Otter: no new meetings overnight. Rippling QuickBooks sync notice ignored (automated, no action)."
+    "SBIR supplement moved today (intent sent to Boris); next step is drafting the application. Boris is out until Mon 10/26.",
+    "Stale project: QMS docs (no progress logged yet); today's 1:00-2:30 block is the chance to route PCH - SOP Purchasing and Supplier Control.",
+    "Bugra: waiting on him to pick a time (c051).",
+    "No new drafts: nothing owed this morning needs a reply. Slack: only Kevin confirming Wednesday's Nilo meeting. Otter: no new meetings."
   ]
 }

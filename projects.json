@@ -19,7 +19,7 @@
     "goal": "A strong kickoff with Nilo Medical, then the regulatory strategy and 510(k) path moving with clear owners and dates",
     "target": null,
     "status": "active",
-    "next_step": "Accept the Wed 10/28 1:30pm Nilo strategy meeting (c047) and prep for it; decide with Charlie on the WhaleTeq simulator (c053)",
+    "next_step": "Prep for the Wed 10/28 1:30pm Nilo product/reg strategy meeting (accepted; Kevin attending); decide with Charlie on the WhaleTeq simulator (c053)",
     "metric": null,
     "progress_signals": "Emails and meetings with Nilo Medical, FDA correspondence on Q263249, documents shared with Nilo",
     "last_progress": "2026-10-23",
@@ -53,10 +53,12 @@
     "goal": "Supplemental funds request submitted to NIH/NIDA for SBIR grant 4R44DA060643",
     "target": null,
     "status": "active",
-    "next_step": "Confirm the submission deadline and what is left to write",
+    "next_step": "Draft the PA-26-001 supplement application (direct costs under $100k, mostly team salary) to have it together in early November; Boris back 10/26 (c012)",
     "metric": null,
     "progress_signals": "Drafts in Drive, emails with NIH (Boris Sabirzhanov), Pitt/UPMC collaborators or grant consultants, a submission confirmation",
-    "last_progress": null,
-    "log": []
+    "last_progress": "2026-10-23",
+    "log": [
+      "2026-10-23: Told PO Boris Sabirzhanov we intend to apply for the PA-26-001 admin supplement in early November, direct costs under $100k (10/23 email)"
+    ]
   }
 ]
