@@ -1,39 +1,51 @@
 {
-  "generated_at": "2026-10-22T17:30:00-04:00",
-  "run": "End of day",
-  "date_label": "Thursday, October 22",
-  "headline": "Slipped: no sign the Nilo product doc reached Nilo yet (you were editing the Device Description and Design Control Form until ~5pm), and the KIZ documents didn't go out. First thing Friday: upload the product doc and tell Marianne.",
+  "generated_at": "2026-10-23T05:00:00-04:00",
+  "run": "Morning brief",
+  "date_label": "Friday, October 23",
+  "headline": "The Nilo product doc went out last night (device description + design control draft to Nick, Marianne and Michael), so today is clear for the QMS block, payroll approval and the two items due today: board follow-ups and Docket for Arjun.",
   "priorities": [
     {
-      "title": "Upload the product doc to Nilo SharePoint and tell Marianne",
-      "why": "Was due Thu 10/22 to Marianne and Michael (Nilo project). Device Description and Design Control Form were edited through ~5pm; Charlie's comments are resolved. Hold Fri 10:30.",
-      "ref": "c045",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879606141662270150"
+      "title": "Board follow-ups (minutes, action items) and share Docket with Arjun",
+      "why": "Both due today, Fri 10/23 (Charlie; Arjun Mathur at Dream). Hold 9:30-10:30.",
+      "ref": "c024",
+      "link": "https://www.google.com/calendar/event?eid=MDNjZmNtOWdtOGlvcXI2c3FzNnBvMWtjbzggYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
-      "title": "QMS: finish one drafted SOP and route it for review in Formwork",
-      "why": "Top project, no progress logged (1 of 53 approved). Focus hold Fri 1:00-2:30.",
+      "title": "Approve both Rippling payroll runs",
+      "why": "Payroll; due Mon 10/26 5:30pm ET. Hold 2:30-3:00, with the K Chou DocuSign download (deleted Tue 10/27 8pm).",
+      "ref": "c050",
+      "link": "https://www.google.com/calendar/event?eid=cDVlbTdrN2IwMGg3dWsyZ2ppdnFsaGpudXMgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "title": "QMS: route PCH - SOP Purchasing and Supplier Control for review in Formwork",
+      "why": "Top project, no progress logged (1 of 53 approved). Matches Nick Nilo's supplier-control list and the Kanou agreement. Focus hold 1:00-2:30.",
       "ref": "qms",
       "link": "https://www.google.com/calendar/event?eid=ZDFwOG8wYjM0bWdtM3Y1MGhmNG9obnVuOTQgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
-      "title": "Board follow-ups and share Docket with Arjun",
-      "why": "Both due Fri 10/23 (Charlie; Arjun Mathur at Dream). Hold 9:30-10:30.",
-      "ref": "c024",
-      "link": "https://www.google.com/calendar/event?eid=MDNjZmNtOWdtOGlvcXI2c3FzNnBvMWtjbzggYnJhZEByZXNpbGllbnQuYmlv"
+      "title": "Finish the KIZ tax credit documents for Rachelle",
+      "why": "About $7k credit; affidavits need a notary. The 10:30 hold now has room since the Nilo doc is sent.",
+      "ref": "c006",
+      "link": "https://www.google.com/calendar/event?eid=b3FrbjhkZXRhNnM2ZHUwa2NhMGF2cWJnNjQgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "title": "Accept Marianne's Teams invite for Wed 10/28 1:30pm",
+      "why": "Nilo strategy meeting; your calendar is free then but it isn't on it yet.",
+      "ref": "c047",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879605258359591872"
     }
   ],
   "schedule": [
     {
       "time": "9:30",
-      "title": "EA hold: Board follow-ups + share Docket with Arjun",
+      "title": "EA hold: Board follow-ups + Docket for Arjun",
       "detail": "Until 10:30. c024, c020.",
       "link": "https://www.google.com/calendar/event?eid=MDNjZmNtOWdtOGlvcXI2c3FzNnBvMWtjbzggYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
-      "time": "10:30",
       "title": "EA hold: Nilo product doc upload + KIZ docs",
-      "detail": "Until 11:30. New tonight.",
+      "time": "10:30",
+      "detail": "Until 11:30. Nilo doc is done (sent last night); use it for KIZ.",
       "link": "https://www.google.com/calendar/event?eid=b3FrbjhkZXRhNnM2ZHUwa2NhMGF2cWJnNjQgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
@@ -46,6 +58,12 @@
       "title": "EA hold: QMS focus block",
       "detail": "Until 2:30. Route one SOP for review.",
       "link": "https://www.google.com/calendar/event?eid=ZDFwOG8wYjM0bWdtM3Y1MGhmNG9obnVuOTQgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "time": "2:30",
+      "title": "EA hold: Rippling payroll + K Chou DocuSign",
+      "detail": "Until 3:00. New this morning.",
+      "link": "https://www.google.com/calendar/event?eid=cDVlbTdrN2IwMGg3dWsyZ2ppdnFsaGpudXMgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
       "time": "4:15",
@@ -61,14 +79,6 @@
       "status": "open",
       "who": "Kevin Chou",
       "link": null
-    },
-    {
-      "ref": "c045",
-      "title": "Send Nilo the consolidated product document: FDA Ready Challenge Q-sub plus added detail, changes since the pre-sub, signals/alarms (must-have vs nice-to-have), data acquisition, data transfer and cybersecurity, with a summary up front",
-      "due": "2026-10-22",
-      "status": "unclear",
-      "who": "Michael Nilo, Nick Nilo, Marianne Parrish (Nilo Medical)",
-      "link": "https://resilientlifescience.slack.com/archives/D058GR1J1A6/p1792678620784399"
     },
     {
       "ref": "c020",
@@ -125,6 +135,22 @@
       "status": "open",
       "who": "Marianne Parrish (Nilo Medical)",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879606141662270150"
+    },
+    {
+      "ref": "c027",
+      "title": "Decide on exhibit space at the RK Mellon SII Pitch Competition celebration (Nov 2, 5:30pm, Strip District)",
+      "due": "2026-10-30",
+      "status": "open",
+      "who": "Bobby Zappala (RK Mellon Foundation)",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1878851883394066660"
+    },
+    {
+      "ref": "c038",
+      "title": "Apply for the Verizon gift card",
+      "due": "2026-10-30",
+      "status": "open",
+      "who": "Personal",
+      "link": null
     }
   ],
   "waiting_on": [
@@ -155,25 +181,25 @@
       "who": "Michael Nilo (Nilo Medical)",
       "since": "2026-10-20",
       "link": "https://otter.ai/u/f9HsUGp-71r-bm3dj9SknW7_rHY"
+    },
+    {
+      "ref": "c023",
+      "title": "Kevin to ask Harry (AO) about their agentic coding workflow and a discovery chat for Docket",
+      "who": "Kevin Chou",
+      "since": "2026-10-16",
+      "link": "https://resilientlifescience.slack.com/archives/D058GR1J1A6"
     }
   ],
   "drafts": [
     {
-      "kind": "email",
-      "title": "Re: Kick off meeting: thank Nick Nilo for the glass-supplier traceability guidance; ask about a supplier agreement template if in scope",
-      "to": "Nicholas Nilo (cc Michael Nilo)",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1879606141662270150%2Bmsg-a:r4804553999436477856",
-      "note": "c048, c001"
-    },
-    {
       "kind": "hold",
-      "title": "EA hold: Nilo product doc upload + KIZ docs, Fri 10/23 10:30-11:30",
-      "link": "https://www.google.com/calendar/event?eid=b3FrbjhkZXRhNnM2ZHUwa2NhMGF2cWJnNjQgYnJhZEByZXNpbGllbnQuYmlv",
-      "note": "c045, c006"
+      "title": "EA hold: Rippling payroll + K Chou DocuSign, Fri 10/23 2:30-3:00",
+      "link": "https://www.google.com/calendar/event?eid=cDVlbTdrN2IwMGg3dWsyZ2ppdnFsaGpudXMgYnJhZEByZXNpbGllbnQuYmlv",
+      "note": "c050, c049"
     },
     {
       "kind": "email",
-      "title": "Re: Intro: reply to Michael Nilo and Bugra Ozutemiz offering a 30-min call next week",
+      "title": "Re: Intro: reply to Michael Nilo and Bugra Ozutemiz offering a 30-min call next week (from Thursday)",
       "to": "Bugra Ozutemiz (cc Michael Nilo)",
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1879711039359488255%2Bmsg-a:r2660459922464195232",
       "note": "c051"
@@ -181,53 +207,30 @@
   ],
   "later": [
     {
-      "date": "2026-10-30",
-      "title": "Decide on exhibit space at the RK Mellon SII celebration (Nov 2)",
-      "ref": "c027"
-    },
-    {
-      "date": "2026-10-30",
-      "title": "Apply for the Verizon gift card",
-      "ref": "c038"
-    },
-    {
       "date": "2026-11-02",
-      "title": "RK Mellon SII Pitch Competition celebration, 5:30pm, Strip District",
+      "title": "RK Mellon SII Pitch celebration, 5:30pm (exhibit decision by 10/30)",
       "ref": "c027"
     },
     {
       "date": "2026-11-04",
       "title": "Pay Alloy (calendar reminder)"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Past Month Accounting (calendar reminder)"
     }
   ],
   "done_today": [
     {
-      "ref": "c044",
-      "title": "WhaleTeq quote in: HRS200 $4,300, no rental; Charlie told them we're reviewing (decision is c053)"
-    },
-    {
-      "ref": "c028",
-      "title": "Lunch with Ethan Moody (Otter wasn't admitted, so no notes)"
-    },
-    {
-      "ref": "c048",
-      "title": "Nick Nilo answered the glass-supplier question: lot/batch traceability, CoC + material info per lot, treat Kanou as a critical supplier (change and NC notices, right to audit)"
-    },
-    {
-      "title": "Design Control Form shared with Charlie; his comments reviewed and resolved (doc describes the FDA-bound hardware)"
-    },
-    {
-      "title": "Kevin delivered the separate exploded case and patch images for the Nilo doc"
+      "title": "Device description + design control draft sent to Nilo (Thu 10:47pm)",
+      "ref": "c045"
     }
   ],
   "notes": [
-    "Nilo product doc (c045) set to unclear: the EA can't see Nilo's SharePoint. Close it once you've uploaded it or told Marianne.",
-    "Kanou traceability spec (c001) now has its content from Nick's email; still waiting on Kevin's biocomp data (c003).",
-    "KIZ tax-credit documents (c006, ~$7k) slipped again; affidavits need a notary.",
-    "Payroll: approve two Rippling runs by Mon 10/26 5:30pm (c050).",
-    "Nilo 10/28 1:30pm strategy meeting (c047) still needs your accept. WhaleTeq $4,300 decision with Charlie (c053) still open.",
-    "Weights for Kevin's durometer jig (c043) are 1 day overdue.",
-    "Stale projects: QMS docs and SBIR supplement (no progress logged).",
-    "Sources since midday: no sent mail, no Otter meetings (Kid Duty not recorded); Slack was DMs with Kevin and Charlie."
+    "Thursday's EA draft thanking Nick Nilo is now redundant: you replied to him yourself at 10:47pm. Discard it.",
+    "New: c054, supplier agreement for Kanou from your template (you told Nick you'd start it). Nick also offered a template, pending Mike on scope.",
+    "Stale projects: QMS docs (no progress logged yet) and SBIR supplement (no progress logged; next step is to confirm the deadline and what's left to write).",
+    "No new drafts this run: nothing owed had clear enough content. The Nilo invite is an RSVP, so it's left for you.",
+    "Formwork: no tasks or reviews waiting on you. Otter: no new meetings overnight. Rippling QuickBooks sync notice ignored (automated, no action)."
   ]
 }
