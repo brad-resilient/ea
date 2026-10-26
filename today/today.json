@@ -1,96 +1,56 @@
 {
-  "generated_at": "2026-10-23T16:30:00-04:00",
-  "run": "Weekly review",
-  "date_label": "Friday, October 23 (week of Oct 19)",
-  "headline": "Strong Nilo week: kickoff held, background docs and the product doc delivered, and the 10/28 strategy meeting is set; the device moved (Kanou glass order going ahead, UCSF testing pencilled) and the SBIR supplement intent went to Boris. QMS is the one project that didn't move: still 1 of 53 Formwork docs approved, nothing in review.",
+  "generated_at": "2026-10-26T05:05:00-04:00",
+  "run": "Morning brief",
+  "date_label": "Monday, October 26",
+  "headline": "Payroll approval is due by 5:30pm, and Kanou sent the invoice for the 50pc glass order overnight (100% advance payment). QMS gets the 1:30-3:00 focus block.",
   "priorities": [
-    {
-      "title": "Approve both Rippling payroll runs, and download the K Chou DocuSign agreement",
-      "why": "Payroll due Mon 10/26 5:30pm ET (you told Kevin you'd run it Monday); DocuSign copy is deleted Tue 10/27 8pm. Hold Mon 1:00-1:30.",
-      "ref": "c050",
-      "link": "https://www.google.com/calendar/event?eid=aXBwZDRnc2YxYjBucjJnanN2amEwNnM4c28gYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "title": "QMS: route PCH - SOP Purchasing and Supplier Control for review in Formwork",
-      "why": "Top project, no progress logged ever. It also backs the Kanou supplier agreement. Focus hold Mon 1:30-3:00.",
-      "ref": "qms",
-      "link": "https://www.google.com/calendar/event?eid=Nmx0M2N2YmM3Ym4wbXA0NTc1c21yb25zOTQgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "title": "Prep for the Nilo product/reg strategy meeting, Wed 10/28 1:30pm",
-      "why": "Nilo is drafting the regulatory strategy (c046); bring the WhaleTeq simulator decision ($4,300, c053) and your claims questions. Kevin attending.",
-      "ref": "c046"
-    },
-    {
-      "title": "Send Kanou the lot traceability/CoC requirements and start the supplier agreement",
-      "why": "Kevin told Raymond 10/23 we'll place the 50pc glass order and asked what they need for purchasing; Nick Nilo's list is ready (c001, c054).",
-      "ref": "c054",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901"
-    },
-    {
-      "title": "Draft the SBIR PA-26-001 supplement",
-      "why": "You told Boris early November; he's back Mon 10/26 (c012).",
-      "ref": "sbir_supplement"
-    }
+    {"title": "Approve both Rippling payroll runs (and Kevin's Oct 19-25 timesheet)", "why": "Due today 5:30pm ET; if you miss it, the Oct 30 check date moves back a business day. Hold 1:00-1:30.", "ref": "c050", "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1880054524192639043"},
+    {"title": "Approve payment of the Kanou glass invoice, and make sure Kevin sends the drawing, address and phone", "why": "Raymond invoiced the 50pc order last night: 100% up front. He's waiting on payment, the PDF drawing, a delivery address and a phone number. The amount is in the attached PDF (earlier quote: $650). Send the traceability/CoC expectations with it (c001).", "ref": "c056", "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901|msg-f:1880074616672740621"},
+    {"title": "KIZ coordinator site visit, 11:00 at 4719 Hatfield St", "why": "Maria Villotti's visit produces the coordinator letter for the KIZ tax credit (about $7k, docs due Dec 1, c006).", "ref": "c055"},
+    {"title": "QMS: route PCH - SOP Purchasing and Supplier Control for review in Formwork", "why": "This is your top project and it has never moved (1 of 53 approved, 0 in review). The SOP also backs the Kanou supplier agreement (c054). Focus hold 1:30-3:00.", "ref": "qms", "link": "https://www.google.com/calendar/event?eid=Nmx0M2N2YmM3Ym4wbXA0NTc1c21yb25zOTQgYnJhZEByZXNpbGllbnQuYmlv"},
+    {"title": "Download the signed K Chou stock award agreement from DocuSign", "why": "DocuSign deletes it Tue 10/27 at 8pm ET, and you're at the expo most of tomorrow. Fits in the 1:00 hold.", "ref": "c049"}
   ],
   "schedule": [
-    {"time": "Mon 11:00", "title": "KIZ coordinator site visit (Maria Villotti)", "detail": "4719 Hatfield St; produces the coordinator letter for the KIZ credit (c006, Dec 1)."},
-    {"time": "Mon 1:00", "title": "EA hold: Rippling payroll + K Chou DocuSign", "detail": "Until 1:30.", "link": "https://www.google.com/calendar/event?eid=aXBwZDRnc2YxYjBucjJnanN2amEwNnM4c28gYnJhZEByZXNpbGllbnQuYmlv"},
-    {"time": "Mon 1:30", "title": "EA hold: QMS focus block", "detail": "Until 3:00.", "link": "https://www.google.com/calendar/event?eid=Nmx0M2N2YmM3Ym4wbXA0NTc1c21yb25zOTQgYnJhZEByZXNpbGllbnQuYmlv"},
-    {"time": "Tue 9:00", "title": "Drop off Lexus (pick up 4:00)", "detail": "Same day as the Innovation Works Scale Expo 9-3 (c030); expo isn't on your calendar."},
-    {"time": "Wed 1:30", "title": "Resilient/NiloMed Product Reg Strategy (Teams)", "detail": "Until 2:30. Charlie and Kevin invited, haven't responded."},
-    {"time": "Fri 10:00", "title": "Apply for Verizon gift card", "detail": "Self-reminder (c038)."}
+    {"time": "7:00", "title": "Kid duty", "detail": "Until 9:30."},
+    {"time": "11:00", "title": "KIZ coordinator site visit (Maria Villotti)", "detail": "4719 Hatfield St. This is your own hold; she hasn't sent an invite. For the coordinator letter (c055, c006)."},
+    {"time": "12:00", "title": "DNS", "detail": "Protected."},
+    {"time": "1:00", "title": "EA hold: Rippling payroll + K Chou DocuSign", "detail": "Until 1:30. The Kanou invoice approval fits here too.", "link": "https://www.google.com/calendar/event?eid=aXBwZDRnc2YxYjBucjJnanN2amEwNnM4c28gYnJhZEByZXNpbGllbnQuYmlv"},
+    {"time": "1:30", "title": "EA hold: QMS focus block", "detail": "Until 3:00. Route the PCH SOP for review.", "link": "https://www.google.com/calendar/event?eid=Nmx0M2N2YmM3Ym4wbXA0NTc1c21yb25zOTQgYnJhZEByZXNpbGllbnQuYmlv"},
+    {"time": "Tue 9:00", "title": "Drop off the Lexus (pick up 4:00)", "detail": "Same day as the Innovation Works Scale Expo 9-3 (c030), which isn't on your calendar. The 9:00 drop-off is right at the end of childcare."},
+    {"time": "Wed 1:30", "title": "Resilient/NiloMed Product Reg Strategy (Teams)", "detail": "Until 2:30. Charlie and Kevin haven't responded. Bring the WhaleTeq decision (c053) and your claims questions (c046)."}
   ],
   "due": [
-    {"ref": "c043", "title": "Bring lb weights for Kevin's durometer jig, or buy calibrated weights", "due": "2026-10-21", "status": "open", "who": "Kevin Chou", "link": null},
+    {"ref": "c043", "title": "Bring lb weights for Kevin's durometer jig, or buy calibrated weights", "due": "2026-10-21", "status": "open", "who": "Kevin Chou"},
     {"ref": "c020", "title": "Share the Docket agent tool with Arjun Mathur (Dream)", "due": "2026-10-23", "status": "open", "who": "Arjun Mathur (Dream)", "link": "https://otter.ai/u/nheHd8Wqz48c0DDBmfNYZ5qtgoU"},
-    {"ref": "c024", "title": "Board meeting (10/16) follow-ups: minutes and action items", "due": "2026-10-23", "status": "open", "who": "Board; Charlie Proctor", "link": null},
-    {"ref": "c050", "title": "Approve two Rippling payroll runs by Mon 10/26 5:30pm ET", "due": "2026-10-26", "status": "open", "who": "Rippling", "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879658188265560061"},
-    {"ref": "c055", "title": "KIZ coordinator site visit Mon 10/26 11:00am", "due": "2026-10-26", "status": "open", "who": "Maria Villotti", "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1879851606440527769"},
-    {"ref": "c049", "title": "Download the signed K Chou Stock Award Agreement from DocuSign (by Tue 8pm ET)", "due": "2026-10-27", "status": "open", "who": "Buchanan Ingersoll & Rooney", "link": null},
-    {"ref": "c030", "title": "Innovation Works Scale Expo Tue 10/27 9am-3pm", "due": "2026-10-27", "status": "open", "who": "Tony Garcia (Innovation Works)", "link": null},
-    {"ref": "c037", "title": "Drop off the Lexus Tue 10/27 9:00am, pick up 4:00pm", "due": "2026-10-27", "status": "open", "who": "Personal", "link": null},
-    {"ref": "c027", "title": "Decide on exhibit space at the RK Mellon SII celebration (Nov 2)", "due": "2026-10-30", "status": "open", "who": "Bobby Zappala", "link": null},
-    {"ref": "c038", "title": "Apply for the Verizon gift card", "due": "2026-10-30", "status": "open", "who": "Personal", "link": null}
+    {"ref": "c024", "title": "Board meeting (10/16) follow-ups: minutes and action items", "due": "2026-10-23", "status": "open", "who": "Board; Charlie Proctor"},
+    {"ref": "c050", "title": "Approve two Rippling payroll runs by 5:30pm ET", "due": "2026-10-26", "status": "open", "who": "Rippling", "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1880054524192639043"},
+    {"ref": "c055", "title": "KIZ coordinator site visit 11:00am", "due": "2026-10-26", "status": "open", "who": "Maria Villotti"},
+    {"ref": "c049", "title": "Download the signed K Chou Stock Award Agreement from DocuSign (by Tue 8pm ET)", "due": "2026-10-27", "status": "open", "who": "Buchanan Ingersoll & Rooney"},
+    {"ref": "c030", "title": "Innovation Works Scale Expo Tue 9am-3pm", "due": "2026-10-27", "status": "open", "who": "Tony Garcia (Innovation Works)"},
+    {"ref": "c037", "title": "Drop off the Lexus Tue 9:00am, pick up 4:00pm", "due": "2026-10-27", "status": "open", "who": "Personal"},
+    {"ref": "c027", "title": "Decide on exhibit space at the RK Mellon SII celebration (Nov 2)", "due": "2026-10-30", "status": "open", "who": "Bobby Zappala"},
+    {"ref": "c038", "title": "Apply for the Verizon gift card", "due": "2026-10-30", "status": "open", "who": "Personal"}
   ],
   "waiting_on": [
     {"ref": "c013", "title": "FDA feedback on Q-sub Q263249", "who": "Kimberly Kontson (FDA)", "since": "2026-10-15"},
     {"ref": "c046", "title": "Nilo regulatory strategy draft", "who": "Michael Nilo", "since": "2026-10-20"},
     {"ref": "c003", "title": "Adhesive/biocomp decision for the Kanou window", "who": "Kevin Chou", "since": "2026-10-16"},
     {"ref": "c018", "title": "Company laptop back from David Montez", "who": "David Montez", "since": "2026-10-15"},
-    {"ref": "c051", "title": "Bugra to pick a call time", "who": "Bugra Ozutemiz", "since": "2026-10-23"}
+    {"ref": "c023", "title": "Kevin to ask Harry (AO) about agentic coding / Docket chat", "who": "Kevin Chou", "since": "2026-10-07"}
   ],
-  "drafts": [
-    {"kind": "hold", "title": "EA hold: Rippling payroll + K Chou DocuSign (Mon 1:00-1:30)", "link": "https://www.google.com/calendar/event?eid=aXBwZDRnc2YxYjBucjJnanN2amEwNnM4c28gYnJhZEByZXNpbGllbnQuYmlv"},
-    {"kind": "hold", "title": "EA hold: QMS focus block (Mon 1:30-3:00)", "link": "https://www.google.com/calendar/event?eid=Nmx0M2N2YmM3Ym4wbXA0NTc1c21yb25zOTQgYnJhZEByZXNpbGllbnQuYmlv"}
-  ],
+  "drafts": [],
   "later": [
     {"date": "2026-11-02", "title": "RK Mellon SII Pitch Competition celebration, 5:30pm", "ref": "c027"},
     {"date": "2026-11-04", "title": "Pay Alloy (calendar reminder)"},
     {"date": "2026-11-06", "title": "Past Month Accounting (1st Friday, calendar reminder)"},
     {"date": "2026-11-09", "title": "NIH study section meets Nov 9-10", "ref": "c014"}
   ],
-  "done_today": [
-    {"title": "Nilo kickoff held 10/20; scope agreed", "ref": "c005"},
-    {"title": "Device background docs uploaded to Nilo SharePoint", "ref": "c004"},
-    {"title": "Consolidated product document sent to Nilo", "ref": "c045"},
-    {"title": "Nilo strategy meeting set for Wed 10/28 1:30pm", "ref": "c047"},
-    {"title": "Nick Nilo's supplier traceability recommendation received", "ref": "c048"},
-    {"title": "WhaleTeq HRS200 quote received ($4,300, no rental)", "ref": "c044"},
-    {"title": "Kanou glass order decided; Kevin placing the 50pc order", "ref": "c002"},
-    {"title": "Rippling to QuickBooks sync errors fixed", "ref": "c009"},
-    {"title": "Lunch with Ethan Moody held", "ref": "c028"},
-    {"title": "Tesla inspection done", "ref": "c036"}
-  ],
+  "done_today": [],
   "notes": [
-    "QMS docs: STALE, never moved (1 of 53 approved, 0 in review). Smallest step: route one SOP (PCH Purchasing and Supplier Control) Mon 1:30.",
-    "Nilo/regulatory: moved (kickoff, docs, 10/28 meeting). Next: 10/28 meeting prep and the WhaleTeq decision.",
-    "Device: moved (UCSF week of May 24 pencilled, Kanou glass order). Next: traceability spec to Kanou and the supplier agreement. Decide whether to unblock c001 from the adhesive question (c003).",
-    "SBIR supplement: moved (intent sent to Boris 10/23). Next: draft the application for early November.",
-    "Target dates: none of the four projects has one set. Want to set them (e.g. device = before UCSF week of May 24, 2027)?",
-    "Decide or drop: Docket for Arjun (c020, slipped twice) and the Lars intro (c022); board follow-ups (c024, no real date); grant open questions with Charlie (c034, 17 days quiet); Kevin/Harry at AO (c023, 16 days).",
-    "Confirm so they can close: HHS PMS justification (c007), UHC invoice (c011), office mold/lease with Dave (c016). Second week unclear with no new evidence.",
-    "Laptop from David Montez (c018): 8 days, no sign; a direct Slack ask from you is the only lever. Weights for Kevin (c043) 2 days overdue.",
-    "No drafts this run: nothing owed had clear content. Skipped a cold Harvard student VC sourcing email. Otter: no new meetings since midday."
+    "QMS docs: STALE, never moved (Formwork 1 of 53 approved, 0 in review, checked this morning). The 1:30 block is the step.",
+    "Kanou (c056): the EA can't pay. Decide whether it goes on Ramp or by wire. The sample PO is going ahead of the supplier agreement (c054); that's fine for samples, but send the lot traceability/CoC expectations with the order (c001).",
+    "Boris Sabirzhanov is back today. The SBIR supplement draft is aimed at early November (c012).",
+    "Quiet weekend: no sent mail, Slack or Otter activity since Friday afternoon. No drafts (nothing owed had clear content) and no new holds (today's are already in place; tomorrow is the expo).",
+    "Skipped: a cold summer-internship inquiry (UH mechanical engineering student) and the Harvard undergrad VC sourcing email."
   ]
 }
