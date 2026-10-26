@@ -6,7 +6,7 @@
     "goal": "QMS documentation written, reviewed and approved in Formwork, ready for ISO 13485 and FDA",
     "target": null,
     "status": "active",
-    "next_step": "Route PCH - SOP Purchasing and Supplier Control for review in Formwork (focus hold Mon 10/26 1:30-3:00); it backs the Kanou supplier agreement (c054)",
+    "next_step": "Route PCH - SOP Purchasing and Supplier Control for review in Formwork (the Mon 10/26 1:30 focus block; not confirmed done). It backs the Kanou supplier agreement (c054).",
     "metric": "Formwork documents approved: 1 of 53 (2026-10-26)",
     "progress_signals": "Formwork documents moving from draft to in-review or approved; new or edited SOPs; Brad mentioning QMS work in Slack or meetings",
     "last_progress": null,
@@ -22,11 +22,12 @@
     "next_step": "Wed 10/28 1:30pm Nilo product/reg strategy meeting (Charlie and Kevin invited): bring the WhaleTeq simulator decision (c053) and claims questions for the regulatory strategy (c046)",
     "metric": null,
     "progress_signals": "Emails and meetings with Nilo Medical, FDA correspondence on Q263249, documents shared with Nilo",
-    "last_progress": "2026-10-23",
+    "last_progress": "2026-10-26",
     "log": [
       "2026-10-20: Device background documents uploaded to Nilo's SharePoint before the kickoff (c004)",
       "2026-10-20: Nilo kickoff held 10/20: scope agreed (Brad sends product doc by Thu; Nilo drafts regulatory strategy; next meeting Oct 28/29)",
-      "2026-10-23: Device description and draft design control doc sent to Nilo (Nick, Marianne, Michael) on 10/22 ahead of the 10/28 strategy meeting."
+      "2026-10-23: Device description and draft design control doc sent to Nilo (Nick, Marianne, Michael) on 10/22 ahead of the 10/28 strategy meeting.",
+      "2026-10-26: Updated device descriptions sent to Nilo for Wed's strategy meeting; Nilo confirmed receipt (10/26)."
     ]
   },
   {
