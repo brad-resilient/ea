@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T05:05:00-04:00",
-  "run": "Morning brief",
+  "generated_at": "2026-10-26T12:58:00-04:00",
+  "run": "Midday update",
   "date_label": "Monday, October 26",
-  "headline": "Payroll approval is due by 5:30pm, and Kanou sent the invoice for the 50pc glass order overnight (100% advance payment). QMS gets the 1:30-3:00 focus block.",
+  "headline": "Kanou glass is paid and ordered, and the KIZ documents are in. Still to do today: payroll approval by 5:30pm and the QMS block at 1:30.",
   "priorities": [
     {
       "title": "Approve both Rippling payroll runs (and Kevin's Oct 19-25 timesheet)",
@@ -11,43 +11,23 @@
       "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1880054524192639043"
     },
     {
-      "title": "Approve payment of the Kanou glass invoice, and make sure Kevin sends the drawing, address and phone",
-      "why": "Raymond invoiced the 50pc order last night: 100% up front. He's waiting on payment, the PDF drawing, a delivery address and a phone number. The amount is in the attached PDF (earlier quote: $650). Send the traceability/CoC expectations with it (c001).",
-      "ref": "c056",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1877773170356009901|msg-f:1880074616672740621"
-    },
-    {
-      "title": "KIZ coordinator site visit, 11:00 at 4719 Hatfield St",
-      "why": "Maria Villotti's visit produces the coordinator letter for the KIZ tax credit (about $7k, docs due Dec 1, c006).",
-      "ref": "c055"
-    },
-    {
       "title": "QMS: route PCH - SOP Purchasing and Supplier Control for review in Formwork",
       "why": "This is your top project and it has never moved (1 of 53 approved, 0 in review). The SOP also backs the Kanou supplier agreement (c054). Focus hold 1:30-3:00.",
       "ref": "qms",
       "link": "https://www.google.com/calendar/event?eid=Nmx0M2N2YmM3Ym4wbXA0NTc1c21yb25zOTQgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "title": "Send the two drafts: confirm Bugra for Thu 11am coffee, and tell Rachelle the site visit happened",
+      "why": "Bugra offered Thursday 11am (coffee in Lawrenceville or a call); your calendar is free then. Rachelle says the coordinator letter is the last piece before she can submit the KIZ application (c057).",
+      "ref": "c051",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1879711039359488255%2Bmsg-a:r-3036411494900812679"
     }
   ],
   "schedule": [
     {
-      "time": "7:00",
-      "title": "Kid duty",
-      "detail": "Until 9:30."
-    },
-    {
-      "time": "11:00",
-      "title": "KIZ coordinator site visit (Maria Villotti)",
-      "detail": "4719 Hatfield St. This is your own hold; she hasn't sent an invite. For the coordinator letter (c055, c006)."
-    },
-    {
-      "time": "12:00",
-      "title": "DNS",
-      "detail": "Protected."
-    },
-    {
       "time": "1:00",
       "title": "EA hold: Rippling payroll",
-      "detail": "Until 1:30. The Kanou invoice approval fits here too. (The DocuSign part of the hold is no longer needed.)",
+      "detail": "Until 1:30. Approve both runs by 5:30 (c050).",
       "link": "https://www.google.com/calendar/event?eid=aXBwZDRnc2YxYjBucjJnanN2amEwNnM4c28gYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
@@ -59,12 +39,17 @@
     {
       "time": "Tue 9:00",
       "title": "Drop off the Lexus (pick up 4:00)",
-      "detail": "Same day as the Innovation Works Scale Expo 9-3 (c030), which isn't on your calendar. The 9:00 drop-off is right at the end of childcare."
+      "detail": "Same day as the Scale Expo 9-3 at Rockwell Park (c030)."
     },
     {
       "time": "Wed 1:30",
       "title": "Resilient/NiloMed Product Reg Strategy (Teams)",
-      "detail": "Until 2:30. Charlie and Kevin haven't responded. Bring the WhaleTeq decision (c053) and your claims questions (c046)."
+      "detail": "Until 2:30. Bring the WhaleTeq decision (c053) and your claims questions (c046)."
+    },
+    {
+      "time": "Thu 11:00",
+      "title": "Coffee with Bugra Ozutemiz (proposed)",
+      "detail": "Not on the calendar yet; confirm with the draft. Right after Grandview Roof (9:30-10:45)."
     }
   ],
   "due": [
@@ -100,9 +85,9 @@
     },
     {
       "ref": "c055",
-      "title": "KIZ coordinator site visit 11:00am",
+      "title": "KIZ coordinator site visit 11:00am (held? no confirmation yet)",
       "due": "2026-10-26",
-      "status": "open",
+      "status": "unclear",
       "who": "Maria Villotti"
     },
     {
@@ -164,10 +149,36 @@
       "title": "Kevin to ask Harry (AO) about agentic coding / Docket chat",
       "who": "Kevin Chou",
       "since": "2026-10-07"
+    },
+    {
+      "ref": "c058",
+      "title": "Signed office lease copy (for tax records)",
+      "who": "Lauren Shiderly",
+      "since": "2026-10-26"
     }
   ],
-  "drafts": [],
+  "drafts": [
+    {
+      "kind": "email",
+      "title": "Re: Intro — Thursday 11 works, coffee in Lawrenceville",
+      "to": "Bugra Ozutemiz (cc Michael Nilo)",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1879711039359488255%2Bmsg-a:r-3036411494900812679",
+      "note": "c051"
+    },
+    {
+      "kind": "email",
+      "title": "Re: Resilient KIZ App 2026 — site visit was this morning, letter to follow",
+      "to": "Rachelle Reasy",
+      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1873990356705731601%2Bmsg-a:r-7092417727382873813",
+      "note": "c057; edit if the visit didn't happen"
+    }
+  ],
   "later": [
+    {
+      "date": "2026-10-29",
+      "title": "Bugra Ozutemiz coffee, 11am (proposed)",
+      "ref": "c051"
+    },
     {
       "date": "2026-11-02",
       "title": "RK Mellon SII Pitch Competition celebration, 5:30pm",
@@ -185,19 +196,37 @@
       "date": "2026-11-09",
       "title": "NIH study section meets Nov 9-10",
       "ref": "c014"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Autodesk Fusion hub closes for inactivity",
+      "ref": "c060"
     }
   ],
   "done_today": [
     {
       "title": "K Chou stock award agreement: resolved",
       "ref": "c049"
+    },
+    {
+      "title": "Kanou 50pc glass order: wire sent, address and phone sent; Kevin sent the drawing",
+      "ref": "c056"
+    },
+    {
+      "title": "KIZ documents sent to Rachelle (signed and notarized)",
+      "ref": "c006"
+    },
+    {
+      "title": "Declined the summer internship inquiry"
     }
   ],
   "notes": [
-    "QMS docs: STALE, never moved (Formwork 1 of 53 approved, 0 in review, checked this morning). The 1:30 block is the step.",
-    "Kanou (c056): the EA can't pay. Decide whether it goes on Ramp or by wire. The sample PO is going ahead of the supplier agreement (c054); that's fine for samples, but send the lot traceability/CoC expectations with the order (c001).",
-    "Boris Sabirzhanov is back today. The SBIR supplement draft is aimed at early November (c012).",
-    "Quiet weekend: no sent mail, Slack or Otter activity since Friday afternoon. No drafts (nothing owed had clear content) and no new holds (today's are already in place; tomorrow is the expo).",
-    "Skipped: a cold summer-internship inquiry (UH mechanical engineering student) and the Harvard undergrad VC sourcing email."
+    "QMS docs: still STALE, never moved (1 of 53 approved). The 1:30 block is the step.",
+    "Device moved: the glass sample order is paid. The lot traceability/CoC expectations (c001) didn't go with it; send them to Raymond before the parts ship.",
+    "New money item: Donnelly-Boland invoice 2026-08-052, $590 (c059). The EA can't pay.",
+    "Autodesk says the Fusion hub \"Resilient Lifescience\" closes Nov 10 for inactivity. Check with Kevin whether any CAD lives there (c060).",
+    "Boris replied that the early-November supplement plan sounds good (c012). UCSF hasn't confirmed May dates yet; you chased this morning (c041).",
+    "Waiting on Lauren for the signed lease copy (c058).",
+    "Skipped: a cold investor-matching email, IW survey, Scale Expo reminders. The Chase wire alerts match the Kanou payment you made."
   ]
 }

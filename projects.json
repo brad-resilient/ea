@@ -36,15 +36,16 @@
     "goal": "Device design frozen with parts and suppliers chosen, in time for the UCSF hypoxia testing pencilled for the week of May 24, 2027",
     "target": null,
     "status": "active",
-    "next_step": "Kanou invoiced the 50pc glass order (100% advance): approve payment and have Kevin send the PDF drawing, address and phone (c056); send Raymond the lot traceability/CoC expectations with the order (c001) and draft the supplier agreement (c054)",
+    "next_step": "Glass samples are paid and ordered (2-3 week lead time). Send Raymond the lot traceability/CoC expectations before they ship (c001) and draft the Kanou supplier agreement (c054); Kevin to confirm whether the Fusion hub holds CAD before Nov 10.",
     "metric": null,
     "progress_signals": "Kevin's Slack updates, supplier quotes and samples (Kanou, Xometry), design files, Brad's purchasing decisions",
-    "last_progress": "2026-10-23",
+    "last_progress": "2026-10-26",
     "log": [
       "2026-10-19: Brad proposed the week of May 24, 2027 for UCSF hypoxia testing",
       "2026-10-19: Mon planning: Charlie prioritizing power-consumption and battery-life testing (components arriving today); app and algorithm work deprioritized; UCSF testing date proposed for week of May 24, 2027",
       "2026-10-20: Kanou sent SDS for two candidate adhesives (LT 2268, LT 3757) for the biocompatibility review (c003)",
-      "2026-10-23: Kanou glass order decided: Kevin told Kanou 10/23 we'll place the 50pc order (c002 closed); adhesive decision still open (c003)"
+      "2026-10-23: Kanou glass order decided: Kevin told Kanou 10/23 we'll place the 50pc order (c002 closed); adhesive decision still open (c003)",
+      "2026-10-26: Kanou 50pc glass sample order placed: Brad wired payment and sent the delivery details, Kevin sent the drawing (10/26)"
     ]
   },
   {
@@ -54,7 +55,7 @@
     "goal": "Supplemental funds request submitted to NIH/NIDA for SBIR grant 4R44DA060643",
     "target": null,
     "status": "active",
-    "next_step": "Draft the PA-26-001 supplement (direct costs under $100k, mostly team salary) for early November; Boris is back today 10/26 (c012)",
+    "next_step": "Boris approved the plan 10/26. Draft the PA-26-001 supplement (direct costs under $100k, mostly team salary) for early November (c012).",
     "metric": null,
     "progress_signals": "Drafts in Drive, emails with NIH (Boris Sabirzhanov), Pitt/UPMC collaborators or grant consultants, a submission confirmation",
     "last_progress": "2026-10-23",
