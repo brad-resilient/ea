@@ -77,6 +77,7 @@ One JSON object per line in `ledger.jsonl`. Always use `bin/ea.py` (add, update,
 - Add an item when Brad commits ("I'll send…", "let me check", agreeing to a date), when a real person asks Brad for something he hasn't answered, when someone promises Brad something, or when a dated obligation appears.
 - Skip newsletters, cold sales, automated notices unless they carry a real deadline or money, and pure social chatter.
 - Skip invitations that arrive only by email (events, competitions, expos, pitch calls, polls, application deadlines). Add one only if Brad mentions it, accepts it, or it comes up in a meeting, Slack or a thread he's in. Brad gets many of these and doesn't want them on his list.
+- Payroll: Rippling sends no email when a run is approved, only when one is outstanding or missed. Once a payroll approval deadline passes, treat it as done (close it, noting the absence of a notice) unless a Rippling email says a payroll is outstanding. Don't ask Brad to confirm.
 - Money figures: quote the amount actually being charged or paid, not a statement balance or range. If the email doesn't make the amount clear, say "amount unclear" rather than estimate.
 - When an item can't move until something else happens, set `blocked_by` to that item's id and add a note. Blocked items never become priorities and don't show as overdue nags; surface them again when the blocking item closes.
 - Before adding, run `ea.py find <keyword>` to avoid duplicates; add the new source to the existing item instead.

@@ -1,206 +1,197 @@
 {
- "generated_at": "2026-10-27T12:58:00-04:00",
- "run": "Midday update",
- "date_label": "Tuesday, October 27",
- "headline": "You sent UCSF your pick (May 17 + May 24), so testing starts a week earlier than pencilled; now waiting on Ella for the agreement and your pre-pay question. Rippling's task list no longer shows the payroll approvals, which suggests they went through; a quick look confirms it.",
- "priorities": [
-  {
-   "title": "Confirm in Rippling that both payroll runs (and Kevin's timesheet) were approved",
-   "why": "Today's 7:23am Rippling digest lists only the year-end checklist, so the approvals likely cleared; no explicit confirmation. If missed, the Fri 10/30 check date slips a day.",
-   "ref": "c050",
-   "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1880201864798860578"
-  },
-  {
-   "title": "QMS: route PCH - SOP Purchasing and Supplier Control for review in Formwork",
-   "why": "Top project, still never moved: 1 of 59 approved, and the PCH SOP is still a draft. Focus hold Wed 3:00-4:30 if today is lost to the Expo.",
-   "ref": "qms",
-   "link": "https://app.openregulatory.com/documents/47679eb0-35bc-4098-9dec-6e9cfa4a7e6d"
-  },
-  {
-   "title": "Settle the WhaleTeq simulator call with Charlie and write down your claims questions for Nilo",
-   "why": "Wed 1:30 Nilo reg strategy meeting; prep hold Wed 1:00-1:30.",
-   "ref": "c053",
-   "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
-  }
- ],
- "schedule": [
-  {
-   "time": "now\u20133:00",
-   "title": "Innovation Works Scale Expo, Rockwell Park",
-   "detail": "Under way (c030)."
-  },
-  {
-   "time": "4:00",
-   "title": "Pick up the Lexus",
-   "detail": "Until 4:30; overlaps Kid Duty at 4:15."
-  },
-  {
-   "time": "4:15",
-   "title": "Kid Duty",
-   "detail": "Until 9:00pm."
-  },
-  {
-   "time": "Wed 1:00",
-   "title": "EA hold: prep for Nilo reg strategy",
-   "detail": "WhaleTeq decision (c053), claims questions (c046).",
-   "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
-  },
-  {
-   "time": "Wed 1:30",
-   "title": "Resilient/NiloMed Product Reg Strategy (Teams)",
-   "detail": "Until 2:30. Charlie and Kevin haven't responded to the invite."
-  },
-  {
-   "time": "Wed 3:00",
-   "title": "EA hold: QMS focus, route the PCH SOP",
-   "detail": "Until 4:30. New today.",
-   "link": "https://www.google.com/calendar/event?eid=OWZsYmE2cnZvZ3RraWNvYjY3ODJvbWFvM3MgYnJhZEByZXNpbGllbnQuYmlv"
-  }
- ],
- "due": [
-  {
-   "ref": "c043",
-   "title": "Bring lb weights for Kevin's durometer jig, or buy calibrated weights",
-   "due": "2026-10-21",
-   "status": "open",
-   "who": "Kevin Chou"
-  },
-  {
-   "ref": "c020",
-   "title": "Share the Docket agent tool with Arjun Mathur (Dream)",
-   "due": "2026-10-23",
-   "status": "open",
-   "who": "Arjun Mathur (Dream)"
-  },
-  {
-   "ref": "c024",
-   "title": "Board meeting (10/16) follow-ups: minutes and action items",
-   "due": "2026-10-23",
-   "status": "open",
-   "who": "Board; Charlie Proctor"
-  },
-  {
-   "ref": "c050",
-   "title": "Approve two Rippling payroll runs (likely done; confirm)",
-   "due": "2026-10-26",
-   "status": "unclear",
-   "who": "Rippling"
-  },
-  {
-   "ref": "c030",
-   "title": "Innovation Works Scale Expo 9am-3pm",
-   "due": "2026-10-27",
-   "status": "open",
-   "who": "Tony Garcia (Innovation Works)"
-  },
-  {
-   "ref": "c051",
-   "title": "Coffee with Bugra Thu 11am, Convive",
-   "due": "2026-10-29",
-   "status": "open",
-   "who": "Bugra Ozutemiz"
-  },
-  {
-   "ref": "c027",
-   "title": "Decide on exhibit space at the RK Mellon SII celebration (Nov 2)",
-   "due": "2026-10-30",
-   "status": "open",
-   "who": "Bobby Zappala"
-  },
-  {
-   "ref": "c038",
-   "title": "Apply for the Verizon gift card",
-   "due": "2026-10-30",
-   "status": "open",
-   "who": "Personal"
-  }
- ],
- "waiting_on": [
-  {
-   "ref": "c063",
-   "title": "UCSF: confirm May 17 + 24 study days, agreement, deposit / pre-pay in 2026",
-   "who": "Ella Behnke (UCSF)",
-   "since": "2026-10-27"
-  },
-  {
-   "ref": "c013",
-   "title": "FDA feedback on Q-sub Q263249",
-   "who": "Kimberly Kontson (FDA)",
-   "since": "2026-10-15"
-  },
-  {
-   "ref": "c046",
-   "title": "Nilo regulatory strategy draft",
-   "who": "Michael Nilo",
-   "since": "2026-10-20"
-  },
-  {
-   "ref": "c003",
-   "title": "Adhesive/biocomp decision for the Kanou window",
-   "who": "Kevin Chou",
-   "since": "2026-10-16"
-  },
-  {
-   "ref": "c018",
-   "title": "Company laptop back from David Montez",
-   "who": "David Montez",
-   "since": "2026-10-15"
-  },
-  {
-   "ref": "c023",
-   "title": "Kevin to ask Harry (AO) about agentic coding / Docket chat",
-   "who": "Kevin Chou",
-   "since": "2026-10-07"
-  },
-  {
-   "ref": "c061",
-   "title": "GOKIZ site visit time and coordinator certificate",
-   "who": "Sophie Beacom (back Thu 10/29)",
-   "since": "2026-10-26"
-  }
- ],
- "drafts": [
-  {
-   "kind": "Calendar hold",
-   "title": "EA hold: QMS focus, Wed 10/28 3:00-4:30",
-   "link": "https://www.google.com/calendar/event?eid=OWZsYmE2cnZvZ3RraWNvYjY3ODJvbWFvM3MgYnJhZEByZXNpbGllbnQuYmlv",
-   "note": "Delete freely."
-  }
- ],
- "later": [
-  {
-   "date": "2026-11-04",
-   "title": "Pay Alloy (calendar reminder)"
-  },
-  {
-   "date": "2026-11-06",
-   "title": "Past Month Accounting (1st Friday, calendar reminder)"
-  },
-  {
-   "date": "2026-11-09",
-   "title": "NIH study section meets Nov 9-10",
-   "ref": "c014"
-  },
-  {
-   "date": "2026-11-10",
-   "title": "Autodesk Fusion hub closes for inactivity",
-   "ref": "c060"
-  }
- ],
- "done_today": [
-  {
-   "ref": "c062",
-   "title": "Replied to Ella: UCSF study weeks May 17 + May 24, 2027; flagged possible pre-payment this year"
-  }
- ],
- "notes": [
-  "UCSF testing now starts the week of May 17, 2027 (c041 updated). Device project's target date is still unset; the deadline it works back from moved a week earlier.",
-  "Your Fri 10/30 2pm 'nudge hypoxia lab' reminder can stay as the check-in if Ella hasn't replied about the agreement and pre-pay (c063).",
-  "QMS docs: STALE, never moved. Wed 3:00-4:30 hold is set to route the PCH SOP; pick one of the two PCH drafts first.",
-  "Thu 11:00 Bugra coffee: the calendar event still has no guests (c051).",
-  "KIZ: settle with Rachelle whether only Maria's letter or both coordinators' certificates are needed once Sophie is back Thu (c057).",
-  "Overdue and unmoved: Docket for Arjun (c020), board follow-ups (c024), weights for Kevin (c043).",
-  "Slack and Otter: nothing new since the morning. No new requests from real people in email.",
-  "Skipped: NUImpact (Northeastern student fund) cold investment outreach, OpenAI webinar and data-export notices, Google new-sign-in alert for a Mac (ignore if it was you), Intuit receipt, Harvard Gazette."
- ]
+  "generated_at": "2026-10-27T12:58:00-04:00",
+  "run": "Midday update",
+  "date_label": "Tuesday, October 27",
+  "headline": "You sent UCSF your pick (May 17 + May 24), so testing starts a week earlier than pencilled; now waiting on Ella for the agreement and your pre-pay question.",
+  "priorities": [
+    {
+      "title": "QMS: route PCH - SOP Purchasing and Supplier Control for review in Formwork",
+      "why": "Top project, still never moved: 1 of 59 approved, and the PCH SOP is still a draft. Focus hold Wed 3:00-4:30 if today is lost to the Expo.",
+      "ref": "qms",
+      "link": "https://app.openregulatory.com/documents/47679eb0-35bc-4098-9dec-6e9cfa4a7e6d"
+    },
+    {
+      "title": "Settle the WhaleTeq simulator call with Charlie and write down your claims questions for Nilo",
+      "why": "Wed 1:30 Nilo reg strategy meeting; prep hold Wed 1:00-1:30.",
+      "ref": "c053",
+      "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
+    }
+  ],
+  "schedule": [
+    {
+      "time": "now–3:00",
+      "title": "Innovation Works Scale Expo, Rockwell Park",
+      "detail": "Under way (c030)."
+    },
+    {
+      "time": "4:00",
+      "title": "Pick up the Lexus",
+      "detail": "Until 4:30; overlaps Kid Duty at 4:15."
+    },
+    {
+      "time": "4:15",
+      "title": "Kid Duty",
+      "detail": "Until 9:00pm."
+    },
+    {
+      "time": "Wed 1:00",
+      "title": "EA hold: prep for Nilo reg strategy",
+      "detail": "WhaleTeq decision (c053), claims questions (c046).",
+      "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "time": "Wed 1:30",
+      "title": "Resilient/NiloMed Product Reg Strategy (Teams)",
+      "detail": "Until 2:30. Charlie and Kevin haven't responded to the invite."
+    },
+    {
+      "time": "Wed 3:00",
+      "title": "EA hold: QMS focus, route the PCH SOP",
+      "detail": "Until 4:30. New today.",
+      "link": "https://www.google.com/calendar/event?eid=OWZsYmE2cnZvZ3RraWNvYjY3ODJvbWFvM3MgYnJhZEByZXNpbGllbnQuYmlv"
+    }
+  ],
+  "due": [
+    {
+      "ref": "c043",
+      "title": "Bring lb weights for Kevin's durometer jig, or buy calibrated weights",
+      "due": "2026-10-21",
+      "status": "open",
+      "who": "Kevin Chou"
+    },
+    {
+      "ref": "c020",
+      "title": "Share the Docket agent tool with Arjun Mathur (Dream)",
+      "due": "2026-10-23",
+      "status": "open",
+      "who": "Arjun Mathur (Dream)"
+    },
+    {
+      "ref": "c024",
+      "title": "Board meeting (10/16) follow-ups: minutes and action items",
+      "due": "2026-10-23",
+      "status": "open",
+      "who": "Board; Charlie Proctor"
+    },
+    {
+      "ref": "c030",
+      "title": "Innovation Works Scale Expo 9am-3pm",
+      "due": "2026-10-27",
+      "status": "open",
+      "who": "Tony Garcia (Innovation Works)"
+    },
+    {
+      "ref": "c051",
+      "title": "Coffee with Bugra Thu 11am, Convive",
+      "due": "2026-10-29",
+      "status": "open",
+      "who": "Bugra Ozutemiz"
+    },
+    {
+      "ref": "c027",
+      "title": "Decide on exhibit space at the RK Mellon SII celebration (Nov 2)",
+      "due": "2026-10-30",
+      "status": "open",
+      "who": "Bobby Zappala"
+    },
+    {
+      "ref": "c038",
+      "title": "Apply for the Verizon gift card",
+      "due": "2026-10-30",
+      "status": "open",
+      "who": "Personal"
+    }
+  ],
+  "waiting_on": [
+    {
+      "ref": "c063",
+      "title": "UCSF: confirm May 17 + 24 study days, agreement, deposit / pre-pay in 2026",
+      "who": "Ella Behnke (UCSF)",
+      "since": "2026-10-27"
+    },
+    {
+      "ref": "c013",
+      "title": "FDA feedback on Q-sub Q263249",
+      "who": "Kimberly Kontson (FDA)",
+      "since": "2026-10-15"
+    },
+    {
+      "ref": "c046",
+      "title": "Nilo regulatory strategy draft",
+      "who": "Michael Nilo",
+      "since": "2026-10-20"
+    },
+    {
+      "ref": "c003",
+      "title": "Adhesive/biocomp decision for the Kanou window",
+      "who": "Kevin Chou",
+      "since": "2026-10-16"
+    },
+    {
+      "ref": "c018",
+      "title": "Company laptop back from David Montez",
+      "who": "David Montez",
+      "since": "2026-10-15"
+    },
+    {
+      "ref": "c023",
+      "title": "Kevin to ask Harry (AO) about agentic coding / Docket chat",
+      "who": "Kevin Chou",
+      "since": "2026-10-07"
+    },
+    {
+      "ref": "c061",
+      "title": "GOKIZ site visit time and coordinator certificate",
+      "who": "Sophie Beacom (back Thu 10/29)",
+      "since": "2026-10-26"
+    }
+  ],
+  "drafts": [
+    {
+      "kind": "Calendar hold",
+      "title": "EA hold: QMS focus, Wed 10/28 3:00-4:30",
+      "link": "https://www.google.com/calendar/event?eid=OWZsYmE2cnZvZ3RraWNvYjY3ODJvbWFvM3MgYnJhZEByZXNpbGllbnQuYmlv",
+      "note": "Delete freely."
+    }
+  ],
+  "later": [
+    {
+      "date": "2026-11-04",
+      "title": "Pay Alloy (calendar reminder)"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Past Month Accounting (1st Friday, calendar reminder)"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "NIH study section meets Nov 9-10",
+      "ref": "c014"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Autodesk Fusion hub closes for inactivity",
+      "ref": "c060"
+    }
+  ],
+  "done_today": [
+    {
+      "ref": "c062",
+      "title": "Replied to Ella: UCSF study weeks May 17 + May 24, 2027; flagged possible pre-payment this year"
+    },
+    {
+      "title": "Payroll runs approved (no missed-payroll notice from Rippling)",
+      "ref": "c050"
+    }
+  ],
+  "notes": [
+    "UCSF testing now starts the week of May 17, 2027 (c041 updated). Device project's target date is still unset; the deadline it works back from moved a week earlier.",
+    "Your Fri 10/30 2pm 'nudge hypoxia lab' reminder can stay as the check-in if Ella hasn't replied about the agreement and pre-pay (c063).",
+    "QMS docs: STALE, never moved. Wed 3:00-4:30 hold is set to route the PCH SOP; pick one of the two PCH drafts first.",
+    "Thu 11:00 Bugra coffee: the calendar event still has no guests (c051).",
+    "KIZ: settle with Rachelle whether only Maria's letter or both coordinators' certificates are needed once Sophie is back Thu (c057).",
+    "Overdue and unmoved: Docket for Arjun (c020), board follow-ups (c024), weights for Kevin (c043).",
+    "Slack and Otter: nothing new since the morning. No new requests from real people in email.",
+    "Skipped: NUImpact (Northeastern student fund) cold investment outreach, OpenAI webinar and data-export notices, Google new-sign-in alert for a Mac (ignore if it was you), Intuit receipt, Harvard Gazette."
+  ]
 }
