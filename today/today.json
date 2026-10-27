@@ -1,109 +1,225 @@
 {
-  "generated_at": "2026-10-26T17:26:00-04:00",
-  "run": "End of day",
-  "date_label": "Monday, October 26",
-  "headline": "Payroll approval isn't confirmed (5:30pm deadline), and the QMS SOP routing can't be confirmed either; QMS is still stale. First thing tomorrow: check both Rippling runs went through.",
-  "priorities": [
-    {
-      "title": "Check in Rippling that both payroll runs (and Kevin's timesheet) were approved",
-      "why": "Due 5:30pm today; no approval confirmation seen. If missed, the Oct 30 check date slips a business day, so tell Charlie and Kevin.",
-      "ref": "c050",
-      "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1880112294914841108"
-    },
-    {
-      "title": "QMS: route PCH - SOP Purchasing and Supplier Control for review in Formwork",
-      "why": "Top project, still never moved (1 of 53 approved). Do it today if the 1:30 block didn't get to it. The SOP also backs the Kanou supplier agreement (c054).",
-      "ref": "qms"
-    },
-    {
-      "title": "Settle the WhaleTeq simulator call with Charlie and write down your claims questions for Nilo",
-      "why": "Wed 1:30 Nilo reg strategy meeting. Nilo has your updated device descriptions. Prep hold Wed 1:00-1:30.",
-      "ref": "c053",
-      "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
-    }
-  ],
-  "schedule": [
-    {
-      "time": "Tue 9:00",
-      "title": "Drop off the Lexus",
-      "detail": "Inside childcare time. Pick-up 4:00-4:30, then Kid Duty 4:15."
-    },
-    {
-      "time": "Tue 9:00",
-      "title": "Innovation Works Scale Expo (until 3:00), The Edwin at Rockwell Park",
-      "detail": "You registered; not on your calendar. You may be without a car (c030)."
-    },
-    {
-      "time": "Tue 12:00",
-      "title": "DNS",
-      "detail": "Protected."
-    },
-    {
-      "time": "Tue 4:00",
-      "title": "Pick up the Lexus",
-      "detail": "Then Kid Duty 4:15."
-    },
-    {
-      "time": "Wed 1:00",
-      "title": "EA hold: prep for Nilo reg strategy",
-      "detail": "Until 1:30. WhaleTeq decision (c053), claims questions (c046).",
-      "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "time": "Wed 1:30",
-      "title": "Resilient/NiloMed Product Reg Strategy (Teams)",
-      "detail": "Until 2:30. Charlie and Kevin haven't responded to the invite."
-    },
-    {
-      "time": "Thu 11:00",
-      "title": "Coffee with Bugra Ozutemiz, Convive Coffee",
-      "detail": "Your calendar event has no attendees; you told Bugra you'd send an invite (c051)."
-    }
-  ],
-  "due": [
-    {"ref": "c043", "title": "Bring lb weights for Kevin's durometer jig, or buy calibrated weights", "due": "2026-10-21", "status": "open", "who": "Kevin Chou"},
-    {"ref": "c020", "title": "Share the Docket agent tool with Arjun Mathur (Dream)", "due": "2026-10-23", "status": "open", "who": "Arjun Mathur (Dream)", "link": "https://otter.ai/u/nheHd8Wqz48c0DDBmfNYZ5qtgoU"},
-    {"ref": "c024", "title": "Board meeting (10/16) follow-ups: minutes and action items", "due": "2026-10-23", "status": "open", "who": "Board; Charlie Proctor"},
-    {"ref": "c050", "title": "Approve two Rippling payroll runs by 5:30pm ET (not confirmed)", "due": "2026-10-26", "status": "unclear", "who": "Rippling"},
-    {"ref": "c030", "title": "Innovation Works Scale Expo Tue 9am-3pm", "due": "2026-10-27", "status": "open", "who": "Tony Garcia (Innovation Works)"},
-    {"ref": "c037", "title": "Drop off the Lexus Tue 9:00am, pick up 4:00pm", "due": "2026-10-27", "status": "open", "who": "Personal"},
-    {"ref": "c051", "title": "Coffee with Bugra Thu 11am, Convive", "due": "2026-10-29", "status": "open", "who": "Bugra Ozutemiz"},
-    {"ref": "c027", "title": "Decide on exhibit space at the RK Mellon SII celebration (Nov 2)", "due": "2026-10-30", "status": "open", "who": "Bobby Zappala"},
-    {"ref": "c038", "title": "Apply for the Verizon gift card (Fri 10am reminder)", "due": "2026-10-30", "status": "open", "who": "Personal"}
-  ],
-  "waiting_on": [
-    {"ref": "c013", "title": "FDA feedback on Q-sub Q263249", "who": "Kimberly Kontson (FDA)", "since": "2026-10-15"},
-    {"ref": "c046", "title": "Nilo regulatory strategy draft", "who": "Michael Nilo", "since": "2026-10-20"},
-    {"ref": "c003", "title": "Adhesive/biocomp decision for the Kanou window", "who": "Kevin Chou", "since": "2026-10-16"},
-    {"ref": "c018", "title": "Company laptop back from David Montez", "who": "David Montez", "since": "2026-10-15"},
-    {"ref": "c023", "title": "Kevin to ask Harry (AO) about agentic coding / Docket chat", "who": "Kevin Chou", "since": "2026-10-07"},
-    {"ref": "c061", "title": "GOKIZ site visit time and coordinator certificate", "who": "Sophie Beacom (back Thu 10/29)", "since": "2026-10-26"}
-  ],
-  "drafts": [],
-  "later": [
-    {"date": "2026-11-02", "title": "RK Mellon SII Pitch Competition celebration, 5:30pm", "ref": "c027"},
-    {"date": "2026-11-04", "title": "Pay Alloy (calendar reminder)"},
-    {"date": "2026-11-06", "title": "Past Month Accounting (1st Friday, calendar reminder)"},
-    {"date": "2026-11-09", "title": "NIH study section meets Nov 9-10", "ref": "c014"},
-    {"date": "2026-11-10", "title": "Autodesk Fusion hub closes for inactivity", "ref": "c060"}
-  ],
-  "done_today": [
-    {"title": "K Chou stock award agreement: resolved", "ref": "c049"},
-    {"title": "Kanou 50pc glass order: wire, address and drawing sent", "ref": "c056"},
-    {"title": "KIZ documents sent to Rachelle (signed and notarized)", "ref": "c006"},
-    {"title": "KIZ site visit with Maria held; Rachelle updated", "ref": "c055"},
-    {"title": "Signed lease copy received from Lauren", "ref": "c058"},
-    {"title": "Bugra coffee set for Thu 11am at Convive", "ref": "c051"},
-    {"title": "Updated device descriptions sent to Nilo (receipt confirmed)", "ref": "c046"},
-    {"title": "GOKIZ site-visit availability form filled out for Sophie Beacom", "ref": "c061"},
-    {"title": "Declined the summer internship inquiry"}
-  ],
-  "notes": [
-    "QMS docs: STALE, never moved. Formwork isn't checked on wrap runs, so the EA can't tell if the PCH SOP went to review today.",
-    "KIZ: Rachelle says only Maria's (PC) letter is needed; Sophie (GOKIZ) says both coordinators' certificates are. Worth settling with Rachelle once Sophie is back Thu (c057).",
-    "Bugra: the Thu coffee event has no guests. Add Bugra yourself if you want him to get an invite.",
-    "Overdue and unmoved: Docket for Arjun (c020), board follow-ups (c024), weights for Kevin (c043).",
-    "Slack and Otter: nothing new since midday.",
-    "Skipped: an audience-partnership cold email, Scale Expo resources, Amazon deliveries, a Chase alert."
-  ]
+ "generated_at": "2026-10-27T05:00:00-04:00",
+ "run": "Morning brief",
+ "date_label": "Tuesday, October 27",
+ "headline": "UCSF confirmed the week of May 24 can work and wants you to pick the two study weeks; a reply is drafted. Payroll approval still isn't confirmed, so check Rippling first.",
+ "priorities": [
+  {
+   "title": "Check in Rippling that both payroll runs (and Kevin's timesheet) were approved",
+   "why": "Deadline was Mon 5:30pm; no confirmation email came overnight. If missed, the Fri 10/30 check date slips a business day, so tell Charlie and Kevin.",
+   "ref": "c050",
+   "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1880112294914841108"
+  },
+  {
+   "title": "Send Ella the UCSF study weeks (draft picks May 24 + May 31) and ask for the agreement and deposit",
+   "why": "Ella replied at 2:53am offering May 17+24 or May 24+31. Locks the device testing date. Change the draft if you'd rather start May 17.",
+   "ref": "c062",
+   "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1772967149821527089%2Bmsg-a:r6187156287113945238"
+  },
+  {
+   "title": "QMS: route PCH - SOP Purchasing and Supplier Control for review in Formwork",
+   "why": "Top project, still never moved: 1 of 59 approved, and the PCH SOP is still a draft. Focus hold Wed 3:00-4:30 if today is lost to the Expo.",
+   "ref": "qms",
+   "link": "https://app.openregulatory.com/documents/47679eb0-35bc-4098-9dec-6e9cfa4a7e6d"
+  },
+  {
+   "title": "Settle the WhaleTeq simulator call with Charlie and write down your claims questions for Nilo",
+   "why": "Wed 1:30 Nilo reg strategy meeting; prep hold Wed 1:00-1:30.",
+   "ref": "c053",
+   "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
+  }
+ ],
+ "schedule": [
+  {
+   "time": "9:00",
+   "title": "Drop off the Lexus",
+   "detail": "Inside childcare time (7:00-9:30). Pick-up 4:00."
+  },
+  {
+   "time": "9:00",
+   "title": "Innovation Works Scale Expo (until 3:00), The Edwin at Rockwell Park",
+   "detail": "You registered; not on your calendar. You may be without a car (c030)."
+  },
+  {
+   "time": "12:00",
+   "title": "DNS",
+   "detail": "Protected."
+  },
+  {
+   "time": "4:00",
+   "title": "Pick up the Lexus",
+   "detail": "Until 4:30; overlaps Kid Duty at 4:15."
+  },
+  {
+   "time": "4:15",
+   "title": "Kid Duty",
+   "detail": "Until 9:00pm."
+  },
+  {
+   "time": "Wed 1:00",
+   "title": "EA hold: prep for Nilo reg strategy",
+   "detail": "WhaleTeq decision (c053), claims questions (c046).",
+   "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
+  },
+  {
+   "time": "Wed 1:30",
+   "title": "Resilient/NiloMed Product Reg Strategy (Teams)",
+   "detail": "Until 2:30. Charlie and Kevin haven't responded to the invite."
+  },
+  {
+   "time": "Wed 3:00",
+   "title": "EA hold: QMS focus, route the PCH SOP",
+   "detail": "Until 4:30. New today.",
+   "link": "https://www.google.com/calendar/event?eid=OWZsYmE2cnZvZ3RraWNvYjY3ODJvbWFvM3MgYnJhZEByZXNpbGllbnQuYmlv"
+  }
+ ],
+ "due": [
+  {
+   "ref": "c043",
+   "title": "Bring lb weights for Kevin's durometer jig, or buy calibrated weights",
+   "due": "2026-10-21",
+   "status": "open",
+   "who": "Kevin Chou"
+  },
+  {
+   "ref": "c020",
+   "title": "Share the Docket agent tool with Arjun Mathur (Dream)",
+   "due": "2026-10-23",
+   "status": "open",
+   "who": "Arjun Mathur (Dream)"
+  },
+  {
+   "ref": "c024",
+   "title": "Board meeting (10/16) follow-ups: minutes and action items",
+   "due": "2026-10-23",
+   "status": "open",
+   "who": "Board; Charlie Proctor"
+  },
+  {
+   "ref": "c050",
+   "title": "Approve two Rippling payroll runs (not confirmed)",
+   "due": "2026-10-26",
+   "status": "unclear",
+   "who": "Rippling"
+  },
+  {
+   "ref": "c030",
+   "title": "Innovation Works Scale Expo 9am-3pm",
+   "due": "2026-10-27",
+   "status": "open",
+   "who": "Tony Garcia (Innovation Works)"
+  },
+  {
+   "ref": "c037",
+   "title": "Drop off the Lexus 9:00am, pick up 4:00pm",
+   "due": "2026-10-27",
+   "status": "open",
+   "who": "Personal"
+  },
+  {
+   "ref": "c051",
+   "title": "Coffee with Bugra Thu 11am, Convive",
+   "due": "2026-10-29",
+   "status": "open",
+   "who": "Bugra Ozutemiz"
+  },
+  {
+   "ref": "c027",
+   "title": "Decide on exhibit space at the RK Mellon SII celebration (Nov 2)",
+   "due": "2026-10-30",
+   "status": "open",
+   "who": "Bobby Zappala"
+  },
+  {
+   "ref": "c038",
+   "title": "Apply for the Verizon gift card",
+   "due": "2026-10-30",
+   "status": "open",
+   "who": "Personal"
+  }
+ ],
+ "waiting_on": [
+  {
+   "ref": "c013",
+   "title": "FDA feedback on Q-sub Q263249",
+   "who": "Kimberly Kontson (FDA)",
+   "since": "2026-10-15"
+  },
+  {
+   "ref": "c046",
+   "title": "Nilo regulatory strategy draft",
+   "who": "Michael Nilo",
+   "since": "2026-10-20"
+  },
+  {
+   "ref": "c003",
+   "title": "Adhesive/biocomp decision for the Kanou window",
+   "who": "Kevin Chou",
+   "since": "2026-10-16"
+  },
+  {
+   "ref": "c018",
+   "title": "Company laptop back from David Montez",
+   "who": "David Montez",
+   "since": "2026-10-15"
+  },
+  {
+   "ref": "c023",
+   "title": "Kevin to ask Harry (AO) about agentic coding / Docket chat",
+   "who": "Kevin Chou",
+   "since": "2026-10-07"
+  },
+  {
+   "ref": "c061",
+   "title": "GOKIZ site visit time and coordinator certificate",
+   "who": "Sophie Beacom (back Thu 10/29)",
+   "since": "2026-10-26"
+  }
+ ],
+ "drafts": [
+  {
+   "kind": "Gmail draft",
+   "title": "Re: Hypoxia Testing: study days May 25-27 + June 1-2; what's next for agreement and deposit",
+   "to": "Ella Behnke (cc Hypoxia Lab, Katie, Rene)",
+   "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1772967149821527089%2Bmsg-a:r6187156287113945238",
+   "note": "Picks May 24 + May 31; switch to May 17 + 24 if you want it earlier."
+  },
+  {
+   "kind": "Calendar hold",
+   "title": "EA hold: QMS focus, Wed 10/28 3:00-4:30",
+   "link": "https://www.google.com/calendar/event?eid=OWZsYmE2cnZvZ3RraWNvYjY3ODJvbWFvM3MgYnJhZEByZXNpbGllbnQuYmlv",
+   "note": "Delete freely."
+  }
+ ],
+ "later": [
+  {
+   "date": "2026-11-04",
+   "title": "Pay Alloy (calendar reminder)"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "Past Month Accounting (1st Friday, calendar reminder)"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "NIH study section meets Nov 9-10",
+   "ref": "c014"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "Autodesk Fusion hub closes for inactivity",
+   "ref": "c060"
+  }
+ ],
+ "done_today": [],
+ "notes": [
+  "QMS docs: STALE, never moved. Formwork now lists 59 documents (was 53), 1 approved, none in review. There are two PCH purchasing SOP drafts in different folders ('PCH - SOP Purchasing and Supplier Control' and 'PCH - SOP Purchasing'); pick one before routing.",
+  "UCSF: your Fri 10/30 2pm 'nudge hypoxia lab' reminder is no longer needed now that Ella replied (c041).",
+  "Thu 11:00 Bugra coffee: the calendar event still has no guests; add Bugra if you want him to get an invite (c051).",
+  "KIZ: settle with Rachelle whether only Maria's letter or both coordinators' certificates are needed once Sophie is back Thu (c057).",
+  "Overdue and unmoved: Docket for Arjun (c020), board follow-ups (c024), weights for Kevin (c043).",
+  "Formwork: no open tasks or reviews assigned to you.",
+  "Sent mail, Slack and Otter: nothing new since last night's wrap.",
+  "Skipped: Chase banking alerts, a GitHub Actions failure in the modern-battlefield-briefing-feed repo, an HBS Club of NEO event email."
+ ]
 }
