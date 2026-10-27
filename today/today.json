@@ -1,54 +1,64 @@
 {
-  "generated_at": "2026-10-27T12:58:00-04:00",
-  "run": "Midday update",
+  "generated_at": "2026-10-27T17:30:00-04:00",
+  "run": "End of day",
   "date_label": "Tuesday, October 27",
-  "headline": "You sent UCSF your pick (May 17 + May 24), so testing starts a week earlier than pencilled; now waiting on Ella for the agreement and your pre-pay question.",
+  "headline": "Quiet afternoon (Expo and Lexus day). Slipped: the PCH SOP is still unrouted and the Docket share for Arjun, board follow-ups and Kevin's weights are still overdue. First thing tomorrow: settle the WhaleTeq call with Charlie before the 1:30 Nilo meeting.",
   "priorities": [
     {
-      "title": "QMS: route PCH - SOP Purchasing and Supplier Control for review in Formwork",
-      "why": "Top project, still never moved: 1 of 59 approved, and the PCH SOP is still a draft. Focus hold Wed 3:00-4:30 if today is lost to the Expo.",
+      "title": "Decide on the WhaleTeq HRS200 ($4,300) with Charlie and list your claims questions for Nilo",
+      "why": "Wed 1:30 Nilo reg strategy meeting; prep hold 1:00-1:30 (c053, c046).",
+      "ref": "c053",
+      "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "title": "QMS: pick one PCH draft and route PCH - SOP Purchasing and Supplier Control for review",
+      "why": "Top project, never moved (1 of 59 approved); focus hold Wed 3:00-4:30. Also backs the Kanou supplier agreement (c054).",
       "ref": "qms",
       "link": "https://app.openregulatory.com/documents/47679eb0-35bc-4098-9dec-6e9cfa4a7e6d"
     },
     {
-      "title": "Settle the WhaleTeq simulator call with Charlie and write down your claims questions for Nilo",
-      "why": "Wed 1:30 Nilo reg strategy meeting; prep hold Wed 1:00-1:30.",
-      "ref": "c053",
-      "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
+      "title": "Share the Docket tool with Arjun Mathur (Dream)",
+      "why": "Promised to an outside party; overdue since 10/23.",
+      "ref": "c020"
     }
   ],
   "schedule": [
     {
-      "time": "now–3:00",
-      "title": "Innovation Works Scale Expo, Rockwell Park",
-      "detail": "Under way (c030)."
+      "time": "7:00",
+      "title": "Kid duty / WFH",
+      "detail": "Until 11:15."
     },
     {
-      "time": "4:00",
-      "title": "Pick up the Lexus",
-      "detail": "Until 4:30; overlaps Kid Duty at 4:15."
+      "time": "12:00",
+      "title": "DNS",
+      "detail": "Until 1:00."
     },
     {
-      "time": "4:15",
-      "title": "Kid Duty",
-      "detail": "Until 9:00pm."
-    },
-    {
-      "time": "Wed 1:00",
+      "time": "1:00",
       "title": "EA hold: prep for Nilo reg strategy",
       "detail": "WhaleTeq decision (c053), claims questions (c046).",
       "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
-      "time": "Wed 1:30",
+      "time": "1:30",
       "title": "Resilient/NiloMed Product Reg Strategy (Teams)",
-      "detail": "Until 2:30. Charlie and Kevin haven't responded to the invite."
+      "detail": "Until 2:30. Charlie, Kevin and the Nilo team haven't responded to the invite."
     },
     {
-      "time": "Wed 3:00",
+      "time": "3:00",
       "title": "EA hold: QMS focus, route the PCH SOP",
-      "detail": "Until 4:30. New today.",
+      "detail": "Until 4:30.",
       "link": "https://www.google.com/calendar/event?eid=OWZsYmE2cnZvZ3RraWNvYjY3ODJvbWFvM3MgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "time": "Thu 9:30",
+      "title": "Grandview Roof",
+      "detail": "Until 10:45."
+    },
+    {
+      "time": "Thu 11:00",
+      "title": "Coffee with Bugra, Convive",
+      "detail": "c051."
     }
   ],
   "due": [
@@ -72,13 +82,6 @@
       "due": "2026-10-23",
       "status": "open",
       "who": "Board; Charlie Proctor"
-    },
-    {
-      "ref": "c030",
-      "title": "Innovation Works Scale Expo 9am-3pm",
-      "due": "2026-10-27",
-      "status": "open",
-      "who": "Tony Garcia (Innovation Works)"
     },
     {
       "ref": "c051",
@@ -146,14 +149,7 @@
       "since": "2026-10-26"
     }
   ],
-  "drafts": [
-    {
-      "kind": "Calendar hold",
-      "title": "EA hold: QMS focus, Wed 10/28 3:00-4:30",
-      "link": "https://www.google.com/calendar/event?eid=OWZsYmE2cnZvZ3RraWNvYjY3ODJvbWFvM3MgYnJhZEByZXNpbGllbnQuYmlv",
-      "note": "Delete freely."
-    }
-  ],
+  "drafts": [],
   "later": [
     {
       "date": "2026-11-04",
@@ -180,18 +176,24 @@
       "title": "Replied to Ella: UCSF study weeks May 17 + May 24, 2027; flagged possible pre-payment this year"
     },
     {
-      "title": "Payroll runs approved (no missed-payroll notice from Rippling)",
-      "ref": "c050"
+      "ref": "c050",
+      "title": "Payroll runs approved (no missed-payroll notice from Rippling)"
+    },
+    {
+      "ref": "c030",
+      "title": "Innovation Works Scale Expo day"
+    },
+    {
+      "ref": "c037",
+      "title": "Lexus drop-off and pick-up"
     }
   ],
   "notes": [
-    "UCSF testing now starts the week of May 17, 2027 (c041 updated). Device project's target date is still unset; the deadline it works back from moved a week earlier.",
-    "Your Fri 10/30 2pm 'nudge hypoxia lab' reminder can stay as the check-in if Ella hasn't replied about the agreement and pre-pay (c063).",
-    "QMS docs: STALE, never moved. Wed 3:00-4:30 hold is set to route the PCH SOP; pick one of the two PCH drafts first.",
-    "Thu 11:00 Bugra coffee: the calendar event still has no guests (c051).",
-    "KIZ: settle with Rachelle whether only Maria's letter or both coordinators' certificates are needed once Sophie is back Thu (c057).",
+    "Nothing new after midday: no sent mail, no new requests in email, no Slack activity, no new Otter meetings.",
+    "QMS docs: STALE, never moved. Wed 3:00-4:30 hold is set; pick one of the two PCH drafts first.",
     "Overdue and unmoved: Docket for Arjun (c020), board follow-ups (c024), weights for Kevin (c043).",
-    "Slack and Otter: nothing new since the morning. No new requests from real people in email.",
-    "Skipped: NUImpact (Northeastern student fund) cold investment outreach, OpenAI webinar and data-export notices, Google new-sign-in alert for a Mac (ignore if it was you), Intuit receipt, Harvard Gazette."
+    "Wed is already at the 2-hold mark (Nilo prep, QMS focus); no new holds or drafts tonight.",
+    "Fri 2pm 'nudge hypoxia lab' reminder stays as the check-in if Ella hasn't replied (c063). Verizon gift card reminder Fri 10:00 (c038).",
+    "Calendar API hit a quota error once this run; the retry worked."
   ]
 }
