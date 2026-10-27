@@ -1,20 +1,14 @@
 {
- "generated_at": "2026-10-27T05:00:00-04:00",
- "run": "Morning brief",
+ "generated_at": "2026-10-27T12:58:00-04:00",
+ "run": "Midday update",
  "date_label": "Tuesday, October 27",
- "headline": "UCSF confirmed the week of May 24 can work and wants you to pick the two study weeks; a reply is drafted. Payroll approval still isn't confirmed, so check Rippling first.",
+ "headline": "You sent UCSF your pick (May 17 + May 24), so testing starts a week earlier than pencilled; now waiting on Ella for the agreement and your pre-pay question. Rippling's task list no longer shows the payroll approvals, which suggests they went through; a quick look confirms it.",
  "priorities": [
   {
-   "title": "Check in Rippling that both payroll runs (and Kevin's timesheet) were approved",
-   "why": "Deadline was Mon 5:30pm; no confirmation email came overnight. If missed, the Fri 10/30 check date slips a business day, so tell Charlie and Kevin.",
+   "title": "Confirm in Rippling that both payroll runs (and Kevin's timesheet) were approved",
+   "why": "Today's 7:23am Rippling digest lists only the year-end checklist, so the approvals likely cleared; no explicit confirmation. If missed, the Fri 10/30 check date slips a day.",
    "ref": "c050",
-   "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1880112294914841108"
-  },
-  {
-   "title": "Send Ella the UCSF study weeks (draft picks May 24 + May 31) and ask for the agreement and deposit",
-   "why": "Ella replied at 2:53am offering May 17+24 or May 24+31. Locks the device testing date. Change the draft if you'd rather start May 17.",
-   "ref": "c062",
-   "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1772967149821527089%2Bmsg-a:r6187156287113945238"
+   "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all/thread-f:1880201864798860578"
   },
   {
    "title": "QMS: route PCH - SOP Purchasing and Supplier Control for review in Formwork",
@@ -31,19 +25,9 @@
  ],
  "schedule": [
   {
-   "time": "9:00",
-   "title": "Drop off the Lexus",
-   "detail": "Inside childcare time (7:00-9:30). Pick-up 4:00."
-  },
-  {
-   "time": "9:00",
-   "title": "Innovation Works Scale Expo (until 3:00), The Edwin at Rockwell Park",
-   "detail": "You registered; not on your calendar. You may be without a car (c030)."
-  },
-  {
-   "time": "12:00",
-   "title": "DNS",
-   "detail": "Protected."
+   "time": "now\u20133:00",
+   "title": "Innovation Works Scale Expo, Rockwell Park",
+   "detail": "Under way (c030)."
   },
   {
    "time": "4:00",
@@ -97,7 +81,7 @@
   },
   {
    "ref": "c050",
-   "title": "Approve two Rippling payroll runs (not confirmed)",
+   "title": "Approve two Rippling payroll runs (likely done; confirm)",
    "due": "2026-10-26",
    "status": "unclear",
    "who": "Rippling"
@@ -108,13 +92,6 @@
    "due": "2026-10-27",
    "status": "open",
    "who": "Tony Garcia (Innovation Works)"
-  },
-  {
-   "ref": "c037",
-   "title": "Drop off the Lexus 9:00am, pick up 4:00pm",
-   "due": "2026-10-27",
-   "status": "open",
-   "who": "Personal"
   },
   {
    "ref": "c051",
@@ -139,6 +116,12 @@
   }
  ],
  "waiting_on": [
+  {
+   "ref": "c063",
+   "title": "UCSF: confirm May 17 + 24 study days, agreement, deposit / pre-pay in 2026",
+   "who": "Ella Behnke (UCSF)",
+   "since": "2026-10-27"
+  },
   {
    "ref": "c013",
    "title": "FDA feedback on Q-sub Q263249",
@@ -178,13 +161,6 @@
  ],
  "drafts": [
   {
-   "kind": "Gmail draft",
-   "title": "Re: Hypoxia Testing: study days May 25-27 + June 1-2; what's next for agreement and deposit",
-   "to": "Ella Behnke (cc Hypoxia Lab, Katie, Rene)",
-   "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1772967149821527089%2Bmsg-a:r6187156287113945238",
-   "note": "Picks May 24 + May 31; switch to May 17 + 24 if you want it earlier."
-  },
-  {
    "kind": "Calendar hold",
    "title": "EA hold: QMS focus, Wed 10/28 3:00-4:30",
    "link": "https://www.google.com/calendar/event?eid=OWZsYmE2cnZvZ3RraWNvYjY3ODJvbWFvM3MgYnJhZEByZXNpbGllbnQuYmlv",
@@ -211,15 +187,20 @@
    "ref": "c060"
   }
  ],
- "done_today": [],
+ "done_today": [
+  {
+   "ref": "c062",
+   "title": "Replied to Ella: UCSF study weeks May 17 + May 24, 2027; flagged possible pre-payment this year"
+  }
+ ],
  "notes": [
-  "QMS docs: STALE, never moved. Formwork now lists 59 documents (was 53), 1 approved, none in review. There are two PCH purchasing SOP drafts in different folders ('PCH - SOP Purchasing and Supplier Control' and 'PCH - SOP Purchasing'); pick one before routing.",
-  "UCSF: your Fri 10/30 2pm 'nudge hypoxia lab' reminder is no longer needed now that Ella replied (c041).",
-  "Thu 11:00 Bugra coffee: the calendar event still has no guests; add Bugra if you want him to get an invite (c051).",
+  "UCSF testing now starts the week of May 17, 2027 (c041 updated). Device project's target date is still unset; the deadline it works back from moved a week earlier.",
+  "Your Fri 10/30 2pm 'nudge hypoxia lab' reminder can stay as the check-in if Ella hasn't replied about the agreement and pre-pay (c063).",
+  "QMS docs: STALE, never moved. Wed 3:00-4:30 hold is set to route the PCH SOP; pick one of the two PCH drafts first.",
+  "Thu 11:00 Bugra coffee: the calendar event still has no guests (c051).",
   "KIZ: settle with Rachelle whether only Maria's letter or both coordinators' certificates are needed once Sophie is back Thu (c057).",
   "Overdue and unmoved: Docket for Arjun (c020), board follow-ups (c024), weights for Kevin (c043).",
-  "Formwork: no open tasks or reviews assigned to you.",
-  "Sent mail, Slack and Otter: nothing new since last night's wrap.",
-  "Skipped: Chase banking alerts, a GitHub Actions failure in the modern-battlefield-briefing-feed repo, an HBS Club of NEO event email."
+  "Slack and Otter: nothing new since the morning. No new requests from real people in email.",
+  "Skipped: NUImpact (Northeastern student fund) cold investment outreach, OpenAI webinar and data-export notices, Google new-sign-in alert for a Mac (ignore if it was you), Intuit receipt, Harvard Gazette."
  ]
 }
