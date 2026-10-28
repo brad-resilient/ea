@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-28T05:00:00-04:00",
-  "run": "Morning brief",
+  "generated_at": "2026-10-28T12:58:00-04:00",
+  "run": "Midday update",
   "date_label": "Wednesday, October 28",
-  "headline": "Quiet night. Today is the 1:30 Nilo reg strategy meeting: settle WhaleTeq with Charlie in the 1:00 prep hold, then use 3:00-4:30 to finally route the PCH SOP (QMS still 1 of 59).",
+  "headline": "Quiet morning, priorities unchanged: WhaleTeq prep at 1:00, Nilo reg strategy 1:30, then the PCH SOP. Heads-up: Kid Duty moved to today 4:15, so the QMS hold effectively ends at 4:15.",
   "priorities": [
     {
       "title": "Decide on the WhaleTeq HRS200 ($4,300) with Charlie and list your claims questions for Nilo",
@@ -52,8 +52,13 @@
     {
       "time": "3:00",
       "title": "EA hold: QMS focus, route the PCH SOP",
-      "detail": "Until 4:30.",
+      "detail": "Until 4:30, but Kid Duty now starts 4:15: you have 75 minutes.",
       "link": "https://www.google.com/calendar/event?eid=OWZsYmE2cnZvZ3RraWNvYjY3ODJvbWFvM3MgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "time": "4:15",
+      "title": "Kid Duty (moved from Thu)",
+      "detail": "Until 9:00pm."
     },
     {
       "time": "Thu 9:30",
@@ -117,6 +122,12 @@
     }
   ],
   "waiting_on": [
+    {
+      "ref": "c064",
+      "title": "KIZ tax credit sale to Mutual Benefit: any update since the 9/24 resubmission",
+      "who": "Lindsey Bennett (KIZ Resources)",
+      "since": "2026-10-28"
+    },
     {
       "ref": "c063",
       "title": "UCSF: confirm May 17 + 24 study days, agreement, deposit / pre-pay in 2026",
@@ -190,11 +201,12 @@
   ],
   "done_today": [],
   "notes": [
-    "Overnight: no sent mail, no new requests, no new Otter meetings; Slack search returned nothing since Mon.",
-    "Ramp refunded Kevin's $12.83 Hulu charge as a courtesy (10/27 11:48pm). Still yours: deactivate or replace his card (c052).",
-    "QMS docs: STALE, never moved (Formwork 1 of 59 approved, 0 in review). No Formwork tasks or reviews assigned to you.",
-    "Overdue and unmoved: Docket for Arjun (c020), board follow-ups (c024), weights for Kevin (c043).",
-    "RK Mellon exhibit-space decision due Fri (c027); the event is Mon 11/2 5:30. Verizon gift card reminder Fri 10:00 (c038); 'nudge hypoxia lab' Fri 2:00 if Ella hasn't replied (c063).",
-    "No drafts this morning: nothing new needed a reply."
+    "Since 5am: you nudged Lindsey on the resubmitted KIZ credit sale (c064, waiting). No Slack, no new Otter meetings, no new requests from people.",
+    "Buchanan sent 5 invoices via its client portal; a $3,842.12 Ramp charge to Buchanan followed, so likely paid. Invoice total not in the email (c065).",
+    "Chase confirms the $650 wire to Kanou (10/26) for the glass samples.",
+    "Donnelly-Boland is fixing Resilient's client portal access internally; nothing for you yet.",
+    "Skipped: cold outreach from a Russia-based developer asking about an interface to the overdose monitor; no reply drafted.",
+    "QMS docs still STALE (1 of 59 approved). Overdue and unmoved: Docket for Arjun (c020), board follow-ups (c024), weights for Kevin (c043).",
+    "No new drafts or holds this run."
   ]
 }
