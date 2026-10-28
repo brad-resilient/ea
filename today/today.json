@@ -1,37 +1,42 @@
 {
-  "generated_at": "2026-10-28T12:58:00-04:00",
-  "run": "Midday update",
+  "generated_at": "2026-10-28T17:26:00-04:00",
+  "run": "End of day",
   "date_label": "Wednesday, October 28",
-  "headline": "Quiet morning, priorities unchanged: WhaleTeq prep at 1:00, Nilo reg strategy 1:30, then the PCH SOP. Heads-up: Kid Duty moved to today 4:15, so the QMS hold effectively ends at 4:15.",
+  "headline": "Nilo strategy meeting happened; the QMS PCH SOP slipped again (still draft). First thing tomorrow: send Nilo the modular product breakdown so they can cost each feature.",
   "priorities": [
     {
-      "title": "Decide on the WhaleTeq HRS200 ($4,300) with Charlie and list your claims questions for Nilo",
-      "why": "Nilo product/reg strategy meeting today 1:30 (Teams); prep hold 1:00-1:30 (c053, c046).",
-      "ref": "c053",
-      "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
+      "title": "Send Nilo the modular product breakdown: baseline monitoring, configurable alarms, caregiver alerts (what each says, how urgent)",
+      "why": "You committed in today's meeting; Nilo's per-module regulatory/V&V costing waits on it (c066, c046). Hold Thu 3:00-4:00.",
+      "ref": "c066",
+      "link": "https://www.google.com/calendar/event?eid=dWZwcnVyNXY4cGQxN25hYjhqcnJ1YzliYXMgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
       "title": "QMS: pick one PCH draft and route PCH - SOP Purchasing and Supplier Control for review",
-      "why": "Top project, never moved (1 of 59 approved); focus hold today 3:00-4:30. Backs the Kanou supplier agreement (c054).",
+      "why": "Top project, still 1 of 59 approved and never moved; slipped today. Hold Thu 4:00-5:00.",
       "ref": "qms",
       "link": "https://app.openregulatory.com/documents/47679eb0-35bc-4098-9dec-6e9cfa4a7e6d"
     },
     {
       "title": "Share the Docket tool with Arjun Mathur (Dream)",
-      "why": "Promised to an outside party; 5 days overdue (due 10/23).",
+      "why": "Promised to an outside party; 6 days overdue (due 10/23).",
       "ref": "c020"
-    },
-    {
-      "title": "Send board follow-ups (10/16 minutes and action items) with Charlie",
-      "why": "Overdue since 10/23.",
-      "ref": "c024"
     }
   ],
   "schedule": [
     {
       "time": "7:00",
-      "title": "Kid duty / WFH",
-      "detail": "Until 11:15."
+      "title": "Kid duty",
+      "detail": "Until 9:30."
+    },
+    {
+      "time": "9:30",
+      "title": "Grandview Roof",
+      "detail": "Until 10:45."
+    },
+    {
+      "time": "11:00",
+      "title": "Coffee with Bugra, Convive Coffee",
+      "detail": "Ex-Lifeware Labs vitals monitor; useful for customer discovery on target population and alarms (c069)."
     },
     {
       "time": "12:00",
@@ -39,42 +44,32 @@
       "detail": "Until 1:00."
     },
     {
-      "time": "1:00",
-      "title": "EA hold: prep for Nilo reg strategy",
-      "detail": "WhaleTeq decision (c053), claims questions (c046).",
-      "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
       "time": "1:30",
-      "title": "Resilient/NiloMed Product Reg Strategy (Teams)",
-      "detail": "Until 2:30. Michael and Nick Nilo, Jarrett Boyd, Marianne Parrish; Charlie and Kevin invited but haven't responded."
+      "title": "EA hold: draft Kanou supplier agreement",
+      "detail": "Until 3:00. Start from Formwork PCH - TPL Supplier Quality Agreement (c054).",
+      "link": "https://www.google.com/calendar/event?eid=OTBtZmFyZW5zODk0ZHVubnY1aHRubmo4b28gYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
       "time": "3:00",
-      "title": "EA hold: QMS focus, route the PCH SOP",
-      "detail": "Until 4:30, but Kid Duty now starts 4:15: you have 75 minutes.",
-      "link": "https://www.google.com/calendar/event?eid=OWZsYmE2cnZvZ3RraWNvYjY3ODJvbWFvM3MgYnJhZEByZXNpbGllbnQuYmlv"
+      "title": "EA hold: modular breakdown for Nilo",
+      "detail": "Until 4:00 (c066).",
+      "link": "https://www.google.com/calendar/event?eid=dWZwcnVyNXY4cGQxN25hYjhqcnJ1YzliYXMgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
-      "time": "4:15",
-      "title": "Kid Duty (moved from Thu)",
-      "detail": "Until 9:00pm."
+      "time": "4:00",
+      "title": "EA hold: QMS, route the PCH SOP",
+      "detail": "Until 5:00.",
+      "link": "https://www.google.com/calendar/event?eid=djhvY3IycDh1a3MxcTNrZmF2YnBuM2VjdGMgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
-      "time": "Thu 9:30",
-      "title": "Grandview Roof",
-      "detail": "Until 10:45."
+      "time": "Fri 10:00",
+      "title": "Apply for Verizon gift card",
+      "detail": "c038, due Fri."
     },
     {
-      "time": "Thu 11:00",
-      "title": "Coffee with Bugra, Convive",
-      "detail": "c051."
-    },
-    {
-      "time": "Thu 1:30",
-      "title": "EA hold: draft Kanou supplier agreement",
-      "detail": "Until 3:00 (c054).",
-      "link": "https://www.google.com/calendar/event?eid=OTBtZmFyZW5zODk0ZHVubnY1aHRubmo4b28gYnJhZEByZXNpbGllbnQuYmlv"
+      "time": "Fri 2:00",
+      "title": "Nudge hypoxia lab (your reminder)",
+      "detail": "c063."
     }
   ],
   "due": [
@@ -123,6 +118,12 @@
   ],
   "waiting_on": [
     {
+      "ref": "c068",
+      "title": "Testing/requirements notes, SBOM guidance, accelerated-aging oven check",
+      "who": "Nick Nilo",
+      "since": "2026-10-28"
+    },
+    {
       "ref": "c064",
       "title": "KIZ tax credit sale to Mutual Benefit: any update since the 9/24 resubmission",
       "who": "Lindsey Bennett (KIZ Resources)",
@@ -139,12 +140,6 @@
       "title": "FDA feedback on Q-sub Q263249",
       "who": "Kimberly Kontson (FDA)",
       "since": "2026-10-15"
-    },
-    {
-      "ref": "c046",
-      "title": "Nilo regulatory strategy draft",
-      "who": "Michael Nilo",
-      "since": "2026-10-20"
     },
     {
       "ref": "c003",
@@ -174,12 +169,29 @@
   "drafts": [
     {
       "kind": "hold",
+      "title": "EA hold: modular product breakdown for Nilo (c066)",
+      "note": "Thu 10/29 3:00-4:00",
+      "link": "https://www.google.com/calendar/event?eid=dWZwcnVyNXY4cGQxN25hYjhqcnJ1YzliYXMgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "kind": "hold",
+      "title": "EA hold: QMS, route the PCH SOP for review",
+      "note": "Thu 10/29 4:00-5:00",
+      "link": "https://www.google.com/calendar/event?eid=djhvY3IycDh1a3MxcTNrZmF2YnBuM2VjdGMgYnJhZEByZXNpbGllbnQuYmlv"
+    },
+    {
+      "kind": "hold",
       "title": "EA hold: draft Kanou supplier agreement (c054)",
-      "note": "Thu 10/29 1:30-3:00",
+      "note": "Thu 10/29 1:30-3:00 (from this morning)",
       "link": "https://www.google.com/calendar/event?eid=OTBtZmFyZW5zODk0ZHVubnY1aHRubmo4b28gYnJhZEByZXNpbGllbnQuYmlv"
     }
   ],
   "later": [
+    {
+      "date": "2026-11-02",
+      "title": "RK Mellon SII celebration 5:30pm (exhibit decision due Fri, c027)",
+      "ref": "c027"
+    },
     {
       "date": "2026-11-04",
       "title": "Pay Alloy (calendar reminder)"
@@ -197,16 +209,28 @@
       "date": "2026-11-10",
       "title": "Autodesk Fusion hub closes for inactivity",
       "ref": "c060"
+    },
+    {
+      "date": "2026-11-30",
+      "title": "Respiratory-rate validation protocol bones (your goal from the Nilo call)",
+      "ref": "c067"
     }
   ],
-  "done_today": [],
+  "done_today": [
+    {
+      "ref": "c047",
+      "title": "Nilo product/regulatory strategy meeting held (Otter recorded): tiered claims, 60601 testing, SBOM/cybersecurity, PCCP"
+    },
+    {
+      "ref": "c064",
+      "title": "Nudged Lindsey (KIZ) on the resubmitted tax credit sale"
+    }
+  ],
   "notes": [
-    "Since 5am: you nudged Lindsey on the resubmitted KIZ credit sale (c064, waiting). No Slack, no new Otter meetings, no new requests from people.",
-    "Buchanan sent 5 invoices via its client portal; a $3,842.12 Ramp charge to Buchanan followed, so likely paid. Invoice total not in the email (c065).",
-    "Chase confirms the $650 wire to Kanou (10/26) for the glass samples.",
-    "Donnelly-Boland is fixing Resilient's client portal access internally; nothing for you yet.",
-    "Skipped: cold outreach from a Russia-based developer asking about an interface to the overdose monitor; no reply drafted.",
-    "QMS docs still STALE (1 of 59 approved). Overdue and unmoved: Docket for Arjun (c020), board follow-ups (c024), weights for Kevin (c043).",
-    "No new drafts or holds this run."
+    "From the Nilo call, new on your list: modular breakdown to Nilo (c066), customer discovery on target population and alarm thresholds (c069), respiratory-rate protocol bones by 11/30 (c067). Nick owes testing/SBOM notes and an accelerated-aging oven check (c068).",
+    "WhaleTeq HRS200 ($4,300) didn't come up in the call; still undecided with Charlie (c053).",
+    "Kevin (Slack): the $240.05 Xometry order on his Ramp card is his, not fraud (c052).",
+    "QMS docs STALE: no logged progress ever, PCH SOP still draft at 5:20pm. Overdue and unmoved: Docket for Arjun (c020), board follow-ups (c024), weights for Kevin (c043).",
+    "No email in or out since midday. No drafts this run; two holds added for Thu afternoon."
   ]
 }

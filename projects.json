@@ -6,7 +6,7 @@
     "goal": "QMS documentation written, reviewed and approved in Formwork, ready for ISO 13485 and FDA",
     "target": null,
     "status": "active",
-    "next_step": "Route PCH - SOP Purchasing and Supplier Control for review in Formwork (still draft 10/28; EA hold today 3:00-4:30). Two PCH SOP drafts exist (Purchasing and Supplier Control vs. Purchasing); pick one. Backs the Kanou supplier agreement (c054).",
+    "next_step": "Route PCH - SOP Purchasing and Supplier Control for review in Formwork (still draft at 5:20pm 10/28; slipped from today). Two PCH SOP drafts exist (Purchasing and Supplier Control vs. Purchasing); pick one. Backs the Kanou supplier agreement (c054). EA hold Thu 10/29 4:00-5:00.",
     "metric": "Formwork documents approved: 1 of 59 (2026-10-28)",
     "progress_signals": "Formwork documents moving from draft to in-review or approved; new or edited SOPs; Brad mentioning QMS work in Slack or meetings",
     "last_progress": null,
@@ -19,15 +19,16 @@
     "goal": "A strong kickoff with Nilo Medical, then the regulatory strategy and 510(k) path moving with clear owners and dates",
     "target": null,
     "status": "active",
-    "next_step": "Wed 10/28 1:30pm Nilo product/reg strategy meeting (Charlie and Kevin invited): bring the WhaleTeq simulator decision (c053) and claims questions for the regulatory strategy (c046)",
+    "next_step": "Send Nilo the modular product breakdown (baseline monitoring, configurable alarms, caregiver alerts: what each output says and its urgency) (c066); Nilo then costs each module (c046). Parallel: respiratory-rate protocol bones by 11/30 (c067). Waiting on Nick for testing/SBOM notes (c068). WhaleTeq decision still open (c053).",
     "metric": null,
     "progress_signals": "Emails and meetings with Nilo Medical, FDA correspondence on Q263249, documents shared with Nilo",
-    "last_progress": "2026-10-26",
+    "last_progress": "2026-10-28",
     "log": [
       "2026-10-20: Device background documents uploaded to Nilo's SharePoint before the kickoff (c004)",
       "2026-10-20: Nilo kickoff held 10/20: scope agreed (Brad sends product doc by Thu; Nilo drafts regulatory strategy; next meeting Oct 28/29)",
       "2026-10-23: Device description and draft design control doc sent to Nilo (Nick, Marianne, Michael) on 10/22 ahead of the 10/28 strategy meeting.",
-      "2026-10-26: Updated device descriptions sent to Nilo for Wed's strategy meeting; Nilo confirmed receipt (10/26)."
+      "2026-10-26: Updated device descriptions sent to Nilo for Wed's strategy meeting; Nilo confirmed receipt (10/26).",
+      "2026-10-28: 10/28 product/reg strategy meeting held with Nilo: testing standards (60601-1/-1-2/-1-8), cybersecurity and SBOM, tiered claims, PCCP; agreed next steps."
     ]
   },
   {
