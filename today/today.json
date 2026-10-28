@@ -1,25 +1,30 @@
 {
-  "generated_at": "2026-10-27T17:30:00-04:00",
-  "run": "End of day",
-  "date_label": "Tuesday, October 27",
-  "headline": "Quiet afternoon (Expo and Lexus day). Slipped: the PCH SOP is still unrouted and the Docket share for Arjun, board follow-ups and Kevin's weights are still overdue. First thing tomorrow: settle the WhaleTeq call with Charlie before the 1:30 Nilo meeting.",
+  "generated_at": "2026-10-28T05:00:00-04:00",
+  "run": "Morning brief",
+  "date_label": "Wednesday, October 28",
+  "headline": "Quiet night. Today is the 1:30 Nilo reg strategy meeting: settle WhaleTeq with Charlie in the 1:00 prep hold, then use 3:00-4:30 to finally route the PCH SOP (QMS still 1 of 59).",
   "priorities": [
     {
       "title": "Decide on the WhaleTeq HRS200 ($4,300) with Charlie and list your claims questions for Nilo",
-      "why": "Wed 1:30 Nilo reg strategy meeting; prep hold 1:00-1:30 (c053, c046).",
+      "why": "Nilo product/reg strategy meeting today 1:30 (Teams); prep hold 1:00-1:30 (c053, c046).",
       "ref": "c053",
       "link": "https://www.google.com/calendar/event?eid=MDVrNGVkaWVvMTYwNHNqbWpkY2M2dDQ4bnMgYnJhZEByZXNpbGllbnQuYmlv"
     },
     {
       "title": "QMS: pick one PCH draft and route PCH - SOP Purchasing and Supplier Control for review",
-      "why": "Top project, never moved (1 of 59 approved); focus hold Wed 3:00-4:30. Also backs the Kanou supplier agreement (c054).",
+      "why": "Top project, never moved (1 of 59 approved); focus hold today 3:00-4:30. Backs the Kanou supplier agreement (c054).",
       "ref": "qms",
       "link": "https://app.openregulatory.com/documents/47679eb0-35bc-4098-9dec-6e9cfa4a7e6d"
     },
     {
       "title": "Share the Docket tool with Arjun Mathur (Dream)",
-      "why": "Promised to an outside party; overdue since 10/23.",
+      "why": "Promised to an outside party; 5 days overdue (due 10/23).",
       "ref": "c020"
+    },
+    {
+      "title": "Send board follow-ups (10/16 minutes and action items) with Charlie",
+      "why": "Overdue since 10/23.",
+      "ref": "c024"
     }
   ],
   "schedule": [
@@ -42,7 +47,7 @@
     {
       "time": "1:30",
       "title": "Resilient/NiloMed Product Reg Strategy (Teams)",
-      "detail": "Until 2:30. Charlie, Kevin and the Nilo team haven't responded to the invite."
+      "detail": "Until 2:30. Michael and Nick Nilo, Jarrett Boyd, Marianne Parrish; Charlie and Kevin invited but haven't responded."
     },
     {
       "time": "3:00",
@@ -59,6 +64,12 @@
       "time": "Thu 11:00",
       "title": "Coffee with Bugra, Convive",
       "detail": "c051."
+    },
+    {
+      "time": "Thu 1:30",
+      "title": "EA hold: draft Kanou supplier agreement",
+      "detail": "Until 3:00 (c054).",
+      "link": "https://www.google.com/calendar/event?eid=OTBtZmFyZW5zODk0ZHVubnY1aHRubmo4b28gYnJhZEByZXNpbGllbnQuYmlv"
     }
   ],
   "due": [
@@ -149,7 +160,14 @@
       "since": "2026-10-26"
     }
   ],
-  "drafts": [],
+  "drafts": [
+    {
+      "kind": "hold",
+      "title": "EA hold: draft Kanou supplier agreement (c054)",
+      "note": "Thu 10/29 1:30-3:00",
+      "link": "https://www.google.com/calendar/event?eid=OTBtZmFyZW5zODk0ZHVubnY1aHRubmo4b28gYnJhZEByZXNpbGllbnQuYmlv"
+    }
+  ],
   "later": [
     {
       "date": "2026-11-04",
@@ -170,30 +188,13 @@
       "ref": "c060"
     }
   ],
-  "done_today": [
-    {
-      "ref": "c062",
-      "title": "Replied to Ella: UCSF study weeks May 17 + May 24, 2027; flagged possible pre-payment this year"
-    },
-    {
-      "ref": "c050",
-      "title": "Payroll runs approved (no missed-payroll notice from Rippling)"
-    },
-    {
-      "ref": "c030",
-      "title": "Innovation Works Scale Expo day"
-    },
-    {
-      "ref": "c037",
-      "title": "Lexus drop-off and pick-up"
-    }
-  ],
+  "done_today": [],
   "notes": [
-    "Nothing new after midday: no sent mail, no new requests in email, no Slack activity, no new Otter meetings.",
-    "QMS docs: STALE, never moved. Wed 3:00-4:30 hold is set; pick one of the two PCH drafts first.",
+    "Overnight: no sent mail, no new requests, no new Otter meetings; Slack search returned nothing since Mon.",
+    "Ramp refunded Kevin's $12.83 Hulu charge as a courtesy (10/27 11:48pm). Still yours: deactivate or replace his card (c052).",
+    "QMS docs: STALE, never moved (Formwork 1 of 59 approved, 0 in review). No Formwork tasks or reviews assigned to you.",
     "Overdue and unmoved: Docket for Arjun (c020), board follow-ups (c024), weights for Kevin (c043).",
-    "Wed is already at the 2-hold mark (Nilo prep, QMS focus); no new holds or drafts tonight.",
-    "Fri 2pm 'nudge hypoxia lab' reminder stays as the check-in if Ella hasn't replied (c063). Verizon gift card reminder Fri 10:00 (c038).",
-    "Calendar API hit a quota error once this run; the retry worked."
+    "RK Mellon exhibit-space decision due Fri (c027); the event is Mon 11/2 5:30. Verizon gift card reminder Fri 10:00 (c038); 'nudge hypoxia lab' Fri 2:00 if Ella hasn't replied (c063).",
+    "No drafts this morning: nothing new needed a reply."
   ]
 }
