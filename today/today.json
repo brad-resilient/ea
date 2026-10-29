@@ -1,14 +1,9 @@
 {
- "generated_at": "2026-10-29T05:00:00-04:00",
- "run": "Morning brief",
+ "generated_at": "2026-10-29T12:58:00-04:00",
+ "run": "Midday update",
  "date_label": "Thursday, October 29",
- "headline": "Rippling says the Oct 16-31 payroll debit failed for insufficient funds and the payroll account is on hold: fund it today so 10/31 pay goes out. Then the Nilo modular breakdown and the QMS PCH SOP, both held this afternoon.",
+ "headline": "Payroll is sorted: Rippling confirmed the Oct 16-31 run is funded. This afternoon: Kanou supplier agreement (1:30), the Nilo modular breakdown (3:00), and routing the QMS PCH SOP (4:00).",
  "priorities": [
-  {
-   "title": "Fund the failed Rippling payroll debit (semi-monthly Oct 16-31, insufficient funds)",
-   "why": "Payroll account is on hold; employees are paid 10/31. Amount not stated in the email; check the Payroll app in Rippling directly, not via email links (c070).",
-   "ref": "c070"
-  },
   {
    "title": "Send Nilo the modular product breakdown: baseline monitoring, configurable alarms, caregiver alerts (what each says, how urgent)",
    "why": "Committed at the 10/28 meeting; Michael's per-module regulatory/V&V costing waits on it (c066, c046). Hold 3:00-4:00.",
@@ -28,26 +23,6 @@
   }
  ],
  "schedule": [
-  {
-   "time": "7:00",
-   "title": "Kid duty",
-   "detail": "Until 9:30."
-  },
-  {
-   "time": "9:30",
-   "title": "Grandview Roof",
-   "detail": "Until 10:45."
-  },
-  {
-   "time": "11:00",
-   "title": "Coffee with Bugra, Convive Coffee",
-   "detail": "Ex-Lifeware Labs vitals monitor; ask about target population and which alarms matter (customer discovery, c069)."
-  },
-  {
-   "time": "12:00",
-   "title": "DNS",
-   "detail": "Until 1:00."
-  },
   {
    "time": "1:30",
    "title": "EA hold: draft Kanou supplier agreement",
@@ -90,20 +65,6 @@
    "who": "Board; Charlie Proctor"
   },
   {
-   "ref": "c070",
-   "title": "Fund the failed Rippling payroll debit",
-   "due": "2026-10-29",
-   "status": "open",
-   "who": "Rippling"
-  },
-  {
-   "ref": "c051",
-   "title": "Coffee with Bugra Thu 11am, Convive",
-   "due": "2026-10-29",
-   "status": "open",
-   "who": "Bugra Ozutemiz"
-  },
-  {
    "ref": "c027",
    "title": "Decide on exhibit space at the RK Mellon SII celebration (Nov 2)",
    "due": "2026-10-30",
@@ -133,9 +94,9 @@
   },
   {
    "ref": "c063",
-   "title": "UCSF: confirm May 17 + 24 study days, agreement, deposit / pre-pay in 2026",
+   "title": "UCSF: agreement and deposit terms; pre-pay OK'd in principle, you asked for mid-December, refundable above the standard deposit",
    "who": "Ella Behnke (UCSF)",
-   "since": "2026-10-27"
+   "since": "2026-10-29"
   },
   {
    "ref": "c013",
@@ -206,12 +167,24 @@
    "ref": "c067"
   }
  ],
- "done_today": [],
+ "done_today": [
+  {
+   "ref": "c070",
+   "title": "Rippling Oct 16-31 payroll funded (Rippling confirmation 10:51am)"
+  },
+  {
+   "ref": "c051",
+   "title": "Coffee with Bugra Ozutemiz at Convive"
+  },
+  {
+   "title": "Told Buchanan no response on the auto-injection patent office action (abandons Nov 6)"
+  }
+ ],
  "notes": [
-  "Payroll: the Rippling emails came from no-reply@rippling.com and match the 10/26 approved runs, but verify in Rippling itself before moving money.",
-  "Stale: QMS docs has never logged progress (1 of 59 approved, no reviews waiting). Smallest step: route the PCH SOP today.",
-  "Formwork: no tasks or reviews assigned to you.",
-  "Fri: Verizon gift card 10:00 (c038), RK Mellon exhibit decision due (c027), nudge hypoxia lab 2:00 (c063).",
-  "Gmail capture used a 1-day window (the timestamp query returned nothing); no new mail from real people overnight, no Slack or Otter activity since 5:24pm."
+  "Stale: QMS docs has never logged progress (1 of 59 approved). Smallest step: route the PCH SOP at 4:00 today.",
+  "Fri 2:00 'nudge hypoxia lab' reminder is probably moot: Ella replied today and the ball is with her (c063).",
+  "Bugra coffee: no Otter recording, so nothing captured. If he gave useful input on target population or alarms, tell the EA and it will go under customer discovery (c069).",
+  "Fri: Verizon gift card 10:00 (c038), RK Mellon exhibit decision due (c027), SBIR supplement hold 2:15.",
+  "No new Slack or Otter activity since the morning; cold pitches (GenInvigorate, BEAM) skipped."
  ]
 }

@@ -38,17 +38,18 @@
     "goal": "Device design frozen with parts and suppliers chosen, in time for the UCSF hypoxia testing pencilled for the week of May 24, 2027",
     "target": null,
     "status": "active",
-    "next_step": "Draft the Kanou supplier agreement (c054; EA hold Thu 10/29 1:30-3:00, start from Formwork PCH - TPL Supplier Quality Agreement). Then send Raymond the traceability/CoC expectations once Kevin has the biocomp data (c001 blocked by c003). Waiting on Ella for the UCSF agreement and pre-pay answer (c063). Kevin to confirm whether the Fusion hub holds CAD before Nov 10 (c060).",
+    "next_step": "Draft the Kanou supplier agreement (c054; EA hold Thu 10/29 1:30-3:00, start from Formwork PCH - TPL Supplier Quality Agreement). Then send Raymond the traceability/CoC expectations once Kevin has the biocomp data (c001 blocked by c003). UCSF: pre-pay agreed in principle, waiting on Ella for the agreement and deposit terms (c063). Kevin to confirm whether the Fusion hub holds CAD before Nov 10 (c060).",
     "metric": null,
     "progress_signals": "Kevin's Slack updates, supplier quotes and samples (Kanou, Xometry), design files, Brad's purchasing decisions",
-    "last_progress": "2026-10-27",
+    "last_progress": "2026-10-29",
     "log": [
       "2026-10-19: Brad proposed the week of May 24, 2027 for UCSF hypoxia testing",
       "2026-10-19: Mon planning: Charlie prioritizing power-consumption and battery-life testing (components arriving today); app and algorithm work deprioritized; UCSF testing date proposed for week of May 24, 2027",
       "2026-10-20: Kanou sent SDS for two candidate adhesives (LT 2268, LT 3757) for the biocompatibility review (c003)",
       "2026-10-23: Kanou glass order decided: Kevin told Kanou 10/23 we'll place the 50pc order (c002 closed); adhesive decision still open (c003)",
       "2026-10-26: Kanou 50pc glass sample order placed: Brad wired payment and sent the delivery details, Kevin sent the drawing (10/26)",
-      "2026-10-27: UCSF hypoxia study weeks chosen: May 17 + May 24, 2027 (Brad's reply 10/27)"
+      "2026-10-27: UCSF hypoxia study weeks chosen: May 17 + May 24, 2027 (Brad's reply 10/27)",
+      "2026-10-29: UCSF agreed a 2026 pre-payment for the May 2027 hypoxia study is possible; Brad set mid-December, refundable beyond the standard deposit (c063). Coffee with Bugra (ex-Lifeware Labs) held."
     ]
   },
   {
