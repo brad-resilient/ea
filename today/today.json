@@ -1,236 +1,217 @@
 {
-  "generated_at": "2026-10-28T17:26:00-04:00",
-  "run": "End of day",
-  "date_label": "Wednesday, October 28",
-  "headline": "Nilo strategy meeting happened; the QMS PCH SOP slipped again (still draft). First thing tomorrow: send Nilo the modular product breakdown so they can cost each feature.",
-  "priorities": [
-    {
-      "title": "Send Nilo the modular product breakdown: baseline monitoring, configurable alarms, caregiver alerts (what each says, how urgent)",
-      "why": "You committed in today's meeting; Nilo's per-module regulatory/V&V costing waits on it (c066, c046). Hold Thu 3:00-4:00.",
-      "ref": "c066",
-      "link": "https://www.google.com/calendar/event?eid=dWZwcnVyNXY4cGQxN25hYjhqcnJ1YzliYXMgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "title": "QMS: pick one PCH draft and route PCH - SOP Purchasing and Supplier Control for review",
-      "why": "Top project, still 1 of 59 approved and never moved; slipped today. Hold Thu 4:00-5:00.",
-      "ref": "qms",
-      "link": "https://app.openregulatory.com/documents/47679eb0-35bc-4098-9dec-6e9cfa4a7e6d"
-    },
-    {
-      "title": "Share the Docket tool with Arjun Mathur (Dream)",
-      "why": "Promised to an outside party; 6 days overdue (due 10/23).",
-      "ref": "c020"
-    }
-  ],
-  "schedule": [
-    {
-      "time": "7:00",
-      "title": "Kid duty",
-      "detail": "Until 9:30."
-    },
-    {
-      "time": "9:30",
-      "title": "Grandview Roof",
-      "detail": "Until 10:45."
-    },
-    {
-      "time": "11:00",
-      "title": "Coffee with Bugra, Convive Coffee",
-      "detail": "Ex-Lifeware Labs vitals monitor; useful for customer discovery on target population and alarms (c069)."
-    },
-    {
-      "time": "12:00",
-      "title": "DNS",
-      "detail": "Until 1:00."
-    },
-    {
-      "time": "1:30",
-      "title": "EA hold: draft Kanou supplier agreement",
-      "detail": "Until 3:00. Start from Formwork PCH - TPL Supplier Quality Agreement (c054).",
-      "link": "https://www.google.com/calendar/event?eid=OTBtZmFyZW5zODk0ZHVubnY1aHRubmo4b28gYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "time": "3:00",
-      "title": "EA hold: modular breakdown for Nilo",
-      "detail": "Until 4:00 (c066).",
-      "link": "https://www.google.com/calendar/event?eid=dWZwcnVyNXY4cGQxN25hYjhqcnJ1YzliYXMgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "time": "4:00",
-      "title": "EA hold: QMS, route the PCH SOP",
-      "detail": "Until 5:00.",
-      "link": "https://www.google.com/calendar/event?eid=djhvY3IycDh1a3MxcTNrZmF2YnBuM2VjdGMgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "time": "Fri 10:00",
-      "title": "Apply for Verizon gift card",
-      "detail": "c038, due Fri."
-    },
-    {
-      "time": "Fri 2:00",
-      "title": "Nudge hypoxia lab (your reminder)",
-      "detail": "c063."
-    }
-  ],
-  "due": [
-    {
-      "ref": "c043",
-      "title": "Bring lb weights for Kevin's durometer jig, or buy calibrated weights",
-      "due": "2026-10-21",
-      "status": "open",
-      "who": "Kevin Chou"
-    },
-    {
-      "ref": "c020",
-      "title": "Share the Docket agent tool with Arjun Mathur (Dream)",
-      "due": "2026-10-23",
-      "status": "open",
-      "who": "Arjun Mathur (Dream)"
-    },
-    {
-      "ref": "c024",
-      "title": "Board meeting (10/16) follow-ups: minutes and action items",
-      "due": "2026-10-23",
-      "status": "open",
-      "who": "Board; Charlie Proctor"
-    },
-    {
-      "ref": "c051",
-      "title": "Coffee with Bugra Thu 11am, Convive",
-      "due": "2026-10-29",
-      "status": "open",
-      "who": "Bugra Ozutemiz"
-    },
-    {
-      "ref": "c027",
-      "title": "Decide on exhibit space at the RK Mellon SII celebration (Nov 2)",
-      "due": "2026-10-30",
-      "status": "open",
-      "who": "Bobby Zappala"
-    },
-    {
-      "ref": "c038",
-      "title": "Apply for the Verizon gift card",
-      "due": "2026-10-30",
-      "status": "open",
-      "who": "Personal"
-    }
-  ],
-  "waiting_on": [
-    {
-      "ref": "c068",
-      "title": "Testing/requirements notes, SBOM guidance, accelerated-aging oven check",
-      "who": "Nick Nilo",
-      "since": "2026-10-28"
-    },
-    {
-      "ref": "c064",
-      "title": "KIZ tax credit sale to Mutual Benefit: any update since the 9/24 resubmission",
-      "who": "Lindsey Bennett (KIZ Resources)",
-      "since": "2026-10-28"
-    },
-    {
-      "ref": "c063",
-      "title": "UCSF: confirm May 17 + 24 study days, agreement, deposit / pre-pay in 2026",
-      "who": "Ella Behnke (UCSF)",
-      "since": "2026-10-27"
-    },
-    {
-      "ref": "c013",
-      "title": "FDA feedback on Q-sub Q263249",
-      "who": "Kimberly Kontson (FDA)",
-      "since": "2026-10-15"
-    },
-    {
-      "ref": "c003",
-      "title": "Adhesive/biocomp decision for the Kanou window",
-      "who": "Kevin Chou",
-      "since": "2026-10-16"
-    },
-    {
-      "ref": "c018",
-      "title": "Company laptop back from David Montez",
-      "who": "David Montez",
-      "since": "2026-10-15"
-    },
-    {
-      "ref": "c023",
-      "title": "Kevin to ask Harry (AO) about agentic coding / Docket chat",
-      "who": "Kevin Chou",
-      "since": "2026-10-07"
-    },
-    {
-      "ref": "c061",
-      "title": "GOKIZ site visit time and coordinator certificate",
-      "who": "Sophie Beacom (back Thu 10/29)",
-      "since": "2026-10-26"
-    }
-  ],
-  "drafts": [
-    {
-      "kind": "hold",
-      "title": "EA hold: modular product breakdown for Nilo (c066)",
-      "note": "Thu 10/29 3:00-4:00",
-      "link": "https://www.google.com/calendar/event?eid=dWZwcnVyNXY4cGQxN25hYjhqcnJ1YzliYXMgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "kind": "hold",
-      "title": "EA hold: QMS, route the PCH SOP for review",
-      "note": "Thu 10/29 4:00-5:00",
-      "link": "https://www.google.com/calendar/event?eid=djhvY3IycDh1a3MxcTNrZmF2YnBuM2VjdGMgYnJhZEByZXNpbGllbnQuYmlv"
-    },
-    {
-      "kind": "hold",
-      "title": "EA hold: draft Kanou supplier agreement (c054)",
-      "note": "Thu 10/29 1:30-3:00 (from this morning)",
-      "link": "https://www.google.com/calendar/event?eid=OTBtZmFyZW5zODk0ZHVubnY1aHRubmo4b28gYnJhZEByZXNpbGllbnQuYmlv"
-    }
-  ],
-  "later": [
-    {
-      "date": "2026-11-02",
-      "title": "RK Mellon SII celebration 5:30pm (exhibit decision due Fri, c027)",
-      "ref": "c027"
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Pay Alloy (calendar reminder)"
-    },
-    {
-      "date": "2026-11-06",
-      "title": "Past Month Accounting (1st Friday, calendar reminder)"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "NIH study section meets Nov 9-10",
-      "ref": "c014"
-    },
-    {
-      "date": "2026-11-10",
-      "title": "Autodesk Fusion hub closes for inactivity",
-      "ref": "c060"
-    },
-    {
-      "date": "2026-11-30",
-      "title": "Respiratory-rate validation protocol bones (your goal from the Nilo call)",
-      "ref": "c067"
-    }
-  ],
-  "done_today": [
-    {
-      "ref": "c047",
-      "title": "Nilo product/regulatory strategy meeting held (Otter recorded): tiered claims, 60601 testing, SBOM/cybersecurity, PCCP"
-    },
-    {
-      "ref": "c064",
-      "title": "Nudged Lindsey (KIZ) on the resubmitted tax credit sale"
-    }
-  ],
-  "notes": [
-    "From the Nilo call, new on your list: modular breakdown to Nilo (c066), customer discovery on target population and alarm thresholds (c069), respiratory-rate protocol bones by 11/30 (c067). Nick owes testing/SBOM notes and an accelerated-aging oven check (c068).",
-    "WhaleTeq HRS200 ($4,300) didn't come up in the call; still undecided with Charlie (c053).",
-    "Kevin (Slack): the $240.05 Xometry order on his Ramp card is his, not fraud (c052).",
-    "QMS docs STALE: no logged progress ever, PCH SOP still draft at 5:20pm. Overdue and unmoved: Docket for Arjun (c020), board follow-ups (c024), weights for Kevin (c043).",
-    "No email in or out since midday. No drafts this run; two holds added for Thu afternoon."
-  ]
+ "generated_at": "2026-10-29T05:00:00-04:00",
+ "run": "Morning brief",
+ "date_label": "Thursday, October 29",
+ "headline": "Rippling says the Oct 16-31 payroll debit failed for insufficient funds and the payroll account is on hold: fund it today so 10/31 pay goes out. Then the Nilo modular breakdown and the QMS PCH SOP, both held this afternoon.",
+ "priorities": [
+  {
+   "title": "Fund the failed Rippling payroll debit (semi-monthly Oct 16-31, insufficient funds)",
+   "why": "Payroll account is on hold; employees are paid 10/31. Amount not stated in the email; check the Payroll app in Rippling directly, not via email links (c070).",
+   "ref": "c070"
+  },
+  {
+   "title": "Send Nilo the modular product breakdown: baseline monitoring, configurable alarms, caregiver alerts (what each says, how urgent)",
+   "why": "Committed at the 10/28 meeting; Michael's per-module regulatory/V&V costing waits on it (c066, c046). Hold 3:00-4:00.",
+   "ref": "c066",
+   "link": "https://www.google.com/calendar/event?eid=dWZwcnVyNXY4cGQxN25hYjhqcnJ1YzliYXMgYnJhZEByZXNpbGllbnQuYmlv"
+  },
+  {
+   "title": "QMS: pick one PCH draft and route PCH - SOP Purchasing and Supplier Control for review",
+   "why": "Top project, still 1 of 59 approved and never moved; slipped twice. Hold 4:00-5:00.",
+   "ref": "qms",
+   "link": "https://app.openregulatory.com/documents/47679eb0-35bc-4098-9dec-6e9cfa4a7e6d"
+  },
+  {
+   "title": "Share the Docket tool with Arjun Mathur (Dream)",
+   "why": "Promised to an outside party; 6 days overdue (due 10/23).",
+   "ref": "c020"
+  }
+ ],
+ "schedule": [
+  {
+   "time": "7:00",
+   "title": "Kid duty",
+   "detail": "Until 9:30."
+  },
+  {
+   "time": "9:30",
+   "title": "Grandview Roof",
+   "detail": "Until 10:45."
+  },
+  {
+   "time": "11:00",
+   "title": "Coffee with Bugra, Convive Coffee",
+   "detail": "Ex-Lifeware Labs vitals monitor; ask about target population and which alarms matter (customer discovery, c069)."
+  },
+  {
+   "time": "12:00",
+   "title": "DNS",
+   "detail": "Until 1:00."
+  },
+  {
+   "time": "1:30",
+   "title": "EA hold: draft Kanou supplier agreement",
+   "detail": "Until 3:00. Start from Formwork PCH - TPL Supplier Quality Agreement (c054).",
+   "link": "https://www.google.com/calendar/event?eid=OTBtZmFyZW5zODk0ZHVubnY1aHRubmo4b28gYnJhZEByZXNpbGllbnQuYmlv"
+  },
+  {
+   "time": "3:00",
+   "title": "EA hold: modular breakdown for Nilo",
+   "detail": "Until 4:00 (c066).",
+   "link": "https://www.google.com/calendar/event?eid=dWZwcnVyNXY4cGQxN25hYjhqcnJ1YzliYXMgYnJhZEByZXNpbGllbnQuYmlv"
+  },
+  {
+   "time": "4:00",
+   "title": "EA hold: QMS, route the PCH SOP",
+   "detail": "Until 5:00.",
+   "link": "https://www.google.com/calendar/event?eid=djhvY3IycDh1a3MxcTNrZmF2YnBuM2VjdGMgYnJhZEByZXNpbGllbnQuYmlv"
+  }
+ ],
+ "due": [
+  {
+   "ref": "c043",
+   "title": "Bring lb weights for Kevin's durometer jig, or buy calibrated weights",
+   "due": "2026-10-21",
+   "status": "open",
+   "who": "Kevin Chou"
+  },
+  {
+   "ref": "c020",
+   "title": "Share the Docket agent tool with Arjun Mathur (Dream)",
+   "due": "2026-10-23",
+   "status": "open",
+   "who": "Arjun Mathur (Dream)"
+  },
+  {
+   "ref": "c024",
+   "title": "Board meeting (10/16) follow-ups: minutes and action items",
+   "due": "2026-10-23",
+   "status": "open",
+   "who": "Board; Charlie Proctor"
+  },
+  {
+   "ref": "c070",
+   "title": "Fund the failed Rippling payroll debit",
+   "due": "2026-10-29",
+   "status": "open",
+   "who": "Rippling"
+  },
+  {
+   "ref": "c051",
+   "title": "Coffee with Bugra Thu 11am, Convive",
+   "due": "2026-10-29",
+   "status": "open",
+   "who": "Bugra Ozutemiz"
+  },
+  {
+   "ref": "c027",
+   "title": "Decide on exhibit space at the RK Mellon SII celebration (Nov 2)",
+   "due": "2026-10-30",
+   "status": "open",
+   "who": "Bobby Zappala"
+  },
+  {
+   "ref": "c038",
+   "title": "Apply for the Verizon gift card",
+   "due": "2026-10-30",
+   "status": "open",
+   "who": "Personal"
+  }
+ ],
+ "waiting_on": [
+  {
+   "ref": "c068",
+   "title": "Testing/requirements notes, SBOM guidance, accelerated-aging oven check",
+   "who": "Nick Nilo",
+   "since": "2026-10-28"
+  },
+  {
+   "ref": "c064",
+   "title": "KIZ tax credit sale to Mutual Benefit: any update since the 9/24 resubmission",
+   "who": "Lindsey Bennett (KIZ Resources)",
+   "since": "2026-10-28"
+  },
+  {
+   "ref": "c063",
+   "title": "UCSF: confirm May 17 + 24 study days, agreement, deposit / pre-pay in 2026",
+   "who": "Ella Behnke (UCSF)",
+   "since": "2026-10-27"
+  },
+  {
+   "ref": "c013",
+   "title": "FDA feedback on Q-sub Q263249",
+   "who": "Kimberly Kontson (FDA)",
+   "since": "2026-10-15"
+  },
+  {
+   "ref": "c003",
+   "title": "Adhesive/biocomp decision for the Kanou window",
+   "who": "Kevin Chou",
+   "since": "2026-10-16"
+  },
+  {
+   "ref": "c018",
+   "title": "Company laptop back from David Montez",
+   "who": "David Montez",
+   "since": "2026-10-15"
+  },
+  {
+   "ref": "c023",
+   "title": "Kevin to ask Harry (AO) about agentic coding / Docket chat",
+   "who": "Kevin Chou",
+   "since": "2026-10-07"
+  },
+  {
+   "ref": "c061",
+   "title": "GOKIZ site visit time and coordinator certificate",
+   "who": "Sophie Beacom (back Thu 10/29)",
+   "since": "2026-10-26"
+  }
+ ],
+ "drafts": [
+  {
+   "kind": "hold",
+   "title": "EA hold: SBIR supplement draft (c012)",
+   "note": "Fri 10/30 2:15-3:45 (new)",
+   "link": "https://www.google.com/calendar/event?eid=aWFwa2NvdjExZWhmcXV1c3RtaXMxbG5yOGsgYnJhZEByZXNpbGllbnQuYmlv"
+  }
+ ],
+ "later": [
+  {
+   "date": "2026-11-02",
+   "title": "RK Mellon SII celebration 5:30pm (exhibit decision due Fri, c027)",
+   "ref": "c027"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "Pay Alloy (calendar reminder)"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "Past Month Accounting (1st Friday, calendar reminder)"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "NIH study section meets Nov 9-10",
+   "ref": "c014"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "Autodesk Fusion hub closes for inactivity",
+   "ref": "c060"
+  },
+  {
+   "date": "2026-11-30",
+   "title": "Respiratory-rate validation protocol bones (your goal from the Nilo call)",
+   "ref": "c067"
+  }
+ ],
+ "done_today": [],
+ "notes": [
+  "Payroll: the Rippling emails came from no-reply@rippling.com and match the 10/26 approved runs, but verify in Rippling itself before moving money.",
+  "Stale: QMS docs has never logged progress (1 of 59 approved, no reviews waiting). Smallest step: route the PCH SOP today.",
+  "Formwork: no tasks or reviews assigned to you.",
+  "Fri: Verizon gift card 10:00 (c038), RK Mellon exhibit decision due (c027), nudge hypoxia lab 2:00 (c063).",
+  "Gmail capture used a 1-day window (the timestamp query returned nothing); no new mail from real people overnight, no Slack or Otter activity since 5:24pm."
+ ]
 }

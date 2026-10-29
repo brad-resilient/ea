@@ -7,7 +7,7 @@
     "target": null,
     "status": "active",
     "next_step": "Route PCH - SOP Purchasing and Supplier Control for review in Formwork (still draft at 5:20pm 10/28; slipped from today). Two PCH SOP drafts exist (Purchasing and Supplier Control vs. Purchasing); pick one. Backs the Kanou supplier agreement (c054). EA hold Thu 10/29 4:00-5:00.",
-    "metric": "Formwork documents approved: 1 of 59 (2026-10-28)",
+    "metric": "Formwork documents approved: 1 of 59 (2026-10-29)",
     "progress_signals": "Formwork documents moving from draft to in-review or approved; new or edited SOPs; Brad mentioning QMS work in Slack or meetings",
     "last_progress": null,
     "log": []
@@ -58,7 +58,7 @@
     "goal": "Supplemental funds request submitted to NIH/NIDA for SBIR grant 4R44DA060643",
     "target": null,
     "status": "active",
-    "next_step": "Boris approved the plan 10/26. Draft the PA-26-001 supplement (direct costs under $100k, mostly team salary) for early November (c012).",
+    "next_step": "Boris approved the plan 10/26. Draft the PA-26-001 supplement (direct costs under $100k, mostly team salary) for early November (c012). EA hold Fri 10/30 2:15-3:45.",
     "metric": null,
     "progress_signals": "Drafts in Drive, emails with NIH (Boris Sabirzhanov), Pitt/UPMC collaborators or grant consultants, a submission confirmation",
     "last_progress": "2026-10-23",
