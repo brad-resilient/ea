@@ -1,45 +1,60 @@
 {
- "generated_at": "2026-10-29T12:58:00-04:00",
- "run": "Midday update",
+ "generated_at": "2026-10-29T17:26:00-04:00",
+ "run": "End of day",
  "date_label": "Thursday, October 29",
- "headline": "Payroll is sorted: Rippling confirmed the Oct 16-31 run is funded. This afternoon: Kanou supplier agreement (1:30), the Nilo modular breakdown (3:00), and routing the QMS PCH SOP (4:00).",
+ "headline": "Slipped today: the Nilo modular breakdown, the Kanou supplier agreement and routing the QMS PCH SOP (no evidence any moved). First thing Friday: the Nilo breakdown, hold 10:45.",
  "priorities": [
   {
    "title": "Send Nilo the modular product breakdown: baseline monitoring, configurable alarms, caregiver alerts (what each says, how urgent)",
-   "why": "Committed at the 10/28 meeting; Michael's per-module regulatory/V&V costing waits on it (c066, c046). Hold 3:00-4:00.",
+   "why": "Promised at the 10/28 meeting; Michael's per-module costing waits on it (c066, c046). Slipped Thu. Hold Fri 10:45-11:45.",
    "ref": "c066",
-   "link": "https://www.google.com/calendar/event?eid=dWZwcnVyNXY4cGQxN25hYjhqcnJ1YzliYXMgYnJhZEByZXNpbGllbnQuYmlv"
+   "link": "https://www.google.com/calendar/event?eid=YThxNGRrZHFxNjZtYjJzdG11c2F1ZTZvcTggYnJhZEByZXNpbGllbnQuYmlv"
   },
   {
    "title": "QMS: pick one PCH draft and route PCH - SOP Purchasing and Supplier Control for review",
-   "why": "Top project, still 1 of 59 approved and never moved; slipped twice. Hold 4:00-5:00.",
+   "why": "Top project, 1 of 59 approved, never moved; slipped three times. Hold Fri 1:00-2:00.",
    "ref": "qms",
    "link": "https://app.openregulatory.com/documents/47679eb0-35bc-4098-9dec-6e9cfa4a7e6d"
   },
   {
    "title": "Share the Docket tool with Arjun Mathur (Dream)",
-   "why": "Promised to an outside party; 6 days overdue (due 10/23).",
+   "why": "Promised to an outside party; 7 days overdue (due 10/23).",
    "ref": "c020"
   }
  ],
  "schedule": [
   {
-   "time": "1:30",
-   "title": "EA hold: draft Kanou supplier agreement",
-   "detail": "Until 3:00. Start from Formwork PCH - TPL Supplier Quality Agreement (c054).",
-   "link": "https://www.google.com/calendar/event?eid=OTBtZmFyZW5zODk0ZHVubnY1aHRubmo4b28gYnJhZEByZXNpbGllbnQuYmlv"
+   "time": "10:00",
+   "title": "Apply for the Verizon gift card",
+   "detail": "Your reminder, until 10:45 (c038, due Fri)."
   },
   {
-   "time": "3:00",
+   "time": "10:45",
    "title": "EA hold: modular breakdown for Nilo",
-   "detail": "Until 4:00 (c066).",
-   "link": "https://www.google.com/calendar/event?eid=dWZwcnVyNXY4cGQxN25hYjhqcnJ1YzliYXMgYnJhZEByZXNpbGllbnQuYmlv"
+   "detail": "Until 11:45 (c066).",
+   "link": "https://www.google.com/calendar/event?eid=YThxNGRrZHFxNjZtYjJzdG11c2F1ZTZvcTggYnJhZEByZXNpbGllbnQuYmlv"
   },
   {
-   "time": "4:00",
+   "time": "1:00",
    "title": "EA hold: QMS, route the PCH SOP",
-   "detail": "Until 5:00.",
-   "link": "https://www.google.com/calendar/event?eid=djhvY3IycDh1a3MxcTNrZmF2YnBuM2VjdGMgYnJhZEByZXNpbGllbnQuYmlv"
+   "detail": "Until 2:00.",
+   "link": "https://www.google.com/calendar/event?eid=aTV0cm4xMWdqbGs1MG5kbWw3aHVib2hyaWsgYnJhZEByZXNpbGllbnQuYmlv"
+  },
+  {
+   "time": "2:00",
+   "title": "Nudge hypoxia lab",
+   "detail": "Probably moot: UCSF started the clinical trial agreement today; a reply to Ren\u00e9 is in your drafts (c063)."
+  },
+  {
+   "time": "2:15",
+   "title": "EA hold: SBIR supplement draft",
+   "detail": "Until 3:45 (c012).",
+   "link": "https://www.google.com/calendar/event?eid=aWFwa2NvdjExZWhmcXV1c3RtaXMxbG5yOGsgYnJhZEByZXNpbGllbnQuYmlv"
+  },
+  {
+   "time": "4:15",
+   "title": "Kid Duty",
+   "detail": "Until 9:00pm."
   }
  ],
  "due": [
@@ -94,8 +109,8 @@
   },
   {
    "ref": "c063",
-   "title": "UCSF: agreement and deposit terms; pre-pay OK'd in principle, you asked for mid-December, refundable above the standard deposit",
-   "who": "Ella Behnke (UCSF)",
+   "title": "UCSF clinical trial agreement and pre-pay terms (Ren\u00e9 handed to Julie Leong 10/29)",
+   "who": "Julie Leong / Ella Behnke (UCSF)",
    "since": "2026-10-29"
   },
   {
@@ -125,15 +140,33 @@
   {
    "ref": "c061",
    "title": "GOKIZ site visit time and coordinator certificate",
-   "who": "Sophie Beacom (back Thu 10/29)",
+   "who": "Sophie Beacom (RIDC)",
    "since": "2026-10-26"
   }
  ],
  "drafts": [
   {
+   "kind": "email",
+   "title": "Re: Clinical Study - RESI02 (to Ren\u00e9, cc Julie Leong)",
+   "note": "Thanks, ready to start the CTA; restates the mid-December pre-pay ask (new)",
+   "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1880409006575937959%2Bmsg-a:r-5633151214583678633"
+  },
+  {
+   "kind": "hold",
+   "title": "EA hold: modular breakdown for Nilo (c066)",
+   "note": "Fri 10/30 10:45-11:45 (new)",
+   "link": "https://www.google.com/calendar/event?eid=YThxNGRrZHFxNjZtYjJzdG11c2F1ZTZvcTggYnJhZEByZXNpbGllbnQuYmlv"
+  },
+  {
+   "kind": "hold",
+   "title": "EA hold: QMS, route the PCH SOP for review",
+   "note": "Fri 10/30 1:00-2:00 (new)",
+   "link": "https://www.google.com/calendar/event?eid=aTV0cm4xMWdqbGs1MG5kbWw3aHVib2hyaWsgYnJhZEByZXNpbGllbnQuYmlv"
+  },
+  {
    "kind": "hold",
    "title": "EA hold: SBIR supplement draft (c012)",
-   "note": "Fri 10/30 2:15-3:45 (new)",
+   "note": "Fri 10/30 2:15-3:45",
    "link": "https://www.google.com/calendar/event?eid=aWFwa2NvdjExZWhmcXV1c3RtaXMxbG5yOGsgYnJhZEByZXNpbGllbnQuYmlv"
   }
  ],
@@ -178,13 +211,21 @@
   },
   {
    "title": "Told Buchanan no response on the auto-injection patent office action (abandons Nov 6)"
+  },
+  {
+   "ref": "c059",
+   "title": "Donnelly-Boland invoice 2026-08-052 paid, $590 (QuickBooks confirmation 1:48pm)"
+  },
+  {
+   "ref": "c063",
+   "title": "UCSF started the clinical trial agreement for May 2027 (Ren\u00e9 looped in Julie Leong)"
   }
  ],
  "notes": [
-  "Stale: QMS docs has never logged progress (1 of 59 approved). Smallest step: route the PCH SOP at 4:00 today.",
-  "Fri 2:00 'nudge hypoxia lab' reminder is probably moot: Ella replied today and the ball is with her (c063).",
-  "Bugra coffee: no Otter recording, so nothing captured. If he gave useful input on target population or alarms, tell the EA and it will go under customer discovery (c069).",
-  "Fri: Verizon gift card 10:00 (c038), RK Mellon exhibit decision due (c027), SBIR supplement hold 2:15.",
-  "No new Slack or Otter activity since the morning; cold pitches (GenInvigorate, BEAM) skipped."
+  "Stale: QMS docs has never logged progress (1 of 59 approved). Smallest step: route the PCH SOP, hold Fri 1:00.",
+  "Bugra coffee notes (your Drive doc) filed under customer discovery (c069): trend alerts seem generally acceptable; home-health use adds IEC requirements; USB-C charging on a wearable is a known safety worry.",
+  "Fri: RK Mellon exhibit decision due (c027, event Mon 5:30pm); Verizon gift card 10:00 (c038).",
+  "Chase wire of $8,309 to Rippling went out 10/29, matching the payroll funding fix; nothing else needed.",
+  "No new Slack, Otter or sent mail since midday; cold pitch (Scale CFO support) skipped."
  ]
 }
