@@ -38,7 +38,7 @@
     "goal": "Device design frozen with parts and suppliers chosen, in time for the UCSF hypoxia testing pencilled for the week of May 24, 2027",
     "target": null,
     "status": "active",
-    "next_step": "Draft the Kanou supplier agreement (c054; slipped Thu; start from Formwork PCH - TPL Supplier Quality Agreement). Then send Raymond the traceability/CoC expectations once Kevin has the biocomp data (c001 blocked by c003). UCSF: René and Julie Leong starting the clinical trial agreement; reply drafted (c063). Kevin to confirm whether the Fusion hub holds CAD before Nov 10 (c060).",
+    "next_step": "Draft the Kanou supplier agreement (c054; start from Formwork PCH - TPL Supplier Quality Agreement). Send Julie Leong the UCSF CTA details (c071; reply drafted with blanks for address, phone, invoice contact, device name); CTA must be executed 30+ days before May 17. Then send Raymond the traceability/CoC expectations once Kevin has the biocomp data (c001 blocked by c003). Kevin to confirm whether the Fusion hub holds CAD before Nov 10 (c060).",
     "metric": null,
     "progress_signals": "Kevin's Slack updates, supplier quotes and samples (Kanou, Xometry), design files, Brad's purchasing decisions",
     "last_progress": "2026-10-29",

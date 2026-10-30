@@ -1,14 +1,13 @@
 {
- "generated_at": "2026-10-30T05:00:00-04:00",
- "run": "Morning brief",
+ "generated_at": "2026-10-30T12:58:00-04:00",
+ "run": "Midday update",
  "date_label": "Friday, October 30",
- "headline": "Quiet night: no new email, meetings or commitments. Today is for the three things that slipped Thursday: the Nilo breakdown (10:45), routing the QMS PCH SOP (1:00) and the SBIR supplement (2:15). The RK Mellon exhibit answer is due today.",
+ "headline": "Quiet morning. You replied to Ren\u00e9, and Julie Leong (UCSF) has asked for six company details for the clinical trial agreement; a reply is drafted with blanks. The afternoon plan is the same: route the QMS PCH SOP at 1:00 and draft the SBIR supplement at 2:15. The Nilo breakdown and RK Mellon exhibit answer are still open.",
  "priorities": [
   {
    "title": "Send Nilo the modular product breakdown: baseline monitoring, configurable alarms, caregiver alerts (what each says, how urgent)",
-   "why": "Promised 10/28; Michael's per-module costing (c046) waits on it. Slipped Thu. Hold 10:45-11:45.",
-   "ref": "c066",
-   "link": "https://www.google.com/calendar/event?eid=YThxNGRrZHFxNjZtYjJzdG11c2F1ZTZvcTggYnJhZEByZXNpbGllbnQuYmlv"
+   "why": "Promised 10/28; Michael's per-module costing (c046) waits on it. Not sent as of midday; the 10:45 hold has passed.",
+   "ref": "c066"
   },
   {
    "title": "Tell Bobby Zappala yes or no on exhibit space at the RK Mellon SII celebration",
@@ -30,22 +29,6 @@
  ],
  "schedule": [
   {
-   "time": "10:00",
-   "title": "Apply for the Verizon gift card",
-   "detail": "Your reminder, until 10:45 (c038, due today)."
-  },
-  {
-   "time": "10:45",
-   "title": "EA hold: modular breakdown for Nilo",
-   "detail": "Until 11:45 (c066).",
-   "link": "https://www.google.com/calendar/event?eid=YThxNGRrZHFxNjZtYjJzdG11c2F1ZTZvcTggYnJhZEByZXNpbGllbnQuYmlv"
-  },
-  {
-   "time": "12:00",
-   "title": "DNS",
-   "detail": "Protected."
-  },
-  {
    "time": "1:00",
    "title": "EA hold: QMS, route the PCH SOP",
    "detail": "Until 2:00. Two PCH SOP drafts exist; pick one.",
@@ -54,7 +37,7 @@
   {
    "time": "2:00",
    "title": "Nudge hypoxia lab",
-   "detail": "Probably moot: UCSF started the clinical trial agreement 10/29; your reply to Ren\u00e9 is still in drafts (c063)."
+   "detail": "Moot: UCSF is moving on the CTA; send Julie the details instead (c071)."
   },
   {
    "time": "2:15",
@@ -63,9 +46,14 @@
    "link": "https://www.google.com/calendar/event?eid=aWFwa2NvdjExZWhmcXV1c3RtaXMxbG5yOGsgYnJhZEByZXNpbGllbnQuYmlv"
   },
   {
+   "time": "4:00",
+   "title": "Check waivers",
+   "detail": "Your reminder, until 4:15."
+  },
+  {
    "time": "4:15",
    "title": "Kid Duty",
-   "detail": "Until 9:00pm."
+   "detail": "Until 9:00pm. Next week: Tue 11/3 and Wed 11/4 (moved from Thu)."
   }
  ],
  "due": [
@@ -120,8 +108,8 @@
   },
   {
    "ref": "c063",
-   "title": "UCSF clinical trial agreement and pre-pay terms (Ren\u00e9 handed to Julie Leong 10/29)",
-   "who": "Julie Leong / Ella Behnke (UCSF)",
+   "title": "UCSF clinical trial agreement and pre-pay terms (Julie needs our details first, c071)",
+   "who": "Julie Leong (UCSF)",
    "since": "2026-10-29"
   },
   {
@@ -158,9 +146,9 @@
  "drafts": [
   {
    "kind": "email",
-   "title": "Re: Clinical Study - RESI02 (to Ren\u00e9, cc Julie Leong)",
-   "note": "From Thursday, not sent yet: ready to start the CTA; restates the mid-December pre-pay ask",
-   "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1880409006575937959%2Bmsg-a:r-5633151214583678633"
+   "title": "Re: Clinical Study - RESI02 (to Julie Leong, cc Ren\u00e9)",
+   "note": "The CTA details she asked for. Fill in the blanks: mailing address, phone, invoice contact, device name. Restates the mid-December pre-pay ask.",
+   "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1880409006575937959%2Bmsg-a:r4410818872119374248"
   }
  ],
  "later": [
@@ -193,11 +181,19 @@
    "ref": "c067"
   }
  ],
- "done_today": [],
+ "done_today": [
+  {
+   "title": "Replied to Ren\u00e9 (UCSF) on the RESI02 clinical study thread, 7:03am",
+   "ref": "c063"
+  }
+ ],
  "notes": [
-  "Stale: QMS docs has never logged progress (1 of 59 approved in Formwork today); SBIR supplement 7 days. Both have holds today.",
-  "No new email, sent mail or Otter meetings overnight; no Formwork tasks assigned to you.",
-  "Kevin (Slack, last night) shared EmotiBit as a research-device comparison and some lower-regulation inspection markets for the PPG sensor (chlorophyll/nitrogen meters, meat myoglobin). Background for business planning; nothing owed.",
-  "No new drafts or holds: today already has three EA holds and no other open hour; Pay Alloy reminder is Wed 11/4."
+  "New: Julie Leong (UCSF) says the CTA must be executed (or nearly) at least 30 days before the study, so about mid-April for May 17 (c071).",
+  "New, low: Innovation Works (Jeanne Iasella) asked for the quarterly financial survey, data as of 9/30 (c072).",
+  "RK Mellon sent a 'see you Monday' reminder for 11/2 5:30pm; the exhibit-space answer to Bobby (c027) is still due today.",
+  "Thursday's draft to Ren\u00e9 is gone from Drafts; you sent your own short reply instead.",
+  "No sign yet of the Nilo breakdown going out (c066); no new Slack or Otter activity this morning.",
+  "Stale: QMS docs has never logged progress (1 of 59 approved); SBIR supplement 7 days. Both have holds this afternoon.",
+  "No new holds: the afternoon already has two EA holds and few open slots."
  ]
 }
