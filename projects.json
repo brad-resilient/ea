@@ -6,7 +6,7 @@
     "goal": "QMS documentation written, reviewed and approved in Formwork, ready for ISO 13485 and FDA",
     "target": null,
     "status": "active",
-    "next_step": "Route PCH - SOP Purchasing and Supplier Control for review in Formwork (still draft at end of day 10/29; slipped three times). Two PCH SOP drafts exist (Purchasing and Supplier Control vs. Purchasing); pick one. Backs the Kanou supplier agreement (c054). EA hold Fri 10/30 1:00-2:00.",
+    "next_step": "Pick one of the two PCH SOP drafts (Purchasing and Supplier Control vs. Purchasing) and route it for review in Formwork. Still draft at end of Fri 10/30 after four holds; EA hold Mon 11/2 1:00-2:30. Backs the Kanou supplier agreement (c054).",
     "metric": "Formwork documents approved: 1 of 59 (2026-10-30)",
     "progress_signals": "Formwork documents moving from draft to in-review or approved; new or edited SOPs; Brad mentioning QMS work in Slack or meetings",
     "last_progress": null,
@@ -19,7 +19,7 @@
     "goal": "A strong kickoff with Nilo Medical, then the regulatory strategy and 510(k) path moving with clear owners and dates",
     "target": null,
     "status": "active",
-    "next_step": "Send Nilo the modular product breakdown (baseline monitoring, configurable alarms, caregiver alerts: what each output says and its urgency) (c066; slipped Thu, EA hold Fri 10/30 10:45-11:45); Nilo then costs each module (c046). Parallel: respiratory-rate protocol bones by 11/30 (c067). Waiting on Nick for testing/SBOM notes (c068). WhaleTeq decision still open (c053).",
+    "next_step": "Send Nilo the modular product breakdown (c066; slipped Wed-Fri; EA hold Mon 11/2 9:30). Nilo then costs each module (c046). Parallel: respiratory-rate protocol bones by 11/30 (c067); waiting on Nick for testing/SBOM notes (c068); WhaleTeq decision open (c053).",
     "metric": null,
     "progress_signals": "Emails and meetings with Nilo Medical, FDA correspondence on Q263249, documents shared with Nilo",
     "last_progress": "2026-10-28",
@@ -38,10 +38,10 @@
     "goal": "Device design frozen with parts and suppliers chosen, in time for the UCSF hypoxia testing pencilled for the week of May 24, 2027",
     "target": null,
     "status": "active",
-    "next_step": "Draft the Kanou supplier agreement (c054; start from Formwork PCH - TPL Supplier Quality Agreement). Send Julie Leong the UCSF CTA details (c071; reply drafted with blanks for address, phone, invoice contact, device name); CTA must be executed 30+ days before May 17. Then send Raymond the traceability/CoC expectations once Kevin has the biocomp data (c001 blocked by c003). Kevin to confirm whether the Fusion hub holds CAD before Nov 10 (c060).",
+    "next_step": "UCSF is drafting the CTA (details sent 10/30); watch for it and the pre-pay terms (c063). Draft the Kanou supplier agreement from PCH - TPL Supplier Quality Agreement (c054). Ask Kevin for the adhesive/biocomp decision (c003, unblocks c001) and whether the Fusion hub holds CAD before Nov 10 (c060).",
     "metric": null,
     "progress_signals": "Kevin's Slack updates, supplier quotes and samples (Kanou, Xometry), design files, Brad's purchasing decisions",
-    "last_progress": "2026-10-29",
+    "last_progress": "2026-10-30",
     "log": [
       "2026-10-19: Brad proposed the week of May 24, 2027 for UCSF hypoxia testing",
       "2026-10-19: Mon planning: Charlie prioritizing power-consumption and battery-life testing (components arriving today); app and algorithm work deprioritized; UCSF testing date proposed for week of May 24, 2027",
@@ -50,7 +50,8 @@
       "2026-10-26: Kanou 50pc glass sample order placed: Brad wired payment and sent the delivery details, Kevin sent the drawing (10/26)",
       "2026-10-27: UCSF hypoxia study weeks chosen: May 17 + May 24, 2027 (Brad's reply 10/27)",
       "2026-10-29: UCSF agreed a 2026 pre-payment for the May 2027 hypoxia study is possible; Brad set mid-December, refundable beyond the standard deposit (c063). Coffee with Bugra (ex-Lifeware Labs) held.",
-      "2026-10-29: UCSF started the clinical trial agreement for the May 2027 study (René looped in Julie Leong, budget in Box, 10/29)"
+      "2026-10-29: UCSF started the clinical trial agreement for the May 2027 study (René looped in Julie Leong, budget in Box, 10/29)",
+      "2026-10-30: UCSF clinical trial agreement details sent to Julie Leong 10/30 (c071 closed); UCSF now drafting the CTA."
     ]
   },
   {
@@ -60,7 +61,7 @@
     "goal": "Supplemental funds request submitted to NIH/NIDA for SBIR grant 4R44DA060643",
     "target": null,
     "status": "active",
-    "next_step": "Boris approved the plan 10/26. Draft the PA-26-001 supplement (direct costs under $100k, mostly team salary) for early November (c012). EA hold Fri 10/30 2:15-3:45.",
+    "next_step": "Draft the PA-26-001 supplement (direct costs under $100k, mostly salary) for early November (c012); no draft found in Drive after Friday hold. Suggest finishing a first draft by Fri 11/13.",
     "metric": null,
     "progress_signals": "Drafts in Drive, emails with NIH (Boris Sabirzhanov), Pitt/UPMC collaborators or grant consultants, a submission confirmation",
     "last_progress": "2026-10-23",

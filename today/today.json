@@ -1,199 +1,73 @@
 {
- "generated_at": "2026-10-30T12:58:00-04:00",
- "run": "Midday update",
- "date_label": "Friday, October 30",
- "headline": "Quiet morning. You replied to Ren\u00e9, and Julie Leong (UCSF) has asked for six company details for the clinical trial agreement; a reply is drafted with blanks. The afternoon plan is the same: route the QMS PCH SOP at 1:00 and draft the SBIR supplement at 2:15. The Nilo breakdown and RK Mellon exhibit answer are still open.",
+ "generated_at": "2026-10-30T16:30:00-04:00",
+ "run": "Weekly review",
+ "date_label": "Week ending Friday, October 30",
+ "headline": "A UCSF-and-Nilo week: the May 17 + 24 hypoxia study is booked and UCSF is drafting the clinical trial agreement, the Nilo strategy meeting set tiered claims, and the Kanou glass order went out. QMS (never moved) and the SBIR supplement (7 days) are stale, and the Nilo breakdown you promised Wednesday hasn't gone out yet.",
  "priorities": [
-  {
-   "title": "Send Nilo the modular product breakdown: baseline monitoring, configurable alarms, caregiver alerts (what each says, how urgent)",
-   "why": "Promised 10/28; Michael's per-module costing (c046) waits on it. Not sent as of midday; the 10:45 hold has passed.",
-   "ref": "c066"
-  },
-  {
-   "title": "Tell Bobby Zappala yes or no on exhibit space at the RK Mellon SII celebration",
-   "why": "Answer due today; event is Mon 11/2 5:30pm (on your calendar).",
-   "ref": "c027"
-  },
-  {
-   "title": "QMS: pick one PCH draft and route PCH - SOP Purchasing and Supplier Control for review",
-   "why": "Top project, still 1 of 59 approved, never moved; slipped three times. Hold 1:00-2:00.",
-   "ref": "qms",
-   "link": "https://app.openregulatory.com/documents/47679eb0-35bc-4098-9dec-6e9cfa4a7e6d"
-  },
-  {
-   "title": "Start the PA-26-001 SBIR supplement draft (direct costs under $100k, mostly salary)",
-   "why": "Boris approved the plan 10/26; aiming for early November. Project stale 7 days. Hold 2:15-3:45.",
-   "ref": "c012",
-   "link": "https://www.google.com/calendar/event?eid=aWFwa2NvdjExZWhmcXV1c3RtaXMxbG5yOGsgYnJhZEByZXNpbGllbnQuYmlv"
-  }
+  {"title": "Revoke and replace the Anthropic API key you pasted in the Slack DM with Charlie, then delete the message", "why": "A live key in plain text in Slack (Fri 3:03pm). Five-minute fix; do it first thing Monday or tonight.", "ref": "c073"},
+  {"title": "Send Nilo the modular product breakdown (monitoring / configurable alarms / caregiver alerts: what each says, how urgent)", "why": "Promised 10/28; Michael's per-module costing (c046) is blocked on it. Hold Mon 9:30-10:30.", "ref": "c066"},
+  {"title": "QMS: pick one PCH SOP draft and route PCH - SOP Purchasing and Supplier Control for review", "why": "Top project, 1 of 59 approved and never moved; slipped four holds. Hold Mon 1:00-2:30.", "ref": "qms", "link": "https://app.openregulatory.com/documents/47679eb0-35bc-4098-9dec-6e9cfa4a7e6d"},
+  {"title": "Write a first draft of the PA-26-001 SBIR supplement (direct costs under $100k, mostly salary)", "why": "Boris approved the plan 10/26 for early November; no draft found in Drive yet. Suggest done by Fri 11/13.", "ref": "c012"},
+  {"title": "Draft the Kanou supplier agreement from the Formwork supplier quality agreement template", "why": "Glass samples are ordered; lot traceability and CoC terms should be in place before parts ship.", "ref": "c054"}
  ],
  "schedule": [
-  {
-   "time": "1:00",
-   "title": "EA hold: QMS, route the PCH SOP",
-   "detail": "Until 2:00. Two PCH SOP drafts exist; pick one.",
-   "link": "https://www.google.com/calendar/event?eid=aTV0cm4xMWdqbGs1MG5kbWw3aHVib2hyaWsgYnJhZEByZXNpbGllbnQuYmlv"
-  },
-  {
-   "time": "2:00",
-   "title": "Nudge hypoxia lab",
-   "detail": "Moot: UCSF is moving on the CTA; send Julie the details instead (c071)."
-  },
-  {
-   "time": "2:15",
-   "title": "EA hold: SBIR supplement draft",
-   "detail": "Until 3:45 (c012).",
-   "link": "https://www.google.com/calendar/event?eid=aWFwa2NvdjExZWhmcXV1c3RtaXMxbG5yOGsgYnJhZEByZXNpbGllbnQuYmlv"
-  },
-  {
-   "time": "4:00",
-   "title": "Check waivers",
-   "detail": "Your reminder, until 4:15."
-  },
-  {
-   "time": "4:15",
-   "title": "Kid Duty",
-   "detail": "Until 9:00pm. Next week: Tue 11/3 and Wed 11/4 (moved from Thu)."
-  }
+  {"time": "Mon 9:30", "title": "EA hold: Nilo modular breakdown", "detail": "Until 10:30 (c066).", "link": "https://www.google.com/calendar/event?eid=cGUwZWtxOWJvcHQyOWRvZG5sY2dmbHIzOTggYnJhZEByZXNpbGllbnQuYmlv"},
+  {"time": "Mon 1:00", "title": "EA hold: QMS, route PCH SOP", "detail": "Until 2:30.", "link": "https://www.google.com/calendar/event?eid=MWU5ZjgzZDlwMG1mMG81czE3cGhjbzRlajAgYnJhZEByZXNpbGllbnQuYmlv"},
+  {"time": "Mon 5:30", "title": "RK Mellon SII celebration", "detail": "Strip District, until 7:30. Exhibit-space answer to Bobby is past due (c027)."},
+  {"time": "Wed 4:00", "title": "Pay Alloy", "detail": "Your reminder. Kid Duty moves to Wed 4:15 next week."},
+  {"time": "Fri 1:30", "title": "Past Month Accounting", "detail": "Clockify reports to Dropbox; check Ramp for uncategorized expenses."}
  ],
  "due": [
-  {
-   "ref": "c043",
-   "title": "Bring lb weights for Kevin's durometer jig, or buy calibrated weights",
-   "due": "2026-10-21",
-   "status": "open",
-   "who": "Kevin Chou"
-  },
-  {
-   "ref": "c020",
-   "title": "Share the Docket agent tool with Arjun Mathur (Dream)",
-   "due": "2026-10-23",
-   "status": "open",
-   "who": "Arjun Mathur (Dream)"
-  },
-  {
-   "ref": "c024",
-   "title": "Board meeting (10/16) follow-ups: minutes and action items",
-   "due": "2026-10-23",
-   "status": "open",
-   "who": "Board; Charlie Proctor"
-  },
-  {
-   "ref": "c027",
-   "title": "Decide on exhibit space at the RK Mellon SII celebration (Nov 2)",
-   "due": "2026-10-30",
-   "status": "open",
-   "who": "Bobby Zappala"
-  },
-  {
-   "ref": "c038",
-   "title": "Apply for the Verizon gift card",
-   "due": "2026-10-30",
-   "status": "open",
-   "who": "Personal"
-  }
+  {"ref": "c073", "title": "Revoke the Anthropic API key posted in Slack", "due": "2026-11-02", "status": "open", "who": "Charlie Proctor"},
+  {"ref": "c043", "title": "Bring lb weights for Kevin's durometer jig, or buy calibrated weights", "due": "2026-10-21", "status": "open", "who": "Kevin Chou"},
+  {"ref": "c020", "title": "Share the Docket agent tool with Arjun Mathur (Dream)", "due": "2026-10-23", "status": "open", "who": "Arjun Mathur (Dream)"},
+  {"ref": "c024", "title": "Board meeting (10/16) follow-ups: minutes and action items", "due": "2026-10-23", "status": "open", "who": "Board; Charlie Proctor"},
+  {"ref": "c027", "title": "Exhibit space at the RK Mellon SII celebration (Nov 2)", "due": "2026-10-30", "status": "open", "who": "Bobby Zappala"},
+  {"ref": "c038", "title": "Apply for the Verizon gift card", "due": "2026-10-30", "status": "open", "who": "Personal"}
  ],
  "waiting_on": [
-  {
-   "ref": "c068",
-   "title": "Testing/requirements notes, SBOM guidance, accelerated-aging oven check",
-   "who": "Nick Nilo",
-   "since": "2026-10-28"
-  },
-  {
-   "ref": "c064",
-   "title": "KIZ tax credit sale to Mutual Benefit: any update since the 9/24 resubmission",
-   "who": "Lindsey Bennett (KIZ Resources)",
-   "since": "2026-10-28"
-  },
-  {
-   "ref": "c063",
-   "title": "UCSF clinical trial agreement and pre-pay terms (Julie needs our details first, c071)",
-   "who": "Julie Leong (UCSF)",
-   "since": "2026-10-29"
-  },
-  {
-   "ref": "c013",
-   "title": "FDA feedback on Q-sub Q263249",
-   "who": "Kimberly Kontson (FDA)",
-   "since": "2026-10-15"
-  },
-  {
-   "ref": "c003",
-   "title": "Adhesive/biocomp decision for the Kanou window",
-   "who": "Kevin Chou",
-   "since": "2026-10-16"
-  },
-  {
-   "ref": "c018",
-   "title": "Company laptop back from David Montez",
-   "who": "David Montez",
-   "since": "2026-10-15"
-  },
-  {
-   "ref": "c023",
-   "title": "Kevin to ask Harry (AO) about agentic coding / Docket chat",
-   "who": "Kevin Chou",
-   "since": "2026-10-07"
-  },
-  {
-   "ref": "c061",
-   "title": "GOKIZ site visit time and coordinator certificate",
-   "who": "Sophie Beacom (RIDC)",
-   "since": "2026-10-26"
-  }
+  {"ref": "c063", "title": "UCSF: draft CTA and pre-pay terms for the May 17 + 24 study", "who": "Julie Leong, Ella Behnke (UCSF)", "since": "2026-10-27"},
+  {"ref": "c068", "title": "Testing/requirements notes, SBOM guidance, accelerated-aging ovens", "who": "Nick Nilo", "since": "2026-10-28"},
+  {"ref": "c064", "title": "KIZ tax credit sale status (resubmitted to DCED 9/24)", "who": "Lindsey Bennett (KIZ)", "since": "2026-10-28"},
+  {"ref": "c061", "title": "GOKIZ site visit time and coordinator certificate", "who": "Sophie Beacom", "since": "2026-10-26"},
+  {"ref": "c003", "title": "Adhesive / biocompatibility decision (SDS in hand since 10/20)", "who": "Kevin Chou", "since": "2026-10-16"},
+  {"ref": "c018", "title": "Company laptop back from David Montez", "who": "David Montez", "since": "2026-10-16"},
+  {"ref": "c013", "title": "FDA feedback on Q-sub Q263249", "who": "Kimberly Kontson (FDA)", "since": "2026-10-16"}
  ],
- "drafts": [
-  {
-   "kind": "email",
-   "title": "Re: Clinical Study - RESI02 (to Julie Leong, cc Ren\u00e9)",
-   "note": "The CTA details she asked for. Fill in the blanks: mailing address, phone, invoice contact, device name. Restates the mid-December pre-pay ask.",
-   "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1880409006575937959%2Bmsg-a:r4410818872119374248"
-  }
- ],
+ "drafts": [],
  "later": [
-  {
-   "date": "2026-11-02",
-   "title": "RK Mellon SII celebration 5:30pm (exhibit decision due Fri, c027)",
-   "ref": "c027"
-  },
-  {
-   "date": "2026-11-04",
-   "title": "Pay Alloy (calendar reminder)"
-  },
-  {
-   "date": "2026-11-06",
-   "title": "Past Month Accounting (1st Friday, calendar reminder)"
-  },
-  {
-   "date": "2026-11-09",
-   "title": "NIH study section meets Nov 9-10",
-   "ref": "c014"
-  },
-  {
-   "date": "2026-11-10",
-   "title": "Autodesk Fusion hub closes for inactivity",
-   "ref": "c060"
-  },
-  {
-   "date": "2026-11-30",
-   "title": "Respiratory-rate validation protocol bones (your goal from the Nilo call)",
-   "ref": "c067"
-  }
+  {"date": "2026-11-02", "title": "RK Mellon SII celebration 5:30pm", "ref": "c027"},
+  {"date": "2026-11-04", "title": "Pay Alloy (calendar reminder)"},
+  {"date": "2026-11-06", "title": "Past Month Accounting (calendar reminder)"},
+  {"date": "2026-11-06", "title": "Patent office action deadline passes (you told Buchanan no further action, 10/29)"},
+  {"date": "2026-11-09", "title": "NIH study section meets Nov 9-10", "ref": "c014"},
+  {"date": "2026-11-10", "title": "Autodesk Fusion hub closes for inactivity; ask Kevin about CAD", "ref": "c060"},
+  {"date": "2026-11-16", "title": "Impact score in eRA Commons by this date", "ref": "c015"}
  ],
  "done_today": [
-  {
-   "title": "Replied to Ren\u00e9 (UCSF) on the RESI02 clinical study thread, 7:03am",
-   "ref": "c063"
-  }
+  {"title": "Sent Julie Leong (UCSF) the clinical trial agreement details (Fri)", "ref": "c071"},
+  {"title": "Funded the failed Rippling payroll debit so 10/31 pay went out (paystub email Fri)", "ref": "c070"},
+  {"title": "Payroll runs approved for Oct 10-23 and Oct 16-31", "ref": "c050"},
+  {"title": "Nilo product/regulatory strategy meeting held Wed (tiered claims, PCCP, 60601 testing)", "ref": "c047"},
+  {"title": "Picked UCSF hypoxia study weeks May 17 + 24, 2027", "ref": "c062"},
+  {"title": "Kanou 50pc glass sample order paid and placed", "ref": "c056"},
+  {"title": "Coffee with Bugra Ozutemiz (ex-Lifeware) held Thu", "ref": "c051"},
+  {"title": "Paid Donnelly-Boland invoice ($590)", "ref": "c059"},
+  {"title": "KIZ tax credit documents finished; coordinator site visit held Mon", "ref": "c006"},
+  {"title": "Signed lease copy and K Chou stock award agreement saved", "ref": "c058"},
+  {"title": "Innovation Works Scale Expo and Lexus drop-off (Tue)", "ref": "c030"}
  ],
  "notes": [
-  "New: Julie Leong (UCSF) says the CTA must be executed (or nearly) at least 30 days before the study, so about mid-April for May 17 (c071).",
-  "New, low: Innovation Works (Jeanne Iasella) asked for the quarterly financial survey, data as of 9/30 (c072).",
-  "RK Mellon sent a 'see you Monday' reminder for 11/2 5:30pm; the exhibit-space answer to Bobby (c027) is still due today.",
-  "Thursday's draft to Ren\u00e9 is gone from Drafts; you sent your own short reply instead.",
-  "No sign yet of the Nilo breakdown going out (c066); no new Slack or Otter activity this morning.",
-  "Stale: QMS docs has never logged progress (1 of 59 approved); SBIR supplement 7 days. Both have holds this afternoon.",
-  "No new holds: the afternoon already has two EA holds and few open slots."
+  "Security: on Fri 3:03pm you pasted a full Anthropic API key into the Slack DM with Charlie. Revoke it in the Console, issue a new one, and share it through a password manager instead (c073). The EA didn't copy the key anywhere.",
+  "UCSF study ID: Julie thought the study should be RESI01 (2023 start); you replied 'yes, that's correct. RESI02 sounds good', which reads both ways. Expect her to check.",
+  "QMS docs: stale, never moved (1 of 59 approved). Next: route the PCH SOP Mon 1:00. Smallest step if that slips again: just archive the duplicate PCH - SOP Purchasing draft.",
+  "Nilo/regulatory: moved (strategy meeting Wed). Next: the modular breakdown (c066), Mon 9:30.",
+  "Device: moved (UCSF dates, CTA started, Kanou order). Next: Kanou supplier agreement (c054); ask Kevin for the adhesive decision (c003) and Fusion CAD (c060).",
+  "SBIR supplement: stale 7 days. Next: first draft by 11/13 (c012). Smallest step: a one-page budget outline (salary lines).",
+  "No target dates on any of the four projects. Want to set them? (e.g. SBIR supplement submitted by 11/30; QMS core SOPs approved by end of Q1.)",
+  "Decide, unclear 3 weeks: HHS PMS justification (c007), office mold with Dave (c016), UHC invoice (c011). Say done or keep; otherwise the EA drops them next Friday.",
+  "Decide, suggest drop: grant-drafting questions (c034), Arjun intro to Lars (c022), Kevin/Harry Docket chat (c023), Pytho Docket share (c021), and Arjun Docket share (c020) unless Docket discovery is still on.",
+  "Decide, needs a date: Phase II milestones (c042, suggest 11/6), board follow-ups (c024), OpenRegulatory follow-up (c026), weights for Kevin (c043, bring Monday or buy).",
+  "No nudge drafts: the 7+ day waits are FDA (normal timeline), Kevin and David (Slack only)."
  ]
 }
