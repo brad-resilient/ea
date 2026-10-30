@@ -1,32 +1,38 @@
 {
- "generated_at": "2026-10-29T17:26:00-04:00",
- "run": "End of day",
- "date_label": "Thursday, October 29",
- "headline": "Slipped today: the Nilo modular breakdown, the Kanou supplier agreement and routing the QMS PCH SOP (no evidence any moved). First thing Friday: the Nilo breakdown, hold 10:45.",
+ "generated_at": "2026-10-30T05:00:00-04:00",
+ "run": "Morning brief",
+ "date_label": "Friday, October 30",
+ "headline": "Quiet night: no new email, meetings or commitments. Today is for the three things that slipped Thursday: the Nilo breakdown (10:45), routing the QMS PCH SOP (1:00) and the SBIR supplement (2:15). The RK Mellon exhibit answer is due today.",
  "priorities": [
   {
    "title": "Send Nilo the modular product breakdown: baseline monitoring, configurable alarms, caregiver alerts (what each says, how urgent)",
-   "why": "Promised at the 10/28 meeting; Michael's per-module costing waits on it (c066, c046). Slipped Thu. Hold Fri 10:45-11:45.",
+   "why": "Promised 10/28; Michael's per-module costing (c046) waits on it. Slipped Thu. Hold 10:45-11:45.",
    "ref": "c066",
    "link": "https://www.google.com/calendar/event?eid=YThxNGRrZHFxNjZtYjJzdG11c2F1ZTZvcTggYnJhZEByZXNpbGllbnQuYmlv"
   },
   {
+   "title": "Tell Bobby Zappala yes or no on exhibit space at the RK Mellon SII celebration",
+   "why": "Answer due today; event is Mon 11/2 5:30pm (on your calendar).",
+   "ref": "c027"
+  },
+  {
    "title": "QMS: pick one PCH draft and route PCH - SOP Purchasing and Supplier Control for review",
-   "why": "Top project, 1 of 59 approved, never moved; slipped three times. Hold Fri 1:00-2:00.",
+   "why": "Top project, still 1 of 59 approved, never moved; slipped three times. Hold 1:00-2:00.",
    "ref": "qms",
    "link": "https://app.openregulatory.com/documents/47679eb0-35bc-4098-9dec-6e9cfa4a7e6d"
   },
   {
-   "title": "Share the Docket tool with Arjun Mathur (Dream)",
-   "why": "Promised to an outside party; 7 days overdue (due 10/23).",
-   "ref": "c020"
+   "title": "Start the PA-26-001 SBIR supplement draft (direct costs under $100k, mostly salary)",
+   "why": "Boris approved the plan 10/26; aiming for early November. Project stale 7 days. Hold 2:15-3:45.",
+   "ref": "c012",
+   "link": "https://www.google.com/calendar/event?eid=aWFwa2NvdjExZWhmcXV1c3RtaXMxbG5yOGsgYnJhZEByZXNpbGllbnQuYmlv"
   }
  ],
  "schedule": [
   {
    "time": "10:00",
    "title": "Apply for the Verizon gift card",
-   "detail": "Your reminder, until 10:45 (c038, due Fri)."
+   "detail": "Your reminder, until 10:45 (c038, due today)."
   },
   {
    "time": "10:45",
@@ -35,15 +41,20 @@
    "link": "https://www.google.com/calendar/event?eid=YThxNGRrZHFxNjZtYjJzdG11c2F1ZTZvcTggYnJhZEByZXNpbGllbnQuYmlv"
   },
   {
+   "time": "12:00",
+   "title": "DNS",
+   "detail": "Protected."
+  },
+  {
    "time": "1:00",
    "title": "EA hold: QMS, route the PCH SOP",
-   "detail": "Until 2:00.",
+   "detail": "Until 2:00. Two PCH SOP drafts exist; pick one.",
    "link": "https://www.google.com/calendar/event?eid=aTV0cm4xMWdqbGs1MG5kbWw3aHVib2hyaWsgYnJhZEByZXNpbGllbnQuYmlv"
   },
   {
    "time": "2:00",
    "title": "Nudge hypoxia lab",
-   "detail": "Probably moot: UCSF started the clinical trial agreement today; a reply to Ren\u00e9 is in your drafts (c063)."
+   "detail": "Probably moot: UCSF started the clinical trial agreement 10/29; your reply to Ren\u00e9 is still in drafts (c063)."
   },
   {
    "time": "2:15",
@@ -148,26 +159,8 @@
   {
    "kind": "email",
    "title": "Re: Clinical Study - RESI02 (to Ren\u00e9, cc Julie Leong)",
-   "note": "Thanks, ready to start the CTA; restates the mid-December pre-pay ask (new)",
+   "note": "From Thursday, not sent yet: ready to start the CTA; restates the mid-December pre-pay ask",
    "link": "https://mail.google.com/mail/?authuser=brad@resilient.bio#all?compose=thread-f:1880409006575937959%2Bmsg-a:r-5633151214583678633"
-  },
-  {
-   "kind": "hold",
-   "title": "EA hold: modular breakdown for Nilo (c066)",
-   "note": "Fri 10/30 10:45-11:45 (new)",
-   "link": "https://www.google.com/calendar/event?eid=YThxNGRrZHFxNjZtYjJzdG11c2F1ZTZvcTggYnJhZEByZXNpbGllbnQuYmlv"
-  },
-  {
-   "kind": "hold",
-   "title": "EA hold: QMS, route the PCH SOP for review",
-   "note": "Fri 10/30 1:00-2:00 (new)",
-   "link": "https://www.google.com/calendar/event?eid=aTV0cm4xMWdqbGs1MG5kbWw3aHVib2hyaWsgYnJhZEByZXNpbGllbnQuYmlv"
-  },
-  {
-   "kind": "hold",
-   "title": "EA hold: SBIR supplement draft (c012)",
-   "note": "Fri 10/30 2:15-3:45",
-   "link": "https://www.google.com/calendar/event?eid=aWFwa2NvdjExZWhmcXV1c3RtaXMxbG5yOGsgYnJhZEByZXNpbGllbnQuYmlv"
   }
  ],
  "later": [
@@ -200,32 +193,11 @@
    "ref": "c067"
   }
  ],
- "done_today": [
-  {
-   "ref": "c070",
-   "title": "Rippling Oct 16-31 payroll funded (Rippling confirmation 10:51am)"
-  },
-  {
-   "ref": "c051",
-   "title": "Coffee with Bugra Ozutemiz at Convive"
-  },
-  {
-   "title": "Told Buchanan no response on the auto-injection patent office action (abandons Nov 6)"
-  },
-  {
-   "ref": "c059",
-   "title": "Donnelly-Boland invoice 2026-08-052 paid, $590 (QuickBooks confirmation 1:48pm)"
-  },
-  {
-   "ref": "c063",
-   "title": "UCSF started the clinical trial agreement for May 2027 (Ren\u00e9 looped in Julie Leong)"
-  }
- ],
+ "done_today": [],
  "notes": [
-  "Stale: QMS docs has never logged progress (1 of 59 approved). Smallest step: route the PCH SOP, hold Fri 1:00.",
-  "Bugra coffee notes (your Drive doc) filed under customer discovery (c069): trend alerts seem generally acceptable; home-health use adds IEC requirements; USB-C charging on a wearable is a known safety worry.",
-  "Fri: RK Mellon exhibit decision due (c027, event Mon 5:30pm); Verizon gift card 10:00 (c038).",
-  "Chase wire of $8,309 to Rippling went out 10/29, matching the payroll funding fix; nothing else needed.",
-  "No new Slack, Otter or sent mail since midday; cold pitch (Scale CFO support) skipped."
+  "Stale: QMS docs has never logged progress (1 of 59 approved in Formwork today); SBIR supplement 7 days. Both have holds today.",
+  "No new email, sent mail or Otter meetings overnight; no Formwork tasks assigned to you.",
+  "Kevin (Slack, last night) shared EmotiBit as a research-device comparison and some lower-regulation inspection markets for the PPG sensor (chlorophyll/nitrogen meters, meat myoglobin). Background for business planning; nothing owed.",
+  "No new drafts or holds: today already has three EA holds and no other open hour; Pay Alloy reminder is Wed 11/4."
  ]
 }

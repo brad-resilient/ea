@@ -7,7 +7,7 @@
     "target": null,
     "status": "active",
     "next_step": "Route PCH - SOP Purchasing and Supplier Control for review in Formwork (still draft at end of day 10/29; slipped three times). Two PCH SOP drafts exist (Purchasing and Supplier Control vs. Purchasing); pick one. Backs the Kanou supplier agreement (c054). EA hold Fri 10/30 1:00-2:00.",
-    "metric": "Formwork documents approved: 1 of 59 (2026-10-29)",
+    "metric": "Formwork documents approved: 1 of 59 (2026-10-30)",
     "progress_signals": "Formwork documents moving from draft to in-review or approved; new or edited SOPs; Brad mentioning QMS work in Slack or meetings",
     "last_progress": null,
     "log": []
